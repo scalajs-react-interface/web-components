@@ -23,8 +23,7 @@ scalacOptions ++= Seq(
 
 libraryDependencies ++= Seq("scalajs-react-interface" %%% "core" % "2017.12.28-RC" % Provided,
   "scalajs-react-interface" %%% "universal" % "2017.12.28-RC" % Provided,
-  "scalajs-react-interface" %%% "vdom" % "2017.12.28-RC" % Provided,
-  "scalajs-css" %%% "core" % "2017.12.28-RC" % Provided)
+  "scalajs-react-interface" %%% "vdom" % "2017.12.28-RC" % Provided)
 
 //disable doc gen
 
