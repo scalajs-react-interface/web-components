@@ -33,13 +33,13 @@ object MuiLinearProgressComponent extends JSComponent[js.Object] {
  object MuiLinearProgress {
 
     @inline
-    def apply(mode : OptionalParam[MuiLinearProgressMode] = OptDefault,
-id : OptionalParam[String] = OptDefault,
+    def apply(id : OptionalParam[String] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 color : OptionalParam[MuiLinearProgressColor] = OptDefault,
 valueBuffer : OptionalParam[Double | Int] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
+variant : OptionalParam[MuiLinearProgressVariant] = OptDefault,
 value : OptionalParam[Double | Int] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
@@ -60,13 +60,13 @@ classes : OptionalParam[js.Object] = OptDefault,
 
          
  @js.native
- trait MuiLinearProgressMode extends js.Object
+ trait MuiLinearProgressVariant extends js.Object
 
- object MuiLinearProgressMode {
-   @inline def DETERMINATE = "determinate".asInstanceOf[MuiLinearProgressMode] 
-@inline def INDETERMINATE = "indeterminate".asInstanceOf[MuiLinearProgressMode] 
-@inline def BUFFER = "buffer".asInstanceOf[MuiLinearProgressMode] 
-@inline def QUERY = "query".asInstanceOf[MuiLinearProgressMode] 
+ object MuiLinearProgressVariant {
+   @inline def DETERMINATE = "determinate".asInstanceOf[MuiLinearProgressVariant] 
+@inline def INDETERMINATE = "indeterminate".asInstanceOf[MuiLinearProgressVariant] 
+@inline def BUFFER = "buffer".asInstanceOf[MuiLinearProgressVariant] 
+@inline def QUERY = "query".asInstanceOf[MuiLinearProgressVariant] 
  }
 
        
@@ -76,7 +76,7 @@ classes : OptionalParam[js.Object] = OptDefault,
 
  object MuiLinearProgressColor {
    @inline def PRIMARY = "primary".asInstanceOf[MuiLinearProgressColor] 
-@inline def ACCENT = "accent".asInstanceOf[MuiLinearProgressColor] 
+@inline def SECONDARY = "secondary".asInstanceOf[MuiLinearProgressColor] 
  }
 
        

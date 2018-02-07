@@ -16,9 +16,12 @@ trait MuiCommon extends Common {
       ScalaField("gutter", "Boolean | Int"),
       ScalaField("hidden", "js.Object")
     ),
-    "BottomNavigation" -> Set(ScalaField("onChange", "(ReactEventH,Int) => _")),
-    "BottomNavigationButton" -> Set(ScalaField("onChange",
-                                               "(ReactEventH,Int) => _"),
+    "GridList" -> Set(
+      ScalaField("cellHeight", "Double | Int | String")
+    ),
+    "BottomNavigation" -> Set(ScalaField("onChange", "(ReactEventH,Any) => _")),
+    "BottomNavigationAction" -> Set(ScalaField("onChange",
+                                               "(ReactEventH,Any) => _"),
                                     ScalaField("onClick", "ReactEventH => _")),
     "Checkbox" -> Set(ScalaField("onChange", "(ReactEventH,Boolean) => _")),
     "Chip" -> Set(ScalaField("onClick", "(ReactEventH) => _")),
@@ -76,7 +79,7 @@ trait MuiCommon extends Common {
                               ScalaField("theme", "MuiTheme")),
     "Popover" -> Set(
       ScalaField("transitionDuration", "String | Int | Double | js.Object")),
-    "Switch" -> Set(ScalaField("onChange", "(ReactEventH,Boolean) => _")),
+    "Swbitch" -> Set(ScalaField("onChange", "(ReactEventH,Boolean) => _")),
     "StepContent" -> Set(
       ScalaField("transitionDuration", "String | Int | Double | js.Object")),
     "Select" -> Set(

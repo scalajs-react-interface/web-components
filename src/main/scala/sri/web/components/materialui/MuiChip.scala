@@ -37,6 +37,7 @@ object MuiChipComponent extends JSComponent[js.Object] {
 className : OptionalParam[String] = OptDefault,
 onDelete : OptionalParam[js.Function] = OptDefault,
 label : OptionalParam[ReactNode] = OptDefault,
+component : OptionalParam[String | js.Function] = OptDefault,
 avatar : OptionalParam[ReactElement] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,

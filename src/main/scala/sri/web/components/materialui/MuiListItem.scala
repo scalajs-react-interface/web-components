@@ -34,12 +34,14 @@ object MuiListItemComponent extends JSComponent[js.Object] {
 
     @inline
     def apply(id : OptionalParam[String] = OptDefault,
+ContainerProps : OptionalParam[js.Object] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 component : OptionalParam[String | js.Function] = OptDefault,
 dense : OptionalParam[Boolean] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 divider : OptionalParam[Boolean] = OptDefault,
+ContainerComponent : OptionalParam[String | js.Function] = OptDefault,
 disableGutters : OptionalParam[Boolean] = OptDefault,
 button : OptionalParam[Boolean] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,

@@ -35,6 +35,7 @@ object MuiBadgeComponent extends JSComponent[js.Object] {
     @inline
     def apply(id : OptionalParam[String] = OptDefault,
 className : OptionalParam[String] = OptDefault,
+component : OptionalParam[String | js.Function] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 badgeContent : ReactNode,
@@ -63,7 +64,8 @@ classes : OptionalParam[js.Object] = OptDefault,
  object MuiBadgeColor {
    @inline def DEFAULT = "default".asInstanceOf[MuiBadgeColor] 
 @inline def PRIMARY = "primary".asInstanceOf[MuiBadgeColor] 
-@inline def ACCENT = "accent".asInstanceOf[MuiBadgeColor] 
+@inline def SECONDARY = "secondary".asInstanceOf[MuiBadgeColor] 
+@inline def ERROR = "error".asInstanceOf[MuiBadgeColor] 
  }
 
        

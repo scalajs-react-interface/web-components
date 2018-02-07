@@ -39,6 +39,8 @@ className : OptionalParam[String] = OptDefault,
 titleAccess : OptionalParam[String] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
+fontSize : OptionalParam[Boolean] = OptDefault,
+nativeColor : OptionalParam[String] = OptDefault,
 color : OptionalParam[MuiSvgIconColor] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
@@ -76,13 +78,12 @@ classes : OptionalParam[js.Object] = OptDefault,
  trait MuiSvgIconColor extends js.Object
 
  object MuiSvgIconColor {
-   @inline def INHERIT = "inherit".asInstanceOf[MuiSvgIconColor] 
-@inline def ACCENT = "accent".asInstanceOf[MuiSvgIconColor] 
-@inline def ACTION = "action".asInstanceOf[MuiSvgIconColor] 
-@inline def CONTRAST = "contrast".asInstanceOf[MuiSvgIconColor] 
+   @inline def ACTION = "action".asInstanceOf[MuiSvgIconColor] 
 @inline def DISABLED = "disabled".asInstanceOf[MuiSvgIconColor] 
 @inline def ERROR = "error".asInstanceOf[MuiSvgIconColor] 
+@inline def INHERIT = "inherit".asInstanceOf[MuiSvgIconColor] 
 @inline def PRIMARY = "primary".asInstanceOf[MuiSvgIconColor] 
+@inline def SECONDARY = "secondary".asInstanceOf[MuiSvgIconColor] 
  }
 
        

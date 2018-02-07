@@ -34,19 +34,19 @@ object MuiButtonComponent extends JSComponent[js.Object] {
 
     @inline
     def apply(id : OptionalParam[String] = OptDefault,
+fullWidth : OptionalParam[Boolean] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 href : OptionalParam[String] = OptDefault,
 disableFocusRipple : OptionalParam[Boolean] = OptDefault,
 component : OptionalParam[String | js.Function] = OptDefault,
 mini : OptionalParam[Boolean] = OptDefault,
 disabled : OptionalParam[Boolean] = OptDefault,
-dense : OptionalParam[Boolean] = OptDefault,
 color : OptionalParam[MuiButtonColor] = OptDefault,
+variant : OptionalParam[MuiButtonVariant] = OptDefault,
 disableRipple : OptionalParam[Boolean] = OptDefault,
+size : OptionalParam[MuiButtonSize] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
-fab : OptionalParam[Boolean] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
-raised : OptionalParam[Boolean] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,
@@ -86,8 +86,29 @@ classes : OptionalParam[js.Object] = OptDefault,
    @inline def DEFAULT = "default".asInstanceOf[MuiButtonColor] 
 @inline def INHERIT = "inherit".asInstanceOf[MuiButtonColor] 
 @inline def PRIMARY = "primary".asInstanceOf[MuiButtonColor] 
-@inline def ACCENT = "accent".asInstanceOf[MuiButtonColor] 
-@inline def CONTRAST = "contrast".asInstanceOf[MuiButtonColor] 
+@inline def SECONDARY = "secondary".asInstanceOf[MuiButtonColor] 
+ }
+
+       
+
+ @js.native
+ trait MuiButtonVariant extends js.Object
+
+ object MuiButtonVariant {
+   @inline def FLAT = "flat".asInstanceOf[MuiButtonVariant] 
+@inline def RAISED = "raised".asInstanceOf[MuiButtonVariant] 
+@inline def FAB = "fab".asInstanceOf[MuiButtonVariant] 
+ }
+
+       
+
+ @js.native
+ trait MuiButtonSize extends js.Object
+
+ object MuiButtonSize {
+   @inline def SMALL = "small".asInstanceOf[MuiButtonSize] 
+@inline def MEDIUM = "medium".asInstanceOf[MuiButtonSize] 
+@inline def LARGE = "large".asInstanceOf[MuiButtonSize] 
  }
 
        

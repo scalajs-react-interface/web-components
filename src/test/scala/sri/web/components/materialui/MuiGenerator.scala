@@ -48,9 +48,11 @@ object MuiGenerator extends MuiCommon with Common {
     val excludedComponents =
       Set("ClickAwayListener",
           "LabelSwitch",
+          "ModalManager",
           "withMobileDialog",
           "createMuiTheme",
           "withStyles",
+          "jssPreset",
           "withWidth",
           "withTheme")
 

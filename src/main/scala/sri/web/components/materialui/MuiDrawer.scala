@@ -38,13 +38,14 @@ id : OptionalParam[String] = OptDefault,
 transitionDuration : OptionalParam[Double | Int | js.Object] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 open : OptionalParam[Boolean] = OptDefault,
+PaperProps : OptionalParam[js.Object] = OptDefault,
 ModalProps : OptionalParam[js.Object] = OptDefault,
 elevation : OptionalParam[Double | Int] = OptDefault,
-`type` : OptionalParam[MuiDrawerType] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 onClose : OptionalParam[(ReactEventH) => _] = OptDefault,
 SlideProps : OptionalParam[js.Object] = OptDefault,
+variant : OptionalParam[MuiDrawerVariant] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,
@@ -78,6 +79,17 @@ classes : OptionalParam[js.Object] = OptDefault,
 
          
  @js.native
+ trait MuiDrawerVariant extends js.Object
+
+ object MuiDrawerVariant {
+   @inline def PERMANENT = "permanent".asInstanceOf[MuiDrawerVariant] 
+@inline def PERSISTENT = "persistent".asInstanceOf[MuiDrawerVariant] 
+@inline def TEMPORARY = "temporary".asInstanceOf[MuiDrawerVariant] 
+ }
+
+       
+
+ @js.native
  trait MuiDrawerAnchor extends js.Object
 
  object MuiDrawerAnchor {
@@ -85,17 +97,6 @@ classes : OptionalParam[js.Object] = OptDefault,
 @inline def TOP = "top".asInstanceOf[MuiDrawerAnchor] 
 @inline def RIGHT = "right".asInstanceOf[MuiDrawerAnchor] 
 @inline def BOTTOM = "bottom".asInstanceOf[MuiDrawerAnchor] 
- }
-
-       
-
- @js.native
- trait MuiDrawerType extends js.Object
-
- object MuiDrawerType {
-   @inline def PERMANENT = "permanent".asInstanceOf[MuiDrawerType] 
-@inline def PERSISTENT = "persistent".asInstanceOf[MuiDrawerType] 
-@inline def TEMPORARY = "temporary".asInstanceOf[MuiDrawerType] 
  }
 
        

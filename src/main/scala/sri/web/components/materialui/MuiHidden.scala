@@ -41,7 +41,7 @@ mdUp : OptionalParam[Boolean] = OptDefault,
 only : OptionalParam[MuiBreakpoint | js.Array[MuiBreakpoint]] = OptDefault,
 onChange : OptionalParam[(ReactEventH,Boolean) => _] = OptDefault,
 smUp : OptionalParam[Boolean] = OptDefault,
-initialWidth : OptionalParam[Double | Int] = OptDefault,
+initialWidth : OptionalParam[MuiHiddenInitialWidth] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 xsUp : OptionalParam[Boolean] = OptDefault,
 implementation : OptionalParam[MuiHiddenImplementation] = OptDefault,
@@ -83,6 +83,19 @@ classes : OptionalParam[js.Object] = OptDefault,
           
 
          
+ @js.native
+ trait MuiHiddenInitialWidth extends js.Object
+
+ object MuiHiddenInitialWidth {
+   @inline def XS = "xs".asInstanceOf[MuiHiddenInitialWidth] 
+@inline def SM = "sm".asInstanceOf[MuiHiddenInitialWidth] 
+@inline def MD = "md".asInstanceOf[MuiHiddenInitialWidth] 
+@inline def LG = "lg".asInstanceOf[MuiHiddenInitialWidth] 
+@inline def XL = "xl".asInstanceOf[MuiHiddenInitialWidth] 
+ }
+
+       
+
  @js.native
  trait MuiHiddenImplementation extends js.Object
 

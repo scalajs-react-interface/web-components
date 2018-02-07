@@ -34,27 +34,29 @@ object MuiDialogComponent extends JSComponent[js.Object] {
 
     @inline
     def apply(id : OptionalParam[String] = OptDefault,
+disableEscapeKeyDown : OptionalParam[Boolean] = OptDefault,
 fullWidth : OptionalParam[Boolean] = OptDefault,
 transitionDuration : OptionalParam[Double | Int | js.Object] = OptDefault,
 className : OptionalParam[String] = OptDefault,
-ignoreBackdropClick : OptionalParam[Boolean] = OptDefault,
 onExit : OptionalParam[(ReactEventH) => _] = OptDefault,
 maxWidth : OptionalParam[MuiDialogMaxWidth] = OptDefault,
-open : OptionalParam[Boolean] = OptDefault,
 onEnter : OptionalParam[(ReactEventH) => _] = OptDefault,
 fullScreen : OptionalParam[Boolean] = OptDefault,
-ignoreEscapeKeyUp : OptionalParam[Boolean] = OptDefault,
+PaperProps : OptionalParam[js.Object] = OptDefault,
 onEscapeKeyUp : OptionalParam[(ReactEventH) => _] = OptDefault,
 onBackdropClick : OptionalParam[(ReactEventH) => _] = OptDefault,
 onRequestClose : OptionalParam[(ReactEventH) => _] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
+disableBackdropClick : OptionalParam[Boolean] = OptDefault,
 transition : OptionalParam[String | js.Function] = OptDefault,
 onExited : OptionalParam[(ReactEventH) => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 onExiting : OptionalParam[(ReactEventH) => _] = OptDefault,
 onEntering : OptionalParam[(ReactEventH) => _] = OptDefault,
+onEscapeKeyDown : OptionalParam[js.Function] = OptDefault,
 onClose : OptionalParam[js.Function] = OptDefault,
 onEntered : OptionalParam[(ReactEventH) => _] = OptDefault,
+open : Boolean,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,
@@ -72,20 +74,6 @@ classes : OptionalParam[js.Object] = OptDefault,
 
  
 
- object MuiDialogC {
-
-   @inline
-   def apply(children:ReactNode*) = {
-     CreateElementJS[MuiDialogComponent.type](
-      MuiDialogComponent,
-      json(),
-      children = children.toJSArray)
-   }
-
- }
-
-          
-
          
  @js.native
  trait MuiDialogMaxWidth extends js.Object
@@ -94,6 +82,7 @@ classes : OptionalParam[js.Object] = OptDefault,
    @inline def XS = "xs".asInstanceOf[MuiDialogMaxWidth] 
 @inline def SM = "sm".asInstanceOf[MuiDialogMaxWidth] 
 @inline def MD = "md".asInstanceOf[MuiDialogMaxWidth] 
+@inline def FALSE = "false".asInstanceOf[MuiDialogMaxWidth] 
  }
 
        

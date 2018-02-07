@@ -1,6 +1,6 @@
 name := "web-components"
 
-//version := "2018.1.0-SNAPSHOT"
+version := "2018.2.0-SNAPSHOT"
 
 enablePlugins(ScalaJSPlugin)
 
@@ -21,9 +21,9 @@ scalacOptions ++= Seq(
 
 //deps
 
-libraryDependencies ++= Seq("scalajs-react-interface" %%% "core" % "2017.12.28-RC" % Provided,
-  "scalajs-react-interface" %%% "universal" % "2017.12.28-RC" % Provided,
-  "scalajs-react-interface" %%% "vdom" % "2017.12.28-RC" % Provided)
+libraryDependencies ++= Seq("scalajs-react-interface" %%% "core" % "2018.2.2-RC" % Provided,
+  "scalajs-react-interface" %%% "universal" % "2018.2.2-RC" % Provided,
+  "scalajs-react-interface" %%% "vdom" % "2018.2.2-RC" % Provided)
 
 //disable doc gen
 

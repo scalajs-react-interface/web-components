@@ -35,9 +35,9 @@ object MuiTypographyComponent extends JSComponent[js.Object] {
     @inline
     def apply(id : OptionalParam[String] = OptDefault,
 gutterBottom : OptionalParam[Boolean] = OptDefault,
-`type` : OptionalParam[MuiTypographyType] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 headlineMapping : OptionalParam[js.Object] = OptDefault,
+variant : OptionalParam[MuiTypographyVariant] = OptDefault,
 component : OptionalParam[String | js.Function] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
@@ -91,34 +91,34 @@ classes : OptionalParam[js.Object] = OptDefault,
        
 
  @js.native
- trait MuiTypographyColor extends js.Object
+ trait MuiTypographyVariant extends js.Object
 
- object MuiTypographyColor {
-   @inline def INHERIT = "inherit".asInstanceOf[MuiTypographyColor] 
-@inline def PRIMARY = "primary".asInstanceOf[MuiTypographyColor] 
-@inline def SECONDARY = "secondary".asInstanceOf[MuiTypographyColor] 
-@inline def ACCENT = "accent".asInstanceOf[MuiTypographyColor] 
-@inline def ERROR = "error".asInstanceOf[MuiTypographyColor] 
-@inline def DEFAULT = "default".asInstanceOf[MuiTypographyColor] 
+ object MuiTypographyVariant {
+   @inline def DISPLAY4 = "display4".asInstanceOf[MuiTypographyVariant] 
+@inline def DISPLAY3 = "display3".asInstanceOf[MuiTypographyVariant] 
+@inline def DISPLAY2 = "display2".asInstanceOf[MuiTypographyVariant] 
+@inline def DISPLAY1 = "display1".asInstanceOf[MuiTypographyVariant] 
+@inline def HEADLINE = "headline".asInstanceOf[MuiTypographyVariant] 
+@inline def TITLE = "title".asInstanceOf[MuiTypographyVariant] 
+@inline def SUBHEADING = "subheading".asInstanceOf[MuiTypographyVariant] 
+@inline def BODY2 = "body2".asInstanceOf[MuiTypographyVariant] 
+@inline def BODY1 = "body1".asInstanceOf[MuiTypographyVariant] 
+@inline def CAPTION = "caption".asInstanceOf[MuiTypographyVariant] 
+@inline def BUTTON = "button".asInstanceOf[MuiTypographyVariant] 
  }
 
        
 
  @js.native
- trait MuiTypographyType extends js.Object
+ trait MuiTypographyColor extends js.Object
 
- object MuiTypographyType {
-   @inline def DISPLAY4 = "display4".asInstanceOf[MuiTypographyType] 
-@inline def DISPLAY3 = "display3".asInstanceOf[MuiTypographyType] 
-@inline def DISPLAY2 = "display2".asInstanceOf[MuiTypographyType] 
-@inline def DISPLAY1 = "display1".asInstanceOf[MuiTypographyType] 
-@inline def HEADLINE = "headline".asInstanceOf[MuiTypographyType] 
-@inline def TITLE = "title".asInstanceOf[MuiTypographyType] 
-@inline def SUBHEADING = "subheading".asInstanceOf[MuiTypographyType] 
-@inline def BODY2 = "body2".asInstanceOf[MuiTypographyType] 
-@inline def BODY1 = "body1".asInstanceOf[MuiTypographyType] 
-@inline def CAPTION = "caption".asInstanceOf[MuiTypographyType] 
-@inline def BUTTON = "button".asInstanceOf[MuiTypographyType] 
+ object MuiTypographyColor {
+   @inline def INHERIT = "inherit".asInstanceOf[MuiTypographyColor] 
+@inline def PRIMARY = "primary".asInstanceOf[MuiTypographyColor] 
+@inline def TEXTSECONDARY = "textSecondary".asInstanceOf[MuiTypographyColor] 
+@inline def SECONDARY = "secondary".asInstanceOf[MuiTypographyColor] 
+@inline def ERROR = "error".asInstanceOf[MuiTypographyColor] 
+@inline def DEFAULT = "default".asInstanceOf[MuiTypographyColor] 
  }
 
        

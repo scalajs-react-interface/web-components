@@ -72,24 +72,25 @@ classes : OptionalParam[js.Object] = OptDefault,
 
          
  @js.native
- trait MuiAppBarPosition extends js.Object
-
- object MuiAppBarPosition {
-   @inline def STATIC = "static".asInstanceOf[MuiAppBarPosition] 
-@inline def FIXED = "fixed".asInstanceOf[MuiAppBarPosition] 
-@inline def ABSOLUTE = "absolute".asInstanceOf[MuiAppBarPosition] 
- }
-
-       
-
- @js.native
  trait MuiAppBarColor extends js.Object
 
  object MuiAppBarColor {
    @inline def INHERIT = "inherit".asInstanceOf[MuiAppBarColor] 
 @inline def PRIMARY = "primary".asInstanceOf[MuiAppBarColor] 
-@inline def ACCENT = "accent".asInstanceOf[MuiAppBarColor] 
+@inline def SECONDARY = "secondary".asInstanceOf[MuiAppBarColor] 
 @inline def DEFAULT = "default".asInstanceOf[MuiAppBarColor] 
+ }
+
+       
+
+ @js.native
+ trait MuiAppBarPosition extends js.Object
+
+ object MuiAppBarPosition {
+   @inline def FIXED = "fixed".asInstanceOf[MuiAppBarPosition] 
+@inline def ABSOLUTE = "absolute".asInstanceOf[MuiAppBarPosition] 
+@inline def STICKY = "sticky".asInstanceOf[MuiAppBarPosition] 
+@inline def STATIC = "static".asInstanceOf[MuiAppBarPosition] 
  }
 
        

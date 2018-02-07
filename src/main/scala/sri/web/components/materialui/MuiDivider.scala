@@ -36,6 +36,7 @@ object MuiDividerComponent extends JSComponent[js.Object] {
     def apply(id : OptionalParam[String] = OptDefault,
 inset : OptionalParam[Boolean] = OptDefault,
 className : OptionalParam[String] = OptDefault,
+component : OptionalParam[String | js.Function] = OptDefault,
 absolute : OptionalParam[Boolean] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,

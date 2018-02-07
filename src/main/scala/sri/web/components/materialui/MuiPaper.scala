@@ -43,7 +43,7 @@ square : OptionalParam[Boolean] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,
-      @exclude ref: js.Function1[MuiPaperComponent.type, Unit] = null): ReactElement { type Instance = MuiPaperComponent.type}  = {
+      @exclude ref: js.Function1[MuiPaperComponent.type, Unit] = null)(children: ReactNode*): ReactElement { type Instance = MuiPaperComponent.type}  = {
       import DangerousUnionToJSAnyImplicit._
       val props = FunctionObjectMacro()
       extraProps.foreach(v => { MergeJSObjects(props, v) })
@@ -51,11 +51,25 @@ classes : OptionalParam[js.Object] = OptDefault,
       MuiPaperComponent,
       props,
       key,
-      ref)
+      ref,children.toJSArray)
     }
  }
 
  
+
+ object MuiPaperC {
+
+   @inline
+   def apply(children:ReactNode*) = {
+     CreateElementJS[MuiPaperComponent.type](
+      MuiPaperComponent,
+      json(),
+      children = children.toJSArray)
+   }
+
+ }
+
+          
 
          
 

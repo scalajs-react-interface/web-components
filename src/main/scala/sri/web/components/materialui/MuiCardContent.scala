@@ -35,6 +35,7 @@ object MuiCardContentComponent extends JSComponent[js.Object] {
     @inline
     def apply(id : OptionalParam[String] = OptDefault,
 className : OptionalParam[String] = OptDefault,
+component : OptionalParam[String | js.Function] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,

@@ -41,6 +41,7 @@ padding : OptionalParam[MuiTableCellPadding] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 sortDirection : OptionalParam[MuiTableCellSortDirection] = OptDefault,
+variant : OptionalParam[MuiTableCellVariant] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,
@@ -80,6 +81,17 @@ classes : OptionalParam[js.Object] = OptDefault,
    @inline def ASC = "asc".asInstanceOf[MuiTableCellSortDirection] 
 @inline def DESC = "desc".asInstanceOf[MuiTableCellSortDirection] 
 @inline def FALSE = "false".asInstanceOf[MuiTableCellSortDirection] 
+ }
+
+       
+
+ @js.native
+ trait MuiTableCellVariant extends js.Object
+
+ object MuiTableCellVariant {
+   @inline def HEAD = "head".asInstanceOf[MuiTableCellVariant] 
+@inline def BODY = "body".asInstanceOf[MuiTableCellVariant] 
+@inline def FOOTER = "footer".asInstanceOf[MuiTableCellVariant] 
  }
 
        

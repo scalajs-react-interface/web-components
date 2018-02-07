@@ -35,27 +35,24 @@ object MuiModalComponent extends JSComponent[js.Object] {
     @inline
     def apply(keepMounted : OptionalParam[Boolean] = OptDefault,
 id : OptionalParam[String] = OptDefault,
+disableEscapeKeyDown : OptionalParam[Boolean] = OptDefault,
+manager : OptionalParam[js.Object] = OptDefault,
 className : OptionalParam[String] = OptDefault,
-ignoreBackdropClick : OptionalParam[Boolean] = OptDefault,
 onBackdropClick : OptionalParam[js.Function] = OptDefault,
 BackdropComponent : OptionalParam[String | js.Function] = OptDefault,
-BackdropClassName : OptionalParam[String] = OptDefault,
-onEnter : OptionalParam[js.Function] = OptDefault,
-ignoreEscapeKeyUp : OptionalParam[Boolean] = OptDefault,
-BackdropInvisible : OptionalParam[Boolean] = OptDefault,
-show : OptionalParam[Boolean] = OptDefault,
-disableBackdrop : OptionalParam[Boolean] = OptDefault,
-onExited : OptionalParam[js.Function] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
+disableBackdropClick : OptionalParam[Boolean] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
-onExiting : OptionalParam[js.Function] = OptDefault,
-BackdropTransitionDuration : OptionalParam[Double | Int | js.Object] = OptDefault,
+disableRestoreFocus : OptionalParam[Boolean] = OptDefault,
+onEscapeKeyDown : OptionalParam[js.Function] = OptDefault,
+onRendered : OptionalParam[js.Function] = OptDefault,
 onClose : OptionalParam[js.Function] = OptDefault,
-onExit : OptionalParam[js.Function] = OptDefault,
-onEscapeKeyUp : OptionalParam[js.Function] = OptDefault,
-onEntered : OptionalParam[js.Function] = OptDefault,
-onEntering : OptionalParam[js.Function] = OptDefault,
-modalManager : OptionalParam[js.Object] = OptDefault,
+disableEnforceFocus : OptionalParam[Boolean] = OptDefault,
+disableAutoFocus : OptionalParam[Boolean] = OptDefault,
+hideBackdrop : OptionalParam[Boolean] = OptDefault,
+container : OptionalParam[js.Object | js.Function] = OptDefault,
+open : Boolean,
+BackdropProps : OptionalParam[js.Object] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,
@@ -72,20 +69,6 @@ classes : OptionalParam[js.Object] = OptDefault,
  }
 
  
-
- object MuiModalC {
-
-   @inline
-   def apply(children:ReactNode*) = {
-     CreateElementJS[MuiModalComponent.type](
-      MuiModalComponent,
-      json(),
-      children = children.toJSArray)
-   }
-
- }
-
-          
 
          
 

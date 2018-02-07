@@ -36,6 +36,7 @@ object MuiTabsComponent extends JSComponent[js.Object] {
     def apply(scrollable : OptionalParam[Boolean] = OptDefault,
 id : OptionalParam[String] = OptDefault,
 fullWidth : OptionalParam[Boolean] = OptDefault,
+action : OptionalParam[js.Function] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 index : OptionalParam[Boolean | Double | Int] = OptDefault,
 textColor : OptionalParam[String] = OptDefault,

@@ -37,7 +37,6 @@ object MuiMenuComponent extends JSComponent[js.Object] {
 onEntered : OptionalParam[dom.Element => _] = OptDefault,
 onRequestClose : OptionalParam[ReactEventH => _] = OptDefault,
 className : OptionalParam[String] = OptDefault,
-open : OptionalParam[Boolean] = OptDefault,
 onEntering : OptionalParam[dom.Element => _] = OptDefault,
 onEnter : OptionalParam[dom.Element => _] = OptDefault,
 onExit : OptionalParam[dom.Element => _] = OptDefault,
@@ -50,6 +49,7 @@ onClose : OptionalParam[js.Function] = OptDefault,
 onExited : OptionalParam[dom.Element => _] = OptDefault,
 onExiting : OptionalParam[dom.Element => _] = OptDefault,
 MenuListProps : OptionalParam[js.Object] = OptDefault,
+open : Boolean,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,
@@ -66,20 +66,6 @@ classes : OptionalParam[js.Object] = OptDefault,
  }
 
  
-
- object MuiMenuC {
-
-   @inline
-   def apply(children:ReactNode*) = {
-     CreateElementJS[MuiMenuComponent.type](
-      MuiMenuComponent,
-      json(),
-      children = children.toJSArray)
-   }
-
- }
-
-          
 
          
 

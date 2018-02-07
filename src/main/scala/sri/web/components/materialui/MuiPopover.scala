@@ -39,20 +39,21 @@ action : OptionalParam[js.Function] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 transitionDuration : OptionalParam[String | Int | Double | js.Object] = OptDefault,
 anchorOrigin : OptionalParam[js.Object] = OptDefault,
-open : OptionalParam[Boolean] = OptDefault,
 onEnter : OptionalParam[js.Function] = OptDefault,
 PaperProps : OptionalParam[js.Object] = OptDefault,
 onExited : OptionalParam[js.Function] = OptDefault,
 elevation : OptionalParam[Double | Int] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
+transition : OptionalParam[String | js.Function] = OptDefault,
 anchorReference : OptionalParam[MuiPopoverAnchorReference] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 onExiting : OptionalParam[js.Function] = OptDefault,
 onClose : OptionalParam[js.Function] = OptDefault,
 anchorEl : OptionalParam[js.Object] = OptDefault,
 onExit : OptionalParam[js.Function] = OptDefault,
-transitionClasses : OptionalParam[js.Object] = OptDefault,
+container : OptionalParam[js.Object | js.Function] = OptDefault,
 onEntered : OptionalParam[js.Function] = OptDefault,
+open : Boolean,
 onEntering : OptionalParam[js.Function] = OptDefault,
 transformOrigin : OptionalParam[js.Object] = OptDefault,
 getContentAnchorEl : OptionalParam[js.Function] = OptDefault,
@@ -73,20 +74,6 @@ classes : OptionalParam[js.Object] = OptDefault,
  }
 
  
-
- object MuiPopoverC {
-
-   @inline
-   def apply(children:ReactNode*) = {
-     CreateElementJS[MuiPopoverComponent.type](
-      MuiPopoverComponent,
-      json(),
-      children = children.toJSArray)
-   }
-
- }
-
-          
 
          
  @js.native

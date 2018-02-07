@@ -36,7 +36,6 @@ object MuiIconButtonComponent extends JSComponent[js.Object] {
     def apply(id : OptionalParam[String] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 disabled : OptionalParam[Boolean] = OptDefault,
-rootRef : OptionalParam[js.Function] = OptDefault,
 disableRipple : OptionalParam[Boolean] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
@@ -81,8 +80,7 @@ classes : OptionalParam[js.Object] = OptDefault,
    @inline def DEFAULT = "default".asInstanceOf[MuiIconButtonColor] 
 @inline def INHERIT = "inherit".asInstanceOf[MuiIconButtonColor] 
 @inline def PRIMARY = "primary".asInstanceOf[MuiIconButtonColor] 
-@inline def CONTRAST = "contrast".asInstanceOf[MuiIconButtonColor] 
-@inline def ACCENT = "accent".asInstanceOf[MuiIconButtonColor] 
+@inline def SECONDARY = "secondary".asInstanceOf[MuiIconButtonColor] 
  }
 
        
