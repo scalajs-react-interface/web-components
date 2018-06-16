@@ -9,10 +9,7 @@ import scala.scalajs.js.annotation.JSImport
 import scala.scalajs.js.annotation.JSName
 import sri.web.vdom.DOMProps
 import org.scalajs.dom
-import sri.web.components.victory.VictoryTypes.{
-  CategoryPropType,
-  StringOrNumberOrCallback
-}
+import sri.web.components.victory.VictoryTypes._
 import sri.web.vdom.ReactEventAliases._
 
 import scala.scalajs.js
