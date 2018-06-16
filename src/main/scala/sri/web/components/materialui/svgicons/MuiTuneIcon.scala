@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Tune",JSImport.Default)
+@JSImport("@material-ui/icons/Tune",JSImport.Default)
 object MuiTuneIconComponent extends JSComponent[js.Object]
 
 object MuiTuneIcon {

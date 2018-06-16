@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Error",JSImport.Default)
+@JSImport("@material-ui/icons/Error",JSImport.Default)
 object MuiErrorIconComponent extends JSComponent[js.Object]
 
 object MuiErrorIcon {

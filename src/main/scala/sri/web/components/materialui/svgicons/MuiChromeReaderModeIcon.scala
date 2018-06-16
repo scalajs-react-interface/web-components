@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ChromeReaderMode",JSImport.Default)
+@JSImport("@material-ui/icons/ChromeReaderMode",JSImport.Default)
 object MuiChromeReaderModeIconComponent extends JSComponent[js.Object]
 
 object MuiChromeReaderModeIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ThumbUp",JSImport.Default)
+@JSImport("@material-ui/icons/ThumbUp",JSImport.Default)
 object MuiThumbUpIconComponent extends JSComponent[js.Object]
 
 object MuiThumbUpIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RvHookup",JSImport.Default)
+@JSImport("@material-ui/icons/RvHookup",JSImport.Default)
 object MuiRvHookupIconComponent extends JSComponent[js.Object]
 
 object MuiRvHookupIcon {

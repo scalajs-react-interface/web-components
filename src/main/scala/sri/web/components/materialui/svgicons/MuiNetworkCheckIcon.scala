@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/NetworkCheck",JSImport.Default)
+@JSImport("@material-ui/icons/NetworkCheck",JSImport.Default)
 object MuiNetworkCheckIconComponent extends JSComponent[js.Object]
 
 object MuiNetworkCheckIcon {

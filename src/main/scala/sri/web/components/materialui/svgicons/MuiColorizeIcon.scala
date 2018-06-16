@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Colorize",JSImport.Default)
+@JSImport("@material-ui/icons/Colorize",JSImport.Default)
 object MuiColorizeIconComponent extends JSComponent[js.Object]
 
 object MuiColorizeIcon {

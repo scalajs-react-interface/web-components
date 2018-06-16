@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Undo",JSImport.Default)
+@JSImport("@material-ui/icons/Undo",JSImport.Default)
 object MuiUndoIconComponent extends JSComponent[js.Object]
 
 object MuiUndoIcon {

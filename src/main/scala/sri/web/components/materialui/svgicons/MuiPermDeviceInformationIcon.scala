@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PermDeviceInformation",JSImport.Default)
+@JSImport("@material-ui/icons/PermDeviceInformation",JSImport.Default)
 object MuiPermDeviceInformationIconComponent extends JSComponent[js.Object]
 
 object MuiPermDeviceInformationIcon {

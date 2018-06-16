@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Refresh",JSImport.Default)
+@JSImport("@material-ui/icons/Refresh",JSImport.Default)
 object MuiRefreshIconComponent extends JSComponent[js.Object]
 
 object MuiRefreshIcon {

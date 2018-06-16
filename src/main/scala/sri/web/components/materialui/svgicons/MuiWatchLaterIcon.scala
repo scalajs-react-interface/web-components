@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/WatchLater",JSImport.Default)
+@JSImport("@material-ui/icons/WatchLater",JSImport.Default)
 object MuiWatchLaterIconComponent extends JSComponent[js.Object]
 
 object MuiWatchLaterIcon {

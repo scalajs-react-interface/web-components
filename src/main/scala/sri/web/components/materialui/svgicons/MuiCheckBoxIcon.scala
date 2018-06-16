@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/CheckBox",JSImport.Default)
+@JSImport("@material-ui/icons/CheckBox",JSImport.Default)
 object MuiCheckBoxIconComponent extends JSComponent[js.Object]
 
 object MuiCheckBoxIcon {

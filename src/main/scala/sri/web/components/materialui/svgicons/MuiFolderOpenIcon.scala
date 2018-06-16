@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FolderOpen",JSImport.Default)
+@JSImport("@material-ui/icons/FolderOpen",JSImport.Default)
 object MuiFolderOpenIconComponent extends JSComponent[js.Object]
 
 object MuiFolderOpenIcon {

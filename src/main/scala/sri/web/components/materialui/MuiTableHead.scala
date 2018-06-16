@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Table","TableHead")
+ @JSImport("@material-ui/core/TableHead",JSImport.Default)
 object MuiTableHeadComponent extends JSComponent[js.Object] {
 
  }

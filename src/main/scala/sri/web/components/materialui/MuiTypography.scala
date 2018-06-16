@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Typography",JSImport.Default)
+ @JSImport("@material-ui/core/Typography",JSImport.Default)
 object MuiTypographyComponent extends JSComponent[js.Object] {
 
  }

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Timer10",JSImport.Default)
+@JSImport("@material-ui/icons/Timer10",JSImport.Default)
 object MuiTimer10IconComponent extends JSComponent[js.Object]
 
 object MuiTimer10Icon {

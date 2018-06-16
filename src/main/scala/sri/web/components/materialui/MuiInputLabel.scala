@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Input","InputLabel")
+ @JSImport("@material-ui/core/InputLabel",JSImport.Default)
 object MuiInputLabelComponent extends JSComponent[js.Object] {
 
  }
@@ -34,7 +34,6 @@ object MuiInputLabelComponent extends JSComponent[js.Object] {
 
     @inline
     def apply(id : OptionalParam[String] = OptDefault,
-FormControlClasses : OptionalParam[js.Object] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 margin : OptionalParam[MuiInputLabelMargin] = OptDefault,
 required : OptionalParam[Boolean] = OptDefault,
@@ -42,6 +41,7 @@ disableAnimation : OptionalParam[Boolean] = OptDefault,
 disabled : OptionalParam[Boolean] = OptDefault,
 shrink : OptionalParam[Boolean] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
+FormLabelClasses : OptionalParam[js.Object] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 error : OptionalParam[Boolean] = OptDefault,
 focused : OptionalParam[Boolean] = OptDefault,

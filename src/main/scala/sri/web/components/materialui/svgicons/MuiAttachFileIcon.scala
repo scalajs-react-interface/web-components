@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/AttachFile",JSImport.Default)
+@JSImport("@material-ui/icons/AttachFile",JSImport.Default)
 object MuiAttachFileIconComponent extends JSComponent[js.Object]
 
 object MuiAttachFileIcon {

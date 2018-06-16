@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/InsertDriveFile",JSImport.Default)
+@JSImport("@material-ui/icons/InsertDriveFile",JSImport.Default)
 object MuiInsertDriveFileIconComponent extends JSComponent[js.Object]
 
 object MuiInsertDriveFileIcon {

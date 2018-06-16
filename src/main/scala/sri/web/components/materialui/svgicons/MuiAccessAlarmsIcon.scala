@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/AccessAlarms",JSImport.Default)
+@JSImport("@material-ui/icons/AccessAlarms",JSImport.Default)
 object MuiAccessAlarmsIconComponent extends JSComponent[js.Object]
 
 object MuiAccessAlarmsIcon {

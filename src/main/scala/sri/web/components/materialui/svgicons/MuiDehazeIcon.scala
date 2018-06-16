@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Dehaze",JSImport.Default)
+@JSImport("@material-ui/icons/Dehaze",JSImport.Default)
 object MuiDehazeIconComponent extends JSComponent[js.Object]
 
 object MuiDehazeIcon {

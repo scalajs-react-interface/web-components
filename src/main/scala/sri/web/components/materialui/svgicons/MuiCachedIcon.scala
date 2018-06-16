@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Cached",JSImport.Default)
+@JSImport("@material-ui/icons/Cached",JSImport.Default)
 object MuiCachedIconComponent extends JSComponent[js.Object]
 
 object MuiCachedIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Gradient",JSImport.Default)
+@JSImport("@material-ui/icons/Gradient",JSImport.Default)
 object MuiGradientIconComponent extends JSComponent[js.Object]
 
 object MuiGradientIcon {

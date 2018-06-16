@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Send",JSImport.Default)
+@JSImport("@material-ui/icons/Send",JSImport.Default)
 object MuiSendIconComponent extends JSComponent[js.Object]
 
 object MuiSendIcon {

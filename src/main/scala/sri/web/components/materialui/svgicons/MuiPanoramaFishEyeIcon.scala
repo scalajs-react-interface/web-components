@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PanoramaFishEye",JSImport.Default)
+@JSImport("@material-ui/icons/PanoramaFishEye",JSImport.Default)
 object MuiPanoramaFishEyeIconComponent extends JSComponent[js.Object]
 
 object MuiPanoramaFishEyeIcon {

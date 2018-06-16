@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/KeyboardHide",JSImport.Default)
+@JSImport("@material-ui/icons/KeyboardHide",JSImport.Default)
 object MuiKeyboardHideIconComponent extends JSComponent[js.Object]
 
 object MuiKeyboardHideIcon {

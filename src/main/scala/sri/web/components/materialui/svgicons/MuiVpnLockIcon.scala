@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/VpnLock",JSImport.Default)
+@JSImport("@material-ui/icons/VpnLock",JSImport.Default)
 object MuiVpnLockIconComponent extends JSComponent[js.Object]
 
 object MuiVpnLockIcon {

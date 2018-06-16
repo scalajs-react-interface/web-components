@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/CallSplit",JSImport.Default)
+@JSImport("@material-ui/icons/CallSplit",JSImport.Default)
 object MuiCallSplitIconComponent extends JSComponent[js.Object]
 
 object MuiCallSplitIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/TouchApp",JSImport.Default)
+@JSImport("@material-ui/icons/TouchApp",JSImport.Default)
 object MuiTouchAppIconComponent extends JSComponent[js.Object]
 
 object MuiTouchAppIcon {

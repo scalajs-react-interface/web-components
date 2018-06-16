@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/TextField",JSImport.Default)
+ @JSImport("@material-ui/core/TextField",JSImport.Default)
 object MuiTextFieldComponent extends JSComponent[js.Object] {
 
  }
@@ -40,8 +40,6 @@ className : OptionalParam[String] = OptDefault,
 InputLabelProps : OptionalParam[js.Object] = OptDefault,
 autoFocus : OptionalParam[Boolean] = OptDefault,
 autoComplete : OptionalParam[String] = OptDefault,
-labelClassName : OptionalParam[String] = OptDefault,
-defaultValue : OptionalParam[String] = OptDefault,
 label : OptionalParam[ReactNode] = OptDefault,
 rows : OptionalParam[String | Double | Int] = OptDefault,
 helperText : OptionalParam[ReactNode] = OptDefault,
@@ -49,13 +47,13 @@ required : OptionalParam[Boolean] = OptDefault,
 onChange : OptionalParam[(ReactEventI) => _] = OptDefault,
 multiline : OptionalParam[Boolean] = OptDefault,
 disabled : OptionalParam[Boolean] = OptDefault,
-helperTextClassName : OptionalParam[String] = OptDefault,
 rowsMax : OptionalParam[String | Double | Int] = OptDefault,
 select : OptionalParam[Boolean] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 SelectProps : OptionalParam[js.Object] = OptDefault,
 inputProps : OptionalParam[js.Object] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
+defaultValue : OptionalParam[String | Double | Int] = OptDefault,
 error : OptionalParam[Boolean] = OptDefault,
 InputProps : OptionalParam[js.Object] = OptDefault,
 name : OptionalParam[String] = OptDefault,

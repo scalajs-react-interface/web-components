@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/VolumeOff",JSImport.Default)
+@JSImport("@material-ui/icons/VolumeOff",JSImport.Default)
 object MuiVolumeOffIconComponent extends JSComponent[js.Object]
 
 object MuiVolumeOffIcon {

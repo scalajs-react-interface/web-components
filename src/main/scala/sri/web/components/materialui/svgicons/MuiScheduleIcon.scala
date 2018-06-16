@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Schedule",JSImport.Default)
+@JSImport("@material-ui/icons/Schedule",JSImport.Default)
 object MuiScheduleIconComponent extends JSComponent[js.Object]
 
 object MuiScheduleIcon {

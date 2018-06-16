@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Traffic",JSImport.Default)
+@JSImport("@material-ui/icons/Traffic",JSImport.Default)
 object MuiTrafficIconComponent extends JSComponent[js.Object]
 
 object MuiTrafficIcon {

@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/ButtonBase",JSImport.Default)
+ @JSImport("@material-ui/core/ButtonBase",JSImport.Default)
 object MuiButtonBaseComponent extends JSComponent[js.Object] {
 
  }
@@ -34,17 +34,19 @@ object MuiButtonBaseComponent extends JSComponent[js.Object] {
 
     @inline
     def apply(id : OptionalParam[String] = OptDefault,
+action : OptionalParam[js.Function] = OptDefault,
 className : OptionalParam[String] = OptDefault,
+buttonRef : OptionalParam[js.Function | js.Object] = OptDefault,
+focusVisibleClassName : OptionalParam[String] = OptDefault,
 component : OptionalParam[String | js.Function] = OptDefault,
 disabled : OptionalParam[Boolean] = OptDefault,
-onKeyboardFocus : OptionalParam[js.Function] = OptDefault,
 focusRipple : OptionalParam[Boolean] = OptDefault,
 disableRipple : OptionalParam[Boolean] = OptDefault,
+TouchRippleProps : OptionalParam[js.Object] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 centerRipple : OptionalParam[Boolean] = OptDefault,
-keyboardFocusedClassName : OptionalParam[String] = OptDefault,
-buttonRef : OptionalParam[js.Function] = OptDefault,
+onFocusVisible : OptionalParam[js.Function] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,

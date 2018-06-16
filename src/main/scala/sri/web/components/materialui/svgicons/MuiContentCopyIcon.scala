@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ContentCopy",JSImport.Default)
+@JSImport("@material-ui/icons/ContentCopy",JSImport.Default)
 object MuiContentCopyIconComponent extends JSComponent[js.Object]
 
 object MuiContentCopyIcon {

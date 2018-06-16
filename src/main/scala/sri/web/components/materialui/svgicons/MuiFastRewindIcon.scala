@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FastRewind",JSImport.Default)
+@JSImport("@material-ui/icons/FastRewind",JSImport.Default)
 object MuiFastRewindIconComponent extends JSComponent[js.Object]
 
 object MuiFastRewindIcon {

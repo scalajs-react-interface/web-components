@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/StrikethroughS",JSImport.Default)
+@JSImport("@material-ui/icons/StrikethroughS",JSImport.Default)
 object MuiStrikethroughSIconComponent extends JSComponent[js.Object]
 
 object MuiStrikethroughSIcon {

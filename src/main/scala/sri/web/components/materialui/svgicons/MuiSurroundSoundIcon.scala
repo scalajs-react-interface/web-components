@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SurroundSound",JSImport.Default)
+@JSImport("@material-ui/icons/SurroundSound",JSImport.Default)
 object MuiSurroundSoundIconComponent extends JSComponent[js.Object]
 
 object MuiSurroundSoundIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Vibration",JSImport.Default)
+@JSImport("@material-ui/icons/Vibration",JSImport.Default)
 object MuiVibrationIconComponent extends JSComponent[js.Object]
 
 object MuiVibrationIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SignalCellular3Bar",JSImport.Default)
+@JSImport("@material-ui/icons/SignalCellular3Bar",JSImport.Default)
 object MuiSignalCellular3BarIconComponent extends JSComponent[js.Object]
 
 object MuiSignalCellular3BarIcon {

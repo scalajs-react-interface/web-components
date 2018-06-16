@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ScreenShare",JSImport.Default)
+@JSImport("@material-ui/icons/ScreenShare",JSImport.Default)
 object MuiScreenShareIconComponent extends JSComponent[js.Object]
 
 object MuiScreenShareIcon {

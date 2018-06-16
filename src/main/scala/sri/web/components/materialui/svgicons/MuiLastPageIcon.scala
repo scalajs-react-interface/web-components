@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LastPage",JSImport.Default)
+@JSImport("@material-ui/icons/LastPage",JSImport.Default)
 object MuiLastPageIconComponent extends JSComponent[js.Object]
 
 object MuiLastPageIcon {

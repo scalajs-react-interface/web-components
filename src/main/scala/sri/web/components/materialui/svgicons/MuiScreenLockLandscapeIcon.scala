@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ScreenLockLandscape",JSImport.Default)
+@JSImport("@material-ui/icons/ScreenLockLandscape",JSImport.Default)
 object MuiScreenLockLandscapeIconComponent extends JSComponent[js.Object]
 
 object MuiScreenLockLandscapeIcon {

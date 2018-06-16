@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RemoveRedEye",JSImport.Default)
+@JSImport("@material-ui/icons/RemoveRedEye",JSImport.Default)
 object MuiRemoveRedEyeIconComponent extends JSComponent[js.Object]
 
 object MuiRemoveRedEyeIcon {

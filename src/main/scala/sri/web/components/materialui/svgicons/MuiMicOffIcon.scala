@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/MicOff",JSImport.Default)
+@JSImport("@material-ui/icons/MicOff",JSImport.Default)
 object MuiMicOffIconComponent extends JSComponent[js.Object]
 
 object MuiMicOffIcon {

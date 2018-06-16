@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Modal",JSImport.Default)
+ @JSImport("@material-ui/core/Modal",JSImport.Default)
 object MuiModalComponent extends JSComponent[js.Object] {
 
  }

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SettingsInputSvideo",JSImport.Default)
+@JSImport("@material-ui/icons/SettingsInputSvideo",JSImport.Default)
 object MuiSettingsInputSvideoIconComponent extends JSComponent[js.Object]
 
 object MuiSettingsInputSvideoIcon {

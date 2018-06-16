@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PersonPin",JSImport.Default)
+@JSImport("@material-ui/icons/PersonPin",JSImport.Default)
 object MuiPersonPinIconComponent extends JSComponent[js.Object]
 
 object MuiPersonPinIcon {

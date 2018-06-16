@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/GraphicEq",JSImport.Default)
+@JSImport("@material-ui/icons/GraphicEq",JSImport.Default)
 object MuiGraphicEqIconComponent extends JSComponent[js.Object]
 
 object MuiGraphicEqIcon {

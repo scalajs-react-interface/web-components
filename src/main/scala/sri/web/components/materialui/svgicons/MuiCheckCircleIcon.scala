@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/CheckCircle",JSImport.Default)
+@JSImport("@material-ui/icons/CheckCircle",JSImport.Default)
 object MuiCheckCircleIconComponent extends JSComponent[js.Object]
 
 object MuiCheckCircleIcon {

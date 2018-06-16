@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/EuroSymbol",JSImport.Default)
+@JSImport("@material-ui/icons/EuroSymbol",JSImport.Default)
 object MuiEuroSymbolIconComponent extends JSComponent[js.Object]
 
 object MuiEuroSymbolIcon {

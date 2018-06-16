@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SlowMotionVideo",JSImport.Default)
+@JSImport("@material-ui/icons/SlowMotionVideo",JSImport.Default)
 object MuiSlowMotionVideoIconComponent extends JSComponent[js.Object]
 
 object MuiSlowMotionVideoIcon {

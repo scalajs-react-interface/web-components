@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FiberPin",JSImport.Default)
+@JSImport("@material-ui/icons/FiberPin",JSImport.Default)
 object MuiFiberPinIconComponent extends JSComponent[js.Object]
 
 object MuiFiberPinIcon {

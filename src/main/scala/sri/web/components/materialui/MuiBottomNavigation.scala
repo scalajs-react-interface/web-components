@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/BottomNavigation",JSImport.Default)
+ @JSImport("@material-ui/core/BottomNavigation",JSImport.Default)
 object MuiBottomNavigationComponent extends JSComponent[js.Object] {
 
  }

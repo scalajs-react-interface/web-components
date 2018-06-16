@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Subtitles",JSImport.Default)
+@JSImport("@material-ui/icons/Subtitles",JSImport.Default)
 object MuiSubtitlesIconComponent extends JSComponent[js.Object]
 
 object MuiSubtitlesIcon {

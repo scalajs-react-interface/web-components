@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Search",JSImport.Default)
+@JSImport("@material-ui/icons/Search",JSImport.Default)
 object MuiSearchIconComponent extends JSComponent[js.Object]
 
 object MuiSearchIcon {

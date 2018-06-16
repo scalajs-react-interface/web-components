@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Book",JSImport.Default)
+@JSImport("@material-ui/icons/Book",JSImport.Default)
 object MuiBookIconComponent extends JSComponent[js.Object]
 
 object MuiBookIcon {

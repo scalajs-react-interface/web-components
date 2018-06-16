@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ModeComment",JSImport.Default)
+@JSImport("@material-ui/icons/ModeComment",JSImport.Default)
 object MuiModeCommentIconComponent extends JSComponent[js.Object]
 
 object MuiModeCommentIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FlashOn",JSImport.Default)
+@JSImport("@material-ui/icons/FlashOn",JSImport.Default)
 object MuiFlashOnIconComponent extends JSComponent[js.Object]
 
 object MuiFlashOnIcon {

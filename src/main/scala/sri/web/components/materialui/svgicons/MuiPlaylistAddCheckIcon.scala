@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PlaylistAddCheck",JSImport.Default)
+@JSImport("@material-ui/icons/PlaylistAddCheck",JSImport.Default)
 object MuiPlaylistAddCheckIconComponent extends JSComponent[js.Object]
 
 object MuiPlaylistAddCheckIcon {

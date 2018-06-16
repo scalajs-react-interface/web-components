@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/InsertInvitation",JSImport.Default)
+@JSImport("@material-ui/icons/InsertInvitation",JSImport.Default)
 object MuiInsertInvitationIconComponent extends JSComponent[js.Object]
 
 object MuiInsertInvitationIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LockOutline",JSImport.Default)
+@JSImport("@material-ui/icons/LockOutline",JSImport.Default)
 object MuiLockOutlineIconComponent extends JSComponent[js.Object]
 
 object MuiLockOutlineIcon {

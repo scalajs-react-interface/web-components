@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/AccountBox",JSImport.Default)
+@JSImport("@material-ui/icons/AccountBox",JSImport.Default)
 object MuiAccountBoxIconComponent extends JSComponent[js.Object]
 
 object MuiAccountBoxIcon {

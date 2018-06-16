@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FormatIndentDecrease",JSImport.Default)
+@JSImport("@material-ui/icons/FormatIndentDecrease",JSImport.Default)
 object MuiFormatIndentDecreaseIconComponent extends JSComponent[js.Object]
 
 object MuiFormatIndentDecreaseIcon {

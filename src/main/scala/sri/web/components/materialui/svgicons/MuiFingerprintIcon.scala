@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Fingerprint",JSImport.Default)
+@JSImport("@material-ui/icons/Fingerprint",JSImport.Default)
 object MuiFingerprintIconComponent extends JSComponent[js.Object]
 
 object MuiFingerprintIcon {

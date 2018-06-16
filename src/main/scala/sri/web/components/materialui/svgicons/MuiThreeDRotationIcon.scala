@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ThreeDRotation",JSImport.Default)
+@JSImport("@material-ui/icons/ThreeDRotation",JSImport.Default)
 object MuiThreeDRotationIconComponent extends JSComponent[js.Object]
 
 object MuiThreeDRotationIcon {

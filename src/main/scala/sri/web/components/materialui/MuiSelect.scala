@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Select",JSImport.Default)
+ @JSImport("@material-ui/core/Select",JSImport.Default)
 object MuiSelectComponent extends JSComponent[js.Object] {
 
  }
@@ -35,6 +35,7 @@ object MuiSelectComponent extends JSComponent[js.Object] {
     @inline
     def apply(id : OptionalParam[String] = OptDefault,
 className : OptionalParam[String] = OptDefault,
+IconComponent : OptionalParam[String | js.Function] = OptDefault,
 onChange : OptionalParam[js.Function] = OptDefault,
 open : OptionalParam[Boolean] = OptDefault,
 multiple : OptionalParam[Boolean] = OptDefault,
@@ -44,6 +45,7 @@ onClick : OptionalParam[ReactEventH => _] = OptDefault,
 native : OptionalParam[Boolean] = OptDefault,
 inputProps : OptionalParam[js.Object] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
+SelectDisplayProps : OptionalParam[js.Object] = OptDefault,
 onOpen : OptionalParam[js.Function] = OptDefault,
 renderValue : OptionalParam[js.Function] = OptDefault,
 onClose : OptionalParam[js.Function] = OptDefault,

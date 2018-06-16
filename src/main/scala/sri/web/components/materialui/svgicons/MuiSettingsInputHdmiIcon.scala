@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SettingsInputHdmi",JSImport.Default)
+@JSImport("@material-ui/icons/SettingsInputHdmi",JSImport.Default)
 object MuiSettingsInputHdmiIconComponent extends JSComponent[js.Object]
 
 object MuiSettingsInputHdmiIcon {

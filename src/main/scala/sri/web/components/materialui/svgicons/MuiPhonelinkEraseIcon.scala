@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PhonelinkErase",JSImport.Default)
+@JSImport("@material-ui/icons/PhonelinkErase",JSImport.Default)
 object MuiPhonelinkEraseIconComponent extends JSComponent[js.Object]
 
 object MuiPhonelinkEraseIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ContentCut",JSImport.Default)
+@JSImport("@material-ui/icons/ContentCut",JSImport.Default)
 object MuiContentCutIconComponent extends JSComponent[js.Object]
 
 object MuiContentCutIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/DateRange",JSImport.Default)
+@JSImport("@material-ui/icons/DateRange",JSImport.Default)
 object MuiDateRangeIconComponent extends JSComponent[js.Object]
 
 object MuiDateRangeIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Accessibility",JSImport.Default)
+@JSImport("@material-ui/icons/Accessibility",JSImport.Default)
 object MuiAccessibilityIconComponent extends JSComponent[js.Object]
 
 object MuiAccessibilityIcon {

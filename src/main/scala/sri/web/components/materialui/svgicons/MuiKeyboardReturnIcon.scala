@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/KeyboardReturn",JSImport.Default)
+@JSImport("@material-ui/icons/KeyboardReturn",JSImport.Default)
 object MuiKeyboardReturnIconComponent extends JSComponent[js.Object]
 
 object MuiKeyboardReturnIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PersonPinCircle",JSImport.Default)
+@JSImport("@material-ui/icons/PersonPinCircle",JSImport.Default)
 object MuiPersonPinCircleIconComponent extends JSComponent[js.Object]
 
 object MuiPersonPinCircleIcon {

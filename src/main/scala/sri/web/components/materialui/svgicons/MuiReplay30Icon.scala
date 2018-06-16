@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Replay30",JSImport.Default)
+@JSImport("@material-ui/icons/Replay30",JSImport.Default)
 object MuiReplay30IconComponent extends JSComponent[js.Object]
 
 object MuiReplay30Icon {

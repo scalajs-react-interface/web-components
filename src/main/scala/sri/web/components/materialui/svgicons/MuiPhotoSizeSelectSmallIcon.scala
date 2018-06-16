@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PhotoSizeSelectSmall",JSImport.Default)
+@JSImport("@material-ui/icons/PhotoSizeSelectSmall",JSImport.Default)
 object MuiPhotoSizeSelectSmallIconComponent extends JSComponent[js.Object]
 
 object MuiPhotoSizeSelectSmallIcon {

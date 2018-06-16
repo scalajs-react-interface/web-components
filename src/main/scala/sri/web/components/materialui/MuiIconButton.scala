@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/IconButton",JSImport.Default)
+ @JSImport("@material-ui/core/IconButton",JSImport.Default)
 object MuiIconButtonComponent extends JSComponent[js.Object] {
 
  }

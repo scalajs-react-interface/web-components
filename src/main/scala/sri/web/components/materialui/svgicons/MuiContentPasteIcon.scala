@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ContentPaste",JSImport.Default)
+@JSImport("@material-ui/icons/ContentPaste",JSImport.Default)
 object MuiContentPasteIconComponent extends JSComponent[js.Object]
 
 object MuiContentPasteIcon {

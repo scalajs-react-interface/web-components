@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Flip",JSImport.Default)
+@JSImport("@material-ui/icons/Flip",JSImport.Default)
 object MuiFlipIconComponent extends JSComponent[js.Object]
 
 object MuiFlipIcon {

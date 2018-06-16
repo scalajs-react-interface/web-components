@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Audiotrack",JSImport.Default)
+@JSImport("@material-ui/icons/Audiotrack",JSImport.Default)
 object MuiAudiotrackIconComponent extends JSComponent[js.Object]
 
 object MuiAudiotrackIcon {

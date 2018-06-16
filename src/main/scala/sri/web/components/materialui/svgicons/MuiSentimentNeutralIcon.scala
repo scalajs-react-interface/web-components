@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SentimentNeutral",JSImport.Default)
+@JSImport("@material-ui/icons/SentimentNeutral",JSImport.Default)
 object MuiSentimentNeutralIconComponent extends JSComponent[js.Object]
 
 object MuiSentimentNeutralIcon {

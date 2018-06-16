@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Rotate90DegreesCcw",JSImport.Default)
+@JSImport("@material-ui/icons/Rotate90DegreesCcw",JSImport.Default)
 object MuiRotate90DegreesCcwIconComponent extends JSComponent[js.Object]
 
 object MuiRotate90DegreesCcwIcon {

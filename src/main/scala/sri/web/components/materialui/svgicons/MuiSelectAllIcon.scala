@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SelectAll",JSImport.Default)
+@JSImport("@material-ui/icons/SelectAll",JSImport.Default)
 object MuiSelectAllIconComponent extends JSComponent[js.Object]
 
 object MuiSelectAllIcon {

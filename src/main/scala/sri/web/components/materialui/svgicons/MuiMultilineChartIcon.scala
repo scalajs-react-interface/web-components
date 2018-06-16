@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/MultilineChart",JSImport.Default)
+@JSImport("@material-ui/icons/MultilineChart",JSImport.Default)
 object MuiMultilineChartIconComponent extends JSComponent[js.Object]
 
 object MuiMultilineChartIcon {

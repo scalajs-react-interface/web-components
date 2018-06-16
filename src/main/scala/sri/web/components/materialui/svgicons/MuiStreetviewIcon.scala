@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Streetview",JSImport.Default)
+@JSImport("@material-ui/icons/Streetview",JSImport.Default)
 object MuiStreetviewIconComponent extends JSComponent[js.Object]
 
 object MuiStreetviewIcon {

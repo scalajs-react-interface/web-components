@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Chip",JSImport.Default)
+ @JSImport("@material-ui/core/Chip",JSImport.Default)
 object MuiChipComponent extends JSComponent[js.Object] {
 
  }

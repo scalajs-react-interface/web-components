@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SettingsBackupRestore",JSImport.Default)
+@JSImport("@material-ui/icons/SettingsBackupRestore",JSImport.Default)
 object MuiSettingsBackupRestoreIconComponent extends JSComponent[js.Object]
 
 object MuiSettingsBackupRestoreIcon {

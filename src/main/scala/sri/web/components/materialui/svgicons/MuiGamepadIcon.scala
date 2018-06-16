@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Gamepad",JSImport.Default)
+@JSImport("@material-ui/icons/Gamepad",JSImport.Default)
 object MuiGamepadIconComponent extends JSComponent[js.Object]
 
 object MuiGamepadIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ClosedCaption",JSImport.Default)
+@JSImport("@material-ui/icons/ClosedCaption",JSImport.Default)
 object MuiClosedCaptionIconComponent extends JSComponent[js.Object]
 
 object MuiClosedCaptionIcon {

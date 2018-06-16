@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FlightTakeoff",JSImport.Default)
+@JSImport("@material-ui/icons/FlightTakeoff",JSImport.Default)
 object MuiFlightTakeoffIconComponent extends JSComponent[js.Object]
 
 object MuiFlightTakeoffIcon {

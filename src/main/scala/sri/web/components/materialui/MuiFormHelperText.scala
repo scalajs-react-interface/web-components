@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Form","FormHelperText")
+ @JSImport("@material-ui/core/FormHelperText",JSImport.Default)
 object MuiFormHelperTextComponent extends JSComponent[js.Object] {
 
  }

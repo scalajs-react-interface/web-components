@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/MarkunreadMailbox",JSImport.Default)
+@JSImport("@material-ui/icons/MarkunreadMailbox",JSImport.Default)
 object MuiMarkunreadMailboxIconComponent extends JSComponent[js.Object]
 
 object MuiMarkunreadMailboxIcon {

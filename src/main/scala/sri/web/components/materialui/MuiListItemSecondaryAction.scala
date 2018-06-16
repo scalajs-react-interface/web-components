@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/List","ListItemSecondaryAction")
+ @JSImport("@material-ui/core/ListItemSecondaryAction",JSImport.Default)
 object MuiListItemSecondaryActionComponent extends JSComponent[js.Object] {
 
  }

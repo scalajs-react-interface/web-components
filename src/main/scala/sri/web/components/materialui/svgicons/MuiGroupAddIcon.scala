@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/GroupAdd",JSImport.Default)
+@JSImport("@material-ui/icons/GroupAdd",JSImport.Default)
 object MuiGroupAddIconComponent extends JSComponent[js.Object]
 
 object MuiGroupAddIcon {

@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/transitions","Slide")
+ @JSImport("@material-ui/core/Slide",JSImport.Default)
 object MuiSlideComponent extends JSComponent[js.Object] {
 
  }

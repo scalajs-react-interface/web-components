@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/CallToAction",JSImport.Default)
+@JSImport("@material-ui/icons/CallToAction",JSImport.Default)
 object MuiCallToActionIconComponent extends JSComponent[js.Object]
 
 object MuiCallToActionIcon {

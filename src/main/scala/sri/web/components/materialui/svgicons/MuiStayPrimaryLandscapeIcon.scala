@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/StayPrimaryLandscape",JSImport.Default)
+@JSImport("@material-ui/icons/StayPrimaryLandscape",JSImport.Default)
 object MuiStayPrimaryLandscapeIconComponent extends JSComponent[js.Object]
 
 object MuiStayPrimaryLandscapeIcon {

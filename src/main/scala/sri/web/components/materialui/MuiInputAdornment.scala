@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Input","InputAdornment")
+ @JSImport("@material-ui/core/InputAdornment",JSImport.Default)
 object MuiInputAdornmentComponent extends JSComponent[js.Object] {
 
  }

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/BrandingWatermark",JSImport.Default)
+@JSImport("@material-ui/icons/BrandingWatermark",JSImport.Default)
 object MuiBrandingWatermarkIconComponent extends JSComponent[js.Object]
 
 object MuiBrandingWatermarkIcon {

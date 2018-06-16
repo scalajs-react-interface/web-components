@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Security",JSImport.Default)
+@JSImport("@material-ui/icons/Security",JSImport.Default)
 object MuiSecurityIconComponent extends JSComponent[js.Object]
 
 object MuiSecurityIcon {

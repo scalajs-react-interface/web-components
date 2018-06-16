@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/WbIncandescent",JSImport.Default)
+@JSImport("@material-ui/icons/WbIncandescent",JSImport.Default)
 object MuiWbIncandescentIconComponent extends JSComponent[js.Object]
 
 object MuiWbIncandescentIcon {

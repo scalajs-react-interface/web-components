@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/KeyboardCapslock",JSImport.Default)
+@JSImport("@material-ui/icons/KeyboardCapslock",JSImport.Default)
 object MuiKeyboardCapslockIconComponent extends JSComponent[js.Object]
 
 object MuiKeyboardCapslockIcon {

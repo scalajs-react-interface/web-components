@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SettingsEthernet",JSImport.Default)
+@JSImport("@material-ui/icons/SettingsEthernet",JSImport.Default)
 object MuiSettingsEthernetIconComponent extends JSComponent[js.Object]
 
 object MuiSettingsEthernetIcon {

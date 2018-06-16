@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SwitchCamera",JSImport.Default)
+@JSImport("@material-ui/icons/SwitchCamera",JSImport.Default)
 object MuiSwitchCameraIconComponent extends JSComponent[js.Object]
 
 object MuiSwitchCameraIcon {

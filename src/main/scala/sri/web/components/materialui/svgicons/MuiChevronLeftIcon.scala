@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ChevronLeft",JSImport.Default)
+@JSImport("@material-ui/icons/ChevronLeft",JSImport.Default)
 object MuiChevronLeftIconComponent extends JSComponent[js.Object]
 
 object MuiChevronLeftIcon {

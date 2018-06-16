@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SyncProblem",JSImport.Default)
+@JSImport("@material-ui/icons/SyncProblem",JSImport.Default)
 object MuiSyncProblemIconComponent extends JSComponent[js.Object]
 
 object MuiSyncProblemIcon {

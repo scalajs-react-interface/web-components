@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Switch",JSImport.Default)
+ @JSImport("@material-ui/core/Switch",JSImport.Default)
 object MuiSwitchComponent extends JSComponent[js.Object] {
 
  }
@@ -41,13 +41,13 @@ icon : OptionalParam[ReactNode] = OptDefault,
 disabled : OptionalParam[Boolean] = OptDefault,
 checked : OptionalParam[Boolean | String] = OptDefault,
 disableRipple : OptionalParam[Boolean] = OptDefault,
+color : OptionalParam[MuiSwitchColor] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 inputProps : OptionalParam[js.Object] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
-inputType : OptionalParam[String] = OptDefault,
-name : OptionalParam[String] = OptDefault,
 inputRef : OptionalParam[js.Function] = OptDefault,
 checkedIcon : OptionalParam[ReactNode] = OptDefault,
+`type` : OptionalParam[String] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,
@@ -66,6 +66,16 @@ classes : OptionalParam[js.Object] = OptDefault,
  
 
          
+ @js.native
+ trait MuiSwitchColor extends js.Object
+
+ object MuiSwitchColor {
+   @inline def PRIMARY = "primary".asInstanceOf[MuiSwitchColor] 
+@inline def SECONDARY = "secondary".asInstanceOf[MuiSwitchColor] 
+@inline def DEFAULT = "default".asInstanceOf[MuiSwitchColor] 
+ }
+
+       
 
 
      

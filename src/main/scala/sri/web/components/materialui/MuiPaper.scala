@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Paper",JSImport.Default)
+ @JSImport("@material-ui/core/Paper",JSImport.Default)
 object MuiPaperComponent extends JSComponent[js.Object] {
 
  }

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LocalAtm",JSImport.Default)
+@JSImport("@material-ui/icons/LocalAtm",JSImport.Default)
 object MuiLocalAtmIconComponent extends JSComponent[js.Object]
 
 object MuiLocalAtmIcon {

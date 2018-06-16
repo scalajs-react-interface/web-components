@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Gesture",JSImport.Default)
+@JSImport("@material-ui/icons/Gesture",JSImport.Default)
 object MuiGestureIconComponent extends JSComponent[js.Object]
 
 object MuiGestureIcon {

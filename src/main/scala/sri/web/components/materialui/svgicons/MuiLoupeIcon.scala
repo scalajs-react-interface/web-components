@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Loupe",JSImport.Default)
+@JSImport("@material-ui/icons/Loupe",JSImport.Default)
 object MuiLoupeIconComponent extends JSComponent[js.Object]
 
 object MuiLoupeIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RecentActors",JSImport.Default)
+@JSImport("@material-ui/icons/RecentActors",JSImport.Default)
 object MuiRecentActorsIconComponent extends JSComponent[js.Object]
 
 object MuiRecentActorsIcon {

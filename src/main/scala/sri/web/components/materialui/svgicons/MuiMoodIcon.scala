@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Mood",JSImport.Default)
+@JSImport("@material-ui/icons/Mood",JSImport.Default)
 object MuiMoodIconComponent extends JSComponent[js.Object]
 
 object MuiMoodIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ExitToApp",JSImport.Default)
+@JSImport("@material-ui/icons/ExitToApp",JSImport.Default)
 object MuiExitToAppIconComponent extends JSComponent[js.Object]
 
 object MuiExitToAppIcon {

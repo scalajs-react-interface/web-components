@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/AssignmentTurnedIn",JSImport.Default)
+@JSImport("@material-ui/icons/AssignmentTurnedIn",JSImport.Default)
 object MuiAssignmentTurnedInIconComponent extends JSComponent[js.Object]
 
 object MuiAssignmentTurnedInIcon {

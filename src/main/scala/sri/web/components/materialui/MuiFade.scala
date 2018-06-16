@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/transitions","Fade")
+ @JSImport("@material-ui/core/Fade",JSImport.Default)
 object MuiFadeComponent extends JSComponent[js.Object] {
 
  }

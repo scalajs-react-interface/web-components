@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Memory",JSImport.Default)
+@JSImport("@material-ui/icons/Memory",JSImport.Default)
 object MuiMemoryIconComponent extends JSComponent[js.Object]
 
 object MuiMemoryIcon {

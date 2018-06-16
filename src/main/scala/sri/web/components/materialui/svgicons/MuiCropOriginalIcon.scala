@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/CropOriginal",JSImport.Default)
+@JSImport("@material-ui/icons/CropOriginal",JSImport.Default)
 object MuiCropOriginalIconComponent extends JSComponent[js.Object]
 
 object MuiCropOriginalIcon {

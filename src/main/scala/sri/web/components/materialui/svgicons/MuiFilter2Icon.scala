@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Filter2",JSImport.Default)
+@JSImport("@material-ui/icons/Filter2",JSImport.Default)
 object MuiFilter2IconComponent extends JSComponent[js.Object]
 
 object MuiFilter2Icon {

@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/transitions","Collapse")
+ @JSImport("@material-ui/core/Collapse",JSImport.Default)
 object MuiCollapseComponent extends JSComponent[js.Object] {
 
  }

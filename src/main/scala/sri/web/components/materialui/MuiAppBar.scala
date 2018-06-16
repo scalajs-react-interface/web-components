@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/AppBar",JSImport.Default)
+ @JSImport("@material-ui/core/AppBar",JSImport.Default)
 object MuiAppBarComponent extends JSComponent[js.Object] {
 
  }

@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/List","ListSubheader")
+ @JSImport("@material-ui/core/ListSubheader",JSImport.Default)
 object MuiListSubheaderComponent extends JSComponent[js.Object] {
 
  }

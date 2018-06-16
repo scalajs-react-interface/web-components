@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PriorityHigh",JSImport.Default)
+@JSImport("@material-ui/icons/PriorityHigh",JSImport.Default)
 object MuiPriorityHighIconComponent extends JSComponent[js.Object]
 
 object MuiPriorityHighIcon {

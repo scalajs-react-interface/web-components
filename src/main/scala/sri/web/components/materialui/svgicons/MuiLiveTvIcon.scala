@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LiveTv",JSImport.Default)
+@JSImport("@material-ui/icons/LiveTv",JSImport.Default)
 object MuiLiveTvIconComponent extends JSComponent[js.Object]
 
 object MuiLiveTvIcon {

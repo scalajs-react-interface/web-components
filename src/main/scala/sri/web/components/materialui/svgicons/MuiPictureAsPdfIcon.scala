@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PictureAsPdf",JSImport.Default)
+@JSImport("@material-ui/icons/PictureAsPdf",JSImport.Default)
 object MuiPictureAsPdfIconComponent extends JSComponent[js.Object]
 
 object MuiPictureAsPdfIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/NotificationsOff",JSImport.Default)
+@JSImport("@material-ui/icons/NotificationsOff",JSImport.Default)
 object MuiNotificationsOffIconComponent extends JSComponent[js.Object]
 
 object MuiNotificationsOffIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Clear",JSImport.Default)
+@JSImport("@material-ui/icons/Clear",JSImport.Default)
 object MuiClearIconComponent extends JSComponent[js.Object]
 
 object MuiClearIcon {

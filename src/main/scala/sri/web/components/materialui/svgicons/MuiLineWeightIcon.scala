@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LineWeight",JSImport.Default)
+@JSImport("@material-ui/icons/LineWeight",JSImport.Default)
 object MuiLineWeightIconComponent extends JSComponent[js.Object]
 
 object MuiLineWeightIcon {

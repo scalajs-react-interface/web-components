@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/ExpansionPanel","ExpansionPanelDetails")
+ @JSImport("@material-ui/core/ExpansionPanelDetails",JSImport.Default)
 object MuiExpansionPanelDetailsComponent extends JSComponent[js.Object] {
 
  }

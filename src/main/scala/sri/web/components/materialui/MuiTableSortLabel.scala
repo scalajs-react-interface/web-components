@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Table","TableSortLabel")
+ @JSImport("@material-ui/core/TableSortLabel",JSImport.Default)
 object MuiTableSortLabelComponent extends JSComponent[js.Object] {
 
  }

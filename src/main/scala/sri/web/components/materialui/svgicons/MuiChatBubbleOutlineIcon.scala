@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ChatBubbleOutline",JSImport.Default)
+@JSImport("@material-ui/icons/ChatBubbleOutline",JSImport.Default)
 object MuiChatBubbleOutlineIconComponent extends JSComponent[js.Object]
 
 object MuiChatBubbleOutlineIcon {

@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/SvgIcon",JSImport.Default)
+ @JSImport("@material-ui/core/SvgIcon",JSImport.Default)
 object MuiSvgIconComponent extends JSComponent[js.Object] {
 
  }
@@ -39,7 +39,6 @@ className : OptionalParam[String] = OptDefault,
 titleAccess : OptionalParam[String] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
-fontSize : OptionalParam[Boolean] = OptDefault,
 nativeColor : OptionalParam[String] = OptDefault,
 color : OptionalParam[MuiSvgIconColor] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
@@ -78,12 +77,12 @@ classes : OptionalParam[js.Object] = OptDefault,
  trait MuiSvgIconColor extends js.Object
 
  object MuiSvgIconColor {
-   @inline def ACTION = "action".asInstanceOf[MuiSvgIconColor] 
-@inline def DISABLED = "disabled".asInstanceOf[MuiSvgIconColor] 
-@inline def ERROR = "error".asInstanceOf[MuiSvgIconColor] 
-@inline def INHERIT = "inherit".asInstanceOf[MuiSvgIconColor] 
+   @inline def INHERIT = "inherit".asInstanceOf[MuiSvgIconColor] 
 @inline def PRIMARY = "primary".asInstanceOf[MuiSvgIconColor] 
 @inline def SECONDARY = "secondary".asInstanceOf[MuiSvgIconColor] 
+@inline def ACTION = "action".asInstanceOf[MuiSvgIconColor] 
+@inline def ERROR = "error".asInstanceOf[MuiSvgIconColor] 
+@inline def DISABLED = "disabled".asInstanceOf[MuiSvgIconColor] 
  }
 
        

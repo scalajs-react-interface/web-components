@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ExposureNeg2",JSImport.Default)
+@JSImport("@material-ui/icons/ExposureNeg2",JSImport.Default)
 object MuiExposureNeg2IconComponent extends JSComponent[js.Object]
 
 object MuiExposureNeg2Icon {

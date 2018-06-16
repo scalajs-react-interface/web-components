@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/DriveEta",JSImport.Default)
+@JSImport("@material-ui/icons/DriveEta",JSImport.Default)
 object MuiDriveEtaIconComponent extends JSComponent[js.Object]
 
 object MuiDriveEtaIcon {

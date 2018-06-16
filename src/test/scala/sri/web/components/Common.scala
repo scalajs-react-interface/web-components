@@ -36,7 +36,7 @@ trait Common {
     case _        => in
   }
 
-  def getComponentFile(ci: ComponentInfo, prefix: String = "Mui") = {
+  def getComponentFile(ci: ComponentInfo, prefix: String = "") = {
 
     val atleastOneRequiredField = ci.props.exists(_.isRequired)
     val name = addPrefix(ci.name, prefix)

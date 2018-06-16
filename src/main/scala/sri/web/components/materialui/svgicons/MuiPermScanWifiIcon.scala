@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PermScanWifi",JSImport.Default)
+@JSImport("@material-ui/icons/PermScanWifi",JSImport.Default)
 object MuiPermScanWifiIconComponent extends JSComponent[js.Object]
 
 object MuiPermScanWifiIcon {

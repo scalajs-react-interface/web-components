@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Event",JSImport.Default)
+@JSImport("@material-ui/icons/Event",JSImport.Default)
 object MuiEventIconComponent extends JSComponent[js.Object]
 
 object MuiEventIcon {

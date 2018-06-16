@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Avatar",JSImport.Default)
+ @JSImport("@material-ui/core/Avatar",JSImport.Default)
 object MuiAvatarComponent extends JSComponent[js.Object] {
 
  }

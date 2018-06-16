@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/AssignmentLate",JSImport.Default)
+@JSImport("@material-ui/icons/AssignmentLate",JSImport.Default)
 object MuiAssignmentLateIconComponent extends JSComponent[js.Object]
 
 object MuiAssignmentLateIcon {

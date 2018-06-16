@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FormatQuote",JSImport.Default)
+@JSImport("@material-ui/icons/FormatQuote",JSImport.Default)
 object MuiFormatQuoteIconComponent extends JSComponent[js.Object]
 
 object MuiFormatQuoteIcon {

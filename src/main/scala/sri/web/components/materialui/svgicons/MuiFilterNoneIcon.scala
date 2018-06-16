@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FilterNone",JSImport.Default)
+@JSImport("@material-ui/icons/FilterNone",JSImport.Default)
 object MuiFilterNoneIconComponent extends JSComponent[js.Object]
 
 object MuiFilterNoneIcon {

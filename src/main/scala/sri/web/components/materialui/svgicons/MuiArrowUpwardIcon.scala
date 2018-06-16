@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ArrowUpward",JSImport.Default)
+@JSImport("@material-ui/icons/ArrowUpward",JSImport.Default)
 object MuiArrowUpwardIconComponent extends JSComponent[js.Object]
 
 object MuiArrowUpwardIcon {

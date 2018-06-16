@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Dialog",JSImport.Default)
+ @JSImport("@material-ui/core/Dialog",JSImport.Default)
 object MuiDialogComponent extends JSComponent[js.Object] {
 
  }
@@ -39,7 +39,9 @@ fullWidth : OptionalParam[Boolean] = OptDefault,
 transitionDuration : OptionalParam[Double | Int | js.Object] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 onExit : OptionalParam[(ReactEventH) => _] = OptDefault,
+TransitionProps : OptionalParam[js.Object] = OptDefault,
 maxWidth : OptionalParam[MuiDialogMaxWidth] = OptDefault,
+TransitionComponent : OptionalParam[String | js.Function] = OptDefault,
 onEnter : OptionalParam[(ReactEventH) => _] = OptDefault,
 fullScreen : OptionalParam[Boolean] = OptDefault,
 PaperProps : OptionalParam[js.Object] = OptDefault,
@@ -48,7 +50,6 @@ onBackdropClick : OptionalParam[(ReactEventH) => _] = OptDefault,
 onRequestClose : OptionalParam[(ReactEventH) => _] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 disableBackdropClick : OptionalParam[Boolean] = OptDefault,
-transition : OptionalParam[String | js.Function] = OptDefault,
 onExited : OptionalParam[(ReactEventH) => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 onExiting : OptionalParam[(ReactEventH) => _] = OptDefault,

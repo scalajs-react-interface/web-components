@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Cake",JSImport.Default)
+@JSImport("@material-ui/icons/Cake",JSImport.Default)
 object MuiCakeIconComponent extends JSComponent[js.Object]
 
 object MuiCakeIcon {

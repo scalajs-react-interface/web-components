@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Rowing",JSImport.Default)
+@JSImport("@material-ui/icons/Rowing",JSImport.Default)
 object MuiRowingIconComponent extends JSComponent[js.Object]
 
 object MuiRowingIcon {

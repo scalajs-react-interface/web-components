@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/DiscFull",JSImport.Default)
+@JSImport("@material-ui/icons/DiscFull",JSImport.Default)
 object MuiDiscFullIconComponent extends JSComponent[js.Object]
 
 object MuiDiscFullIcon {

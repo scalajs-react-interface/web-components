@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/BorderAll",JSImport.Default)
+@JSImport("@material-ui/icons/BorderAll",JSImport.Default)
 object MuiBorderAllIconComponent extends JSComponent[js.Object]
 
 object MuiBorderAllIcon {

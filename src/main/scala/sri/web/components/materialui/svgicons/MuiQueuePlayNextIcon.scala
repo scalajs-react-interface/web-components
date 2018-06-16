@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/QueuePlayNext",JSImport.Default)
+@JSImport("@material-ui/icons/QueuePlayNext",JSImport.Default)
 object MuiQueuePlayNextIconComponent extends JSComponent[js.Object]
 
 object MuiQueuePlayNextIcon {

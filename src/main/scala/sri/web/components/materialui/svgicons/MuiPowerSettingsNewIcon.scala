@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PowerSettingsNew",JSImport.Default)
+@JSImport("@material-ui/icons/PowerSettingsNew",JSImport.Default)
 object MuiPowerSettingsNewIconComponent extends JSComponent[js.Object]
 
 object MuiPowerSettingsNewIcon {

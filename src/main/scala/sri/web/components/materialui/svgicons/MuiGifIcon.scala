@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Gif",JSImport.Default)
+@JSImport("@material-ui/icons/Gif",JSImport.Default)
 object MuiGifIconComponent extends JSComponent[js.Object]
 
 object MuiGifIcon {

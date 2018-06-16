@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RestorePage",JSImport.Default)
+@JSImport("@material-ui/icons/RestorePage",JSImport.Default)
 object MuiRestorePageIconComponent extends JSComponent[js.Object]
 
 object MuiRestorePageIcon {

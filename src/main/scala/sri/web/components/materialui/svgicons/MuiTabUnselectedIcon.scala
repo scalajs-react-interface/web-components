@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/TabUnselected",JSImport.Default)
+@JSImport("@material-ui/icons/TabUnselected",JSImport.Default)
 object MuiTabUnselectedIconComponent extends JSComponent[js.Object]
 
 object MuiTabUnselectedIcon {

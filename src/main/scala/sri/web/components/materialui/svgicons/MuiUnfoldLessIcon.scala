@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/UnfoldLess",JSImport.Default)
+@JSImport("@material-ui/icons/UnfoldLess",JSImport.Default)
 object MuiUnfoldLessIconComponent extends JSComponent[js.Object]
 
 object MuiUnfoldLessIcon {

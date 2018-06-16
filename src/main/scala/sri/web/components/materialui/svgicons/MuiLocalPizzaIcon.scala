@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LocalPizza",JSImport.Default)
+@JSImport("@material-ui/icons/LocalPizza",JSImport.Default)
 object MuiLocalPizzaIconComponent extends JSComponent[js.Object]
 
 object MuiLocalPizzaIcon {

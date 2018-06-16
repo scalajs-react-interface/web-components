@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SkipNext",JSImport.Default)
+@JSImport("@material-ui/icons/SkipNext",JSImport.Default)
 object MuiSkipNextIconComponent extends JSComponent[js.Object]
 
 object MuiSkipNextIcon {

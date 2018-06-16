@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/TextFields",JSImport.Default)
+@JSImport("@material-ui/icons/TextFields",JSImport.Default)
 object MuiTextFieldsIconComponent extends JSComponent[js.Object]
 
 object MuiTextFieldsIcon {

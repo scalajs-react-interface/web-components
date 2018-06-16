@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SettingsCell",JSImport.Default)
+@JSImport("@material-ui/icons/SettingsCell",JSImport.Default)
 object MuiSettingsCellIconComponent extends JSComponent[js.Object]
 
 object MuiSettingsCellIcon {

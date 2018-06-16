@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LaptopWindows",JSImport.Default)
+@JSImport("@material-ui/icons/LaptopWindows",JSImport.Default)
 object MuiLaptopWindowsIconComponent extends JSComponent[js.Object]
 
 object MuiLaptopWindowsIcon {

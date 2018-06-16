@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RotateRight",JSImport.Default)
+@JSImport("@material-ui/icons/RotateRight",JSImport.Default)
 object MuiRotateRightIconComponent extends JSComponent[js.Object]
 
 object MuiRotateRightIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PermPhoneMsg",JSImport.Default)
+@JSImport("@material-ui/icons/PermPhoneMsg",JSImport.Default)
 object MuiPermPhoneMsgIconComponent extends JSComponent[js.Object]
 
 object MuiPermPhoneMsgIcon {

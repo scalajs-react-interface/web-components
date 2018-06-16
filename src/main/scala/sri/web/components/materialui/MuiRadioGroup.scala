@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Radio","RadioGroup")
+ @JSImport("@material-ui/core/RadioGroup",JSImport.Default)
 object MuiRadioGroupComponent extends JSComponent[js.Object] {
 
  }

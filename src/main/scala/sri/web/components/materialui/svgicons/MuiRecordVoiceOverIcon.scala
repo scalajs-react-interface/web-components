@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RecordVoiceOver",JSImport.Default)
+@JSImport("@material-ui/icons/RecordVoiceOver",JSImport.Default)
 object MuiRecordVoiceOverIconComponent extends JSComponent[js.Object]
 
 object MuiRecordVoiceOverIcon {

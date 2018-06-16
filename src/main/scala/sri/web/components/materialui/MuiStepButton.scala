@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Stepper","StepButton")
+ @JSImport("@material-ui/core/StepButton",JSImport.Default)
 object MuiStepButtonComponent extends JSComponent[js.Object] {
 
  }

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/AccountCircle",JSImport.Default)
+@JSImport("@material-ui/icons/AccountCircle",JSImport.Default)
 object MuiAccountCircleIconComponent extends JSComponent[js.Object]
 
 object MuiAccountCircleIcon {

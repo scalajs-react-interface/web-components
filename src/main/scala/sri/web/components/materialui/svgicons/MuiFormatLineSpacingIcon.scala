@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FormatLineSpacing",JSImport.Default)
+@JSImport("@material-ui/icons/FormatLineSpacing",JSImport.Default)
 object MuiFormatLineSpacingIconComponent extends JSComponent[js.Object]
 
 object MuiFormatLineSpacingIcon {

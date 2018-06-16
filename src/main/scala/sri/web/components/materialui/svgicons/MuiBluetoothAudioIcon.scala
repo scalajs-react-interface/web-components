@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/BluetoothAudio",JSImport.Default)
+@JSImport("@material-ui/icons/BluetoothAudio",JSImport.Default)
 object MuiBluetoothAudioIconComponent extends JSComponent[js.Object]
 
 object MuiBluetoothAudioIcon {

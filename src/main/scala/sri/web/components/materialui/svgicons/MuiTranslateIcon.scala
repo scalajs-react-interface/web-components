@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Translate",JSImport.Default)
+@JSImport("@material-ui/icons/Translate",JSImport.Default)
 object MuiTranslateIconComponent extends JSComponent[js.Object]
 
 object MuiTranslateIcon {

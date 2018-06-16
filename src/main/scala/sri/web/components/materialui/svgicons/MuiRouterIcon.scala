@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Router",JSImport.Default)
+@JSImport("@material-ui/icons/Router",JSImport.Default)
 object MuiRouterIconComponent extends JSComponent[js.Object]
 
 object MuiRouterIcon {

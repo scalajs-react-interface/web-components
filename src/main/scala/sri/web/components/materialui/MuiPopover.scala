@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Popover",JSImport.Default)
+ @JSImport("@material-ui/core/Popover",JSImport.Default)
 object MuiPopoverComponent extends JSComponent[js.Object] {
 
  }
@@ -38,18 +38,19 @@ id : OptionalParam[String] = OptDefault,
 action : OptionalParam[js.Function] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 transitionDuration : OptionalParam[String | Int | Double | js.Object] = OptDefault,
+TransitionProps : OptionalParam[js.Object] = OptDefault,
+TransitionComponent : OptionalParam[String | js.Function] = OptDefault,
 anchorOrigin : OptionalParam[js.Object] = OptDefault,
 onEnter : OptionalParam[js.Function] = OptDefault,
 PaperProps : OptionalParam[js.Object] = OptDefault,
 onExited : OptionalParam[js.Function] = OptDefault,
 elevation : OptionalParam[Double | Int] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
-transition : OptionalParam[String | js.Function] = OptDefault,
+anchorEl : OptionalParam[js.Object | js.Function] = OptDefault,
 anchorReference : OptionalParam[MuiPopoverAnchorReference] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 onExiting : OptionalParam[js.Function] = OptDefault,
 onClose : OptionalParam[js.Function] = OptDefault,
-anchorEl : OptionalParam[js.Object] = OptDefault,
 onExit : OptionalParam[js.Function] = OptDefault,
 container : OptionalParam[js.Object | js.Function] = OptDefault,
 onEntered : OptionalParam[js.Function] = OptDefault,
@@ -82,6 +83,7 @@ classes : OptionalParam[js.Object] = OptDefault,
  object MuiPopoverAnchorReference {
    @inline def ANCHOREL = "anchorEl".asInstanceOf[MuiPopoverAnchorReference] 
 @inline def ANCHORPOSITION = "anchorPosition".asInstanceOf[MuiPopoverAnchorReference] 
+@inline def NONE = "none".asInstanceOf[MuiPopoverAnchorReference] 
  }
 
        

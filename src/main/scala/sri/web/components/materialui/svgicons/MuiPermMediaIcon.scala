@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PermMedia",JSImport.Default)
+@JSImport("@material-ui/icons/PermMedia",JSImport.Default)
 object MuiPermMediaIconComponent extends JSComponent[js.Object]
 
 object MuiPermMediaIcon {

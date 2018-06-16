@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Wallpaper",JSImport.Default)
+@JSImport("@material-ui/icons/Wallpaper",JSImport.Default)
 object MuiWallpaperIconComponent extends JSComponent[js.Object]
 
 object MuiWallpaperIcon {

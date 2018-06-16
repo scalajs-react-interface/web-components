@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/TimerOff",JSImport.Default)
+@JSImport("@material-ui/icons/TimerOff",JSImport.Default)
 object MuiTimerOffIconComponent extends JSComponent[js.Object]
 
 object MuiTimerOffIcon {

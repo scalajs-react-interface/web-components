@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Forward10",JSImport.Default)
+@JSImport("@material-ui/icons/Forward10",JSImport.Default)
 object MuiForward10IconComponent extends JSComponent[js.Object]
 
 object MuiForward10Icon {

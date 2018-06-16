@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/MoreVert",JSImport.Default)
+@JSImport("@material-ui/icons/MoreVert",JSImport.Default)
 object MuiMoreVertIconComponent extends JSComponent[js.Object]
 
 object MuiMoreVertIcon {

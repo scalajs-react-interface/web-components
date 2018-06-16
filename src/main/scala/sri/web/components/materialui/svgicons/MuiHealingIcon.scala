@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Healing",JSImport.Default)
+@JSImport("@material-ui/icons/Healing",JSImport.Default)
 object MuiHealingIconComponent extends JSComponent[js.Object]
 
 object MuiHealingIcon {

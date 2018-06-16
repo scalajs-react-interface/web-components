@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FormatSize",JSImport.Default)
+@JSImport("@material-ui/icons/FormatSize",JSImport.Default)
 object MuiFormatSizeIconComponent extends JSComponent[js.Object]
 
 object MuiFormatSizeIcon {

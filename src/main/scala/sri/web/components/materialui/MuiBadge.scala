@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Badge",JSImport.Default)
+ @JSImport("@material-ui/core/Badge",JSImport.Default)
 object MuiBadgeComponent extends JSComponent[js.Object] {
 
  }

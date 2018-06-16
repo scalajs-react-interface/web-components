@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LocalParking",JSImport.Default)
+@JSImport("@material-ui/icons/LocalParking",JSImport.Default)
 object MuiLocalParkingIconComponent extends JSComponent[js.Object]
 
 object MuiLocalParkingIcon {

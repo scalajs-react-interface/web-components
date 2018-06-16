@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Adb",JSImport.Default)
+@JSImport("@material-ui/icons/Adb",JSImport.Default)
 object MuiAdbIconComponent extends JSComponent[js.Object]
 
 object MuiAdbIcon {

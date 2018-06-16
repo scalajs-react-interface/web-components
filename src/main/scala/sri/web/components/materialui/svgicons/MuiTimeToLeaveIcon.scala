@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/TimeToLeave",JSImport.Default)
+@JSImport("@material-ui/icons/TimeToLeave",JSImport.Default)
 object MuiTimeToLeaveIconComponent extends JSComponent[js.Object]
 
 object MuiTimeToLeaveIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ConfirmationNumber",JSImport.Default)
+@JSImport("@material-ui/icons/ConfirmationNumber",JSImport.Default)
 object MuiConfirmationNumberIconComponent extends JSComponent[js.Object]
 
 object MuiConfirmationNumberIcon {

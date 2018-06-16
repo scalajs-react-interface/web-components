@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ZoomIn",JSImport.Default)
+@JSImport("@material-ui/icons/ZoomIn",JSImport.Default)
 object MuiZoomInIconComponent extends JSComponent[js.Object]
 
 object MuiZoomInIcon {

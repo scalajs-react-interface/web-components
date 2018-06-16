@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Progress","LinearProgress")
+ @JSImport("@material-ui/core/LinearProgress",JSImport.Default)
 object MuiLinearProgressComponent extends JSComponent[js.Object] {
 
  }

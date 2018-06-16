@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/CreateNewFolder",JSImport.Default)
+@JSImport("@material-ui/icons/CreateNewFolder",JSImport.Default)
 object MuiCreateNewFolderIconComponent extends JSComponent[js.Object]
 
 object MuiCreateNewFolderIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Fullscreen",JSImport.Default)
+@JSImport("@material-ui/icons/Fullscreen",JSImport.Default)
 object MuiFullscreenIconComponent extends JSComponent[js.Object]
 
 object MuiFullscreenIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Nature",JSImport.Default)
+@JSImport("@material-ui/icons/Nature",JSImport.Default)
 object MuiNatureIconComponent extends JSComponent[js.Object]
 
 object MuiNatureIcon {

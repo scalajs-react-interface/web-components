@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Polymer",JSImport.Default)
+@JSImport("@material-ui/icons/Polymer",JSImport.Default)
 object MuiPolymerIconComponent extends JSComponent[js.Object]
 
 object MuiPolymerIcon {

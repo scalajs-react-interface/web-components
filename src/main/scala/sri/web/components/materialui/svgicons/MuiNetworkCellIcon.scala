@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/NetworkCell",JSImport.Default)
+@JSImport("@material-ui/icons/NetworkCell",JSImport.Default)
 object MuiNetworkCellIconComponent extends JSComponent[js.Object]
 
 object MuiNetworkCellIcon {

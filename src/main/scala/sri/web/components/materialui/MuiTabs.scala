@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Tabs",JSImport.Default)
+ @JSImport("@material-ui/core/Tabs",JSImport.Default)
 object MuiTabsComponent extends JSComponent[js.Object] {
 
  }
@@ -40,16 +40,15 @@ action : OptionalParam[js.Function] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 index : OptionalParam[Boolean | Double | Int] = OptDefault,
 textColor : OptionalParam[String] = OptDefault,
-TabScrollButton : OptionalParam[String | js.Function] = OptDefault,
 scrollButtons : OptionalParam[MuiTabsScrollButtons] = OptDefault,
 value : OptionalParam[js.Any] = OptDefault,
 onChange : OptionalParam[(ReactEventH,Int) => _] = OptDefault,
 centered : OptionalParam[Boolean] = OptDefault,
-buttonClassName : OptionalParam[String] = OptDefault,
-indicatorClassName : OptionalParam[String] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 indicatorColor : OptionalParam[String] = OptDefault,
+TabIndicatorProps : OptionalParam[js.Object] = OptDefault,
+ScrollButtonComponent : OptionalParam[String | js.Function] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,

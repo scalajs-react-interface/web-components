@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/List",JSImport.Default)
+ @JSImport("@material-ui/core/List",JSImport.Default)
 object MuiListComponent extends JSComponent[js.Object] {
 
  }

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Flag",JSImport.Default)
+@JSImport("@material-ui/icons/Flag",JSImport.Default)
 object MuiFlagIconComponent extends JSComponent[js.Object]
 
 object MuiFlagIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Hearing",JSImport.Default)
+@JSImport("@material-ui/icons/Hearing",JSImport.Default)
 object MuiHearingIconComponent extends JSComponent[js.Object]
 
 object MuiHearingIcon {

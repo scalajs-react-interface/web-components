@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/BookmarkBorder",JSImport.Default)
+@JSImport("@material-ui/icons/BookmarkBorder",JSImport.Default)
 object MuiBookmarkBorderIconComponent extends JSComponent[js.Object]
 
 object MuiBookmarkBorderIcon {

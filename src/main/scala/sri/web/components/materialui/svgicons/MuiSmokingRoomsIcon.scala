@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SmokingRooms",JSImport.Default)
+@JSImport("@material-ui/icons/SmokingRooms",JSImport.Default)
 object MuiSmokingRoomsIconComponent extends JSComponent[js.Object]
 
 object MuiSmokingRoomsIcon {

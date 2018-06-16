@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SortByAlpha",JSImport.Default)
+@JSImport("@material-ui/icons/SortByAlpha",JSImport.Default)
 object MuiSortByAlphaIconComponent extends JSComponent[js.Object]
 
 object MuiSortByAlphaIcon {

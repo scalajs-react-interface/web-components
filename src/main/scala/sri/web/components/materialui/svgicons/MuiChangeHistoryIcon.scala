@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ChangeHistory",JSImport.Default)
+@JSImport("@material-ui/icons/ChangeHistory",JSImport.Default)
 object MuiChangeHistoryIconComponent extends JSComponent[js.Object]
 
 object MuiChangeHistoryIcon {

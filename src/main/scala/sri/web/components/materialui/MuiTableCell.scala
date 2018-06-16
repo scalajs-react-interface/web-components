@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Table","TableCell")
+ @JSImport("@material-ui/core/TableCell",JSImport.Default)
 object MuiTableCellComponent extends JSComponent[js.Object] {
 
  }
@@ -42,6 +42,7 @@ onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 sortDirection : OptionalParam[MuiTableCellSortDirection] = OptDefault,
 variant : OptionalParam[MuiTableCellVariant] = OptDefault,
+scope : OptionalParam[String] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,

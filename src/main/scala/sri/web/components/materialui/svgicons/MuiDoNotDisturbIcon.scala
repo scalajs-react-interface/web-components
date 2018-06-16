@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/DoNotDisturb",JSImport.Default)
+@JSImport("@material-ui/icons/DoNotDisturb",JSImport.Default)
 object MuiDoNotDisturbIconComponent extends JSComponent[js.Object]
 
 object MuiDoNotDisturbIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Scanner",JSImport.Default)
+@JSImport("@material-ui/icons/Scanner",JSImport.Default)
 object MuiScannerIconComponent extends JSComponent[js.Object]
 
 object MuiScannerIcon {

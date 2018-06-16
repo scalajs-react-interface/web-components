@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ArrowDropDown",JSImport.Default)
+@JSImport("@material-ui/icons/ArrowDropDown",JSImport.Default)
 object MuiArrowDropDownIconComponent extends JSComponent[js.Object]
 
 object MuiArrowDropDownIcon {

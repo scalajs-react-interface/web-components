@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FreeBreakfast",JSImport.Default)
+@JSImport("@material-ui/icons/FreeBreakfast",JSImport.Default)
 object MuiFreeBreakfastIconComponent extends JSComponent[js.Object]
 
 object MuiFreeBreakfastIcon {

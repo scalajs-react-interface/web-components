@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/TapAndPlay",JSImport.Default)
+@JSImport("@material-ui/icons/TapAndPlay",JSImport.Default)
 object MuiTapAndPlayIconComponent extends JSComponent[js.Object]
 
 object MuiTapAndPlayIcon {

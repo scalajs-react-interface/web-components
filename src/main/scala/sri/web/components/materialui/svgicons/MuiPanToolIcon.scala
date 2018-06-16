@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PanTool",JSImport.Default)
+@JSImport("@material-ui/icons/PanTool",JSImport.Default)
 object MuiPanToolIconComponent extends JSComponent[js.Object]
 
 object MuiPanToolIcon {

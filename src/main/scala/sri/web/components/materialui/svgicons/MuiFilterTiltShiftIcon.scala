@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FilterTiltShift",JSImport.Default)
+@JSImport("@material-ui/icons/FilterTiltShift",JSImport.Default)
 object MuiFilterTiltShiftIconComponent extends JSComponent[js.Object]
 
 object MuiFilterTiltShiftIcon {

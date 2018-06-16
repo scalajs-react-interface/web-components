@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/BlurOn",JSImport.Default)
+@JSImport("@material-ui/icons/BlurOn",JSImport.Default)
 object MuiBlurOnIconComponent extends JSComponent[js.Object]
 
 object MuiBlurOnIcon {

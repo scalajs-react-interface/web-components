@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Tonality",JSImport.Default)
+@JSImport("@material-ui/icons/Tonality",JSImport.Default)
 object MuiTonalityIconComponent extends JSComponent[js.Object]
 
 object MuiTonalityIcon {

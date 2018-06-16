@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LocationDisabled",JSImport.Default)
+@JSImport("@material-ui/icons/LocationDisabled",JSImport.Default)
 object MuiLocationDisabledIconComponent extends JSComponent[js.Object]
 
 object MuiLocationDisabledIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/TrackChanges",JSImport.Default)
+@JSImport("@material-ui/icons/TrackChanges",JSImport.Default)
 object MuiTrackChangesIconComponent extends JSComponent[js.Object]
 
 object MuiTrackChangesIcon {

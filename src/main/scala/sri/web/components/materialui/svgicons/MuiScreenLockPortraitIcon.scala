@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ScreenLockPortrait",JSImport.Default)
+@JSImport("@material-ui/icons/ScreenLockPortrait",JSImport.Default)
 object MuiScreenLockPortraitIconComponent extends JSComponent[js.Object]
 
 object MuiScreenLockPortraitIcon {

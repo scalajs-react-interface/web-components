@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/VideoLabel",JSImport.Default)
+@JSImport("@material-ui/icons/VideoLabel",JSImport.Default)
 object MuiVideoLabelIconComponent extends JSComponent[js.Object]
 
 object MuiVideoLabelIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SentimentVeryDissatisfied",JSImport.Default)
+@JSImport("@material-ui/icons/SentimentVeryDissatisfied",JSImport.Default)
 object MuiSentimentVeryDissatisfiedIconComponent extends JSComponent[js.Object]
 
 object MuiSentimentVeryDissatisfiedIcon {

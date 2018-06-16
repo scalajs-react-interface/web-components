@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ViewComfy",JSImport.Default)
+@JSImport("@material-ui/icons/ViewComfy",JSImport.Default)
 object MuiViewComfyIconComponent extends JSComponent[js.Object]
 
 object MuiViewComfyIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Markunread",JSImport.Default)
+@JSImport("@material-ui/icons/Markunread",JSImport.Default)
 object MuiMarkunreadIconComponent extends JSComponent[js.Object]
 
 object MuiMarkunreadIcon {

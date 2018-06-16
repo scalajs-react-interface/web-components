@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/HelpOutline",JSImport.Default)
+@JSImport("@material-ui/icons/HelpOutline",JSImport.Default)
 object MuiHelpOutlineIconComponent extends JSComponent[js.Object]
 
 object MuiHelpOutlineIcon {

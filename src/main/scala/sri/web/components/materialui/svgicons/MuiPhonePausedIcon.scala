@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PhonePaused",JSImport.Default)
+@JSImport("@material-ui/icons/PhonePaused",JSImport.Default)
 object MuiPhonePausedIconComponent extends JSComponent[js.Object]
 
 object MuiPhonePausedIcon {

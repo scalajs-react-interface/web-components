@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PortableWifiOff",JSImport.Default)
+@JSImport("@material-ui/icons/PortableWifiOff",JSImport.Default)
 object MuiPortableWifiOffIconComponent extends JSComponent[js.Object]
 
 object MuiPortableWifiOffIcon {

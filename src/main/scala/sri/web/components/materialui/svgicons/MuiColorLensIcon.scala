@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ColorLens",JSImport.Default)
+@JSImport("@material-ui/icons/ColorLens",JSImport.Default)
 object MuiColorLensIconComponent extends JSComponent[js.Object]
 
 object MuiColorLensIcon {

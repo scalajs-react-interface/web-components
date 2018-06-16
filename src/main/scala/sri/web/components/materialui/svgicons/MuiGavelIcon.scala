@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Gavel",JSImport.Default)
+@JSImport("@material-ui/icons/Gavel",JSImport.Default)
 object MuiGavelIconComponent extends JSComponent[js.Object]
 
 object MuiGavelIcon {

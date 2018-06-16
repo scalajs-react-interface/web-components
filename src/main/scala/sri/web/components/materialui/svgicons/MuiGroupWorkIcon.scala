@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/GroupWork",JSImport.Default)
+@JSImport("@material-ui/icons/GroupWork",JSImport.Default)
 object MuiGroupWorkIconComponent extends JSComponent[js.Object]
 
 object MuiGroupWorkIcon {

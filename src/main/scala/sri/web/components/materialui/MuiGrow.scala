@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/transitions","Grow")
+ @JSImport("@material-ui/core/Grow",JSImport.Default)
 object MuiGrowComponent extends JSComponent[js.Object] {
 
  }

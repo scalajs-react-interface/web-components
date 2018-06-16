@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FormatClear",JSImport.Default)
+@JSImport("@material-ui/icons/FormatClear",JSImport.Default)
 object MuiFormatClearIconComponent extends JSComponent[js.Object]
 
 object MuiFormatClearIcon {

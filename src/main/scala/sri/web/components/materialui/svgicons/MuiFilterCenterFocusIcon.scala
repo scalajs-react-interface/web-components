@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FilterCenterFocus",JSImport.Default)
+@JSImport("@material-ui/icons/FilterCenterFocus",JSImport.Default)
 object MuiFilterCenterFocusIconComponent extends JSComponent[js.Object]
 
 object MuiFilterCenterFocusIcon {

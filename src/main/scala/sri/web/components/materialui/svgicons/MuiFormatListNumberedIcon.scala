@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FormatListNumbered",JSImport.Default)
+@JSImport("@material-ui/icons/FormatListNumbered",JSImport.Default)
 object MuiFormatListNumberedIconComponent extends JSComponent[js.Object]
 
 object MuiFormatListNumberedIcon {

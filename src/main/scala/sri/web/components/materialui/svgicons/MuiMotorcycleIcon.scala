@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Motorcycle",JSImport.Default)
+@JSImport("@material-ui/icons/Motorcycle",JSImport.Default)
 object MuiMotorcycleIconComponent extends JSComponent[js.Object]
 
 object MuiMotorcycleIcon {

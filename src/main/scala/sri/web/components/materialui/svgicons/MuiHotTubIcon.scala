@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/HotTub",JSImport.Default)
+@JSImport("@material-ui/icons/HotTub",JSImport.Default)
 object MuiHotTubIconComponent extends JSComponent[js.Object]
 
 object MuiHotTubIcon {

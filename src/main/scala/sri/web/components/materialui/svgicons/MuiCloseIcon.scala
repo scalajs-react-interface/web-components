@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Close",JSImport.Default)
+@JSImport("@material-ui/icons/Close",JSImport.Default)
 object MuiCloseIconComponent extends JSComponent[js.Object]
 
 object MuiCloseIcon {

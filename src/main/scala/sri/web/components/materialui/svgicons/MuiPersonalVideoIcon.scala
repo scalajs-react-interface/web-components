@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PersonalVideo",JSImport.Default)
+@JSImport("@material-ui/icons/PersonalVideo",JSImport.Default)
 object MuiPersonalVideoIconComponent extends JSComponent[js.Object]
 
 object MuiPersonalVideoIcon {

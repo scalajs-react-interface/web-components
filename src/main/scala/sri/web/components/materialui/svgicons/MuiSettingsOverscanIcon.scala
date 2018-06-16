@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SettingsOverscan",JSImport.Default)
+@JSImport("@material-ui/icons/SettingsOverscan",JSImport.Default)
 object MuiSettingsOverscanIconComponent extends JSComponent[js.Object]
 
 object MuiSettingsOverscanIcon {

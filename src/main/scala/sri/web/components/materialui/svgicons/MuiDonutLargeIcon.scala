@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/DonutLarge",JSImport.Default)
+@JSImport("@material-ui/icons/DonutLarge",JSImport.Default)
 object MuiDonutLargeIconComponent extends JSComponent[js.Object]
 
 object MuiDonutLargeIcon {

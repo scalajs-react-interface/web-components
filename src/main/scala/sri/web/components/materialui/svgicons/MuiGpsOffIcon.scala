@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/GpsOff",JSImport.Default)
+@JSImport("@material-ui/icons/GpsOff",JSImport.Default)
 object MuiGpsOffIconComponent extends JSComponent[js.Object]
 
 object MuiGpsOffIcon {

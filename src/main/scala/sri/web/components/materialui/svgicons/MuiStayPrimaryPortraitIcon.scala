@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/StayPrimaryPortrait",JSImport.Default)
+@JSImport("@material-ui/icons/StayPrimaryPortrait",JSImport.Default)
 object MuiStayPrimaryPortraitIconComponent extends JSComponent[js.Object]
 
 object MuiStayPrimaryPortraitIcon {

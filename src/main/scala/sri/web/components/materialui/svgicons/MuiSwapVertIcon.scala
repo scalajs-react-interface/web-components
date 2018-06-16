@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SwapVert",JSImport.Default)
+@JSImport("@material-ui/icons/SwapVert",JSImport.Default)
 object MuiSwapVertIconComponent extends JSComponent[js.Object]
 
 object MuiSwapVertIcon {

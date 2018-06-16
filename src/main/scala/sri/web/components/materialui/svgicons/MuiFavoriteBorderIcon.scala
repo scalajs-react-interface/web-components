@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FavoriteBorder",JSImport.Default)
+@JSImport("@material-ui/icons/FavoriteBorder",JSImport.Default)
 object MuiFavoriteBorderIconComponent extends JSComponent[js.Object]
 
 object MuiFavoriteBorderIcon {

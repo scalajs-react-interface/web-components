@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LaptopChromebook",JSImport.Default)
+@JSImport("@material-ui/icons/LaptopChromebook",JSImport.Default)
 object MuiLaptopChromebookIconComponent extends JSComponent[js.Object]
 
 object MuiLaptopChromebookIcon {

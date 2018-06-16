@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Divider",JSImport.Default)
+ @JSImport("@material-ui/core/Divider",JSImport.Default)
 object MuiDividerComponent extends JSComponent[js.Object] {
 
  }

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/MoveToInbox",JSImport.Default)
+@JSImport("@material-ui/icons/MoveToInbox",JSImport.Default)
 object MuiMoveToInboxIconComponent extends JSComponent[js.Object]
 
 object MuiMoveToInboxIcon {

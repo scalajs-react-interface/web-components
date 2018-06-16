@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/TransferWithinAStation",JSImport.Default)
+@JSImport("@material-ui/icons/TransferWithinAStation",JSImport.Default)
 object MuiTransferWithinAStationIconComponent extends JSComponent[js.Object]
 
 object MuiTransferWithinAStationIcon {

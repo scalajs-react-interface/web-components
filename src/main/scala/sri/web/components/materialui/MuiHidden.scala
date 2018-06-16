@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Hidden",JSImport.Default)
+ @JSImport("@material-ui/core/Hidden",JSImport.Default)
 object MuiHiddenComponent extends JSComponent[js.Object] {
 
  }

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Airplay",JSImport.Default)
+@JSImport("@material-ui/icons/Airplay",JSImport.Default)
 object MuiAirplayIconComponent extends JSComponent[js.Object]
 
 object MuiAirplayIcon {

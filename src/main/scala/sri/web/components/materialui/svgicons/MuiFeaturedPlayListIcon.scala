@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FeaturedPlayList",JSImport.Default)
+@JSImport("@material-ui/icons/FeaturedPlayList",JSImport.Default)
 object MuiFeaturedPlayListIconComponent extends JSComponent[js.Object]
 
 object MuiFeaturedPlayListIcon {

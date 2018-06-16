@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Radio",JSImport.Default)
+ @JSImport("@material-ui/core/Radio",JSImport.Default)
 object MuiRadioComponent extends JSComponent[js.Object] {
 
  }
@@ -35,6 +35,7 @@ object MuiRadioComponent extends JSComponent[js.Object] {
     @inline
     def apply(value : OptionalParam[String] = OptDefault,
 id : OptionalParam[String] = OptDefault,
+color : OptionalParam[MuiRadioColor] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 icon : OptionalParam[ReactNode] = OptDefault,
 onChange : OptionalParam[(ReactEventH,Boolean) => _] = OptDefault,
@@ -44,10 +45,9 @@ disableRipple : OptionalParam[Boolean] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 inputProps : OptionalParam[js.Object] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
-inputType : OptionalParam[String] = OptDefault,
-name : OptionalParam[String] = OptDefault,
 inputRef : OptionalParam[js.Function] = OptDefault,
 checkedIcon : OptionalParam[ReactNode] = OptDefault,
+`type` : OptionalParam[String] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,
@@ -66,6 +66,16 @@ classes : OptionalParam[js.Object] = OptDefault,
  
 
          
+ @js.native
+ trait MuiRadioColor extends js.Object
+
+ object MuiRadioColor {
+   @inline def PRIMARY = "primary".asInstanceOf[MuiRadioColor] 
+@inline def SECONDARY = "secondary".asInstanceOf[MuiRadioColor] 
+@inline def DEFAULT = "default".asInstanceOf[MuiRadioColor] 
+ }
+
+       
 
 
      

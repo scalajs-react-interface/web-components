@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Card","CardMedia")
+ @JSImport("@material-ui/core/CardMedia",JSImport.Default)
 object MuiCardMediaComponent extends JSComponent[js.Object] {
 
  }

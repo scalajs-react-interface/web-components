@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/StarBorder",JSImport.Default)
+@JSImport("@material-ui/icons/StarBorder",JSImport.Default)
 object MuiStarBorderIconComponent extends JSComponent[js.Object]
 
 object MuiStarBorderIcon {

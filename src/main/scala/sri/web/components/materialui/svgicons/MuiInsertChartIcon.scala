@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/InsertChart",JSImport.Default)
+@JSImport("@material-ui/icons/InsertChart",JSImport.Default)
 object MuiInsertChartIconComponent extends JSComponent[js.Object]
 
 object MuiInsertChartIcon {

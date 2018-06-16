@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Portrait",JSImport.Default)
+@JSImport("@material-ui/icons/Portrait",JSImport.Default)
 object MuiPortraitIconComponent extends JSComponent[js.Object]
 
 object MuiPortraitIcon {

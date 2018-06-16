@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Button",JSImport.Default)
+ @JSImport("@material-ui/core/Button",JSImport.Default)
 object MuiButtonComponent extends JSComponent[js.Object] {
 
  }
@@ -96,6 +96,7 @@ classes : OptionalParam[js.Object] = OptDefault,
 
  object MuiButtonVariant {
    @inline def FLAT = "flat".asInstanceOf[MuiButtonVariant] 
+@inline def OUTLINED = "outlined".asInstanceOf[MuiButtonVariant] 
 @inline def RAISED = "raised".asInstanceOf[MuiButtonVariant] 
 @inline def FAB = "fab".asInstanceOf[MuiButtonVariant] 
  }

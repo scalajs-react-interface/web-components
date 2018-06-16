@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Tabs","Tab")
+ @JSImport("@material-ui/core/Tab",JSImport.Default)
 object MuiTabComponent extends JSComponent[js.Object] {
 
  }

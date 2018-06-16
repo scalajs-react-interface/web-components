@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/HdrStrong",JSImport.Default)
+@JSImport("@material-ui/icons/HdrStrong",JSImport.Default)
 object MuiHdrStrongIconComponent extends JSComponent[js.Object]
 
 object MuiHdrStrongIcon {

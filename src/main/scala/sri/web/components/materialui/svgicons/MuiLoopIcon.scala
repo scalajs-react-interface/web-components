@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Loop",JSImport.Default)
+@JSImport("@material-ui/icons/Loop",JSImport.Default)
 object MuiLoopIconComponent extends JSComponent[js.Object]
 
 object MuiLoopIcon {

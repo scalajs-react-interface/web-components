@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/BubbleChart",JSImport.Default)
+@JSImport("@material-ui/icons/BubbleChart",JSImport.Default)
 object MuiBubbleChartIconComponent extends JSComponent[js.Object]
 
 object MuiBubbleChartIcon {

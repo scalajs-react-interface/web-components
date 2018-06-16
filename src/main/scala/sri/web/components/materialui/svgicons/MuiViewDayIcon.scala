@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ViewDay",JSImport.Default)
+@JSImport("@material-ui/icons/ViewDay",JSImport.Default)
 object MuiViewDayIconComponent extends JSComponent[js.Object]
 
 object MuiViewDayIcon {

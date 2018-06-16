@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PermIdentity",JSImport.Default)
+@JSImport("@material-ui/icons/PermIdentity",JSImport.Default)
 object MuiPermIdentityIconComponent extends JSComponent[js.Object]
 
 object MuiPermIdentityIcon {

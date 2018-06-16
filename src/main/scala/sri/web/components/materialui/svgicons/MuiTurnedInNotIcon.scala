@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/TurnedInNot",JSImport.Default)
+@JSImport("@material-ui/icons/TurnedInNot",JSImport.Default)
 object MuiTurnedInNotIconComponent extends JSComponent[js.Object]
 
 object MuiTurnedInNotIcon {

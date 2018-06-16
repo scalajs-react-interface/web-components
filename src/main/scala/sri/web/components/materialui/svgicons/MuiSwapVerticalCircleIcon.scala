@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SwapVerticalCircle",JSImport.Default)
+@JSImport("@material-ui/icons/SwapVerticalCircle",JSImport.Default)
 object MuiSwapVerticalCircleIconComponent extends JSComponent[js.Object]
 
 object MuiSwapVerticalCircleIcon {

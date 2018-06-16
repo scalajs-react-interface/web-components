@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RemoveFromQueue",JSImport.Default)
+@JSImport("@material-ui/icons/RemoveFromQueue",JSImport.Default)
 object MuiRemoveFromQueueIconComponent extends JSComponent[js.Object]
 
 object MuiRemoveFromQueueIcon {

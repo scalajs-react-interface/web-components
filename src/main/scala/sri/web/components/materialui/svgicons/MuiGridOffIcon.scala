@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/GridOff",JSImport.Default)
+@JSImport("@material-ui/icons/GridOff",JSImport.Default)
 object MuiGridOffIconComponent extends JSComponent[js.Object]
 
 object MuiGridOffIcon {

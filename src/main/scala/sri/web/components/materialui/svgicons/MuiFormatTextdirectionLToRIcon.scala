@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FormatTextdirectionLToR",JSImport.Default)
+@JSImport("@material-ui/icons/FormatTextdirectionLToR",JSImport.Default)
 object MuiFormatTextdirectionLToRIconComponent extends JSComponent[js.Object]
 
 object MuiFormatTextdirectionLToRIcon {

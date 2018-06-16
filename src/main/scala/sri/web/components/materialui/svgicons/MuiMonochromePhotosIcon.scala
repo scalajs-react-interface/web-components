@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/MonochromePhotos",JSImport.Default)
+@JSImport("@material-ui/icons/MonochromePhotos",JSImport.Default)
 object MuiMonochromePhotosIconComponent extends JSComponent[js.Object]
 
 object MuiMonochromePhotosIcon {

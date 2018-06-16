@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Voicemail",JSImport.Default)
+@JSImport("@material-ui/icons/Voicemail",JSImport.Default)
 object MuiVoicemailIconComponent extends JSComponent[js.Object]
 
 object MuiVoicemailIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Backspace",JSImport.Default)
+@JSImport("@material-ui/icons/Backspace",JSImport.Default)
 object MuiBackspaceIconComponent extends JSComponent[js.Object]
 
 object MuiBackspaceIcon {

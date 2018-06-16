@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FormatUnderlined",JSImport.Default)
+@JSImport("@material-ui/icons/FormatUnderlined",JSImport.Default)
 object MuiFormatUnderlinedIconComponent extends JSComponent[js.Object]
 
 object MuiFormatUnderlinedIcon {

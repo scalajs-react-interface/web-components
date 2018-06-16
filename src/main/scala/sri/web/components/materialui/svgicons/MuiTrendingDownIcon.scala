@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/TrendingDown",JSImport.Default)
+@JSImport("@material-ui/icons/TrendingDown",JSImport.Default)
 object MuiTrendingDownIconComponent extends JSComponent[js.Object]
 
 object MuiTrendingDownIcon {

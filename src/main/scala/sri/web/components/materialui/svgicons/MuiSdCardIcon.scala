@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SdCard",JSImport.Default)
+@JSImport("@material-ui/icons/SdCard",JSImport.Default)
 object MuiSdCardIconComponent extends JSComponent[js.Object]
 
 object MuiSdCardIcon {

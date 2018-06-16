@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/CallMerge",JSImport.Default)
+@JSImport("@material-ui/icons/CallMerge",JSImport.Default)
 object MuiCallMergeIconComponent extends JSComponent[js.Object]
 
 object MuiCallMergeIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/YoutubeSearchedFor",JSImport.Default)
+@JSImport("@material-ui/icons/YoutubeSearchedFor",JSImport.Default)
 object MuiYoutubeSearchedForIconComponent extends JSComponent[js.Object]
 
 object MuiYoutubeSearchedForIcon {

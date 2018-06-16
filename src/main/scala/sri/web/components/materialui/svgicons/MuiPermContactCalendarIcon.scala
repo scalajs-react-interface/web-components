@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PermContactCalendar",JSImport.Default)
+@JSImport("@material-ui/icons/PermContactCalendar",JSImport.Default)
 object MuiPermContactCalendarIconComponent extends JSComponent[js.Object]
 
 object MuiPermContactCalendarIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SignalWifi0Bar",JSImport.Default)
+@JSImport("@material-ui/icons/SignalWifi0Bar",JSImport.Default)
 object MuiSignalWifi0BarIconComponent extends JSComponent[js.Object]
 
 object MuiSignalWifi0BarIcon {

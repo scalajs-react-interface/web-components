@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Storage",JSImport.Default)
+@JSImport("@material-ui/icons/Storage",JSImport.Default)
 object MuiStorageIconComponent extends JSComponent[js.Object]
 
 object MuiStorageIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Layers",JSImport.Default)
+@JSImport("@material-ui/icons/Layers",JSImport.Default)
 object MuiLayersIconComponent extends JSComponent[js.Object]
 
 object MuiLayersIcon {

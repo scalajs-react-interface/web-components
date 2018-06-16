@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/QueryBuilder",JSImport.Default)
+@JSImport("@material-ui/icons/QueryBuilder",JSImport.Default)
 object MuiQueryBuilderIconComponent extends JSComponent[js.Object]
 
 object MuiQueryBuilderIcon {

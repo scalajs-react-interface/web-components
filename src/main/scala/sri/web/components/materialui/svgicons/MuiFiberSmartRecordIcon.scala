@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FiberSmartRecord",JSImport.Default)
+@JSImport("@material-ui/icons/FiberSmartRecord",JSImport.Default)
 object MuiFiberSmartRecordIconComponent extends JSComponent[js.Object]
 
 object MuiFiberSmartRecordIcon {

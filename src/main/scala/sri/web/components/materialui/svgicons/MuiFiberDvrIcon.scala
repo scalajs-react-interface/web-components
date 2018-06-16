@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FiberDvr",JSImport.Default)
+@JSImport("@material-ui/icons/FiberDvr",JSImport.Default)
 object MuiFiberDvrIconComponent extends JSComponent[js.Object]
 
 object MuiFiberDvrIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ControlPointDuplicate",JSImport.Default)
+@JSImport("@material-ui/icons/ControlPointDuplicate",JSImport.Default)
 object MuiControlPointDuplicateIconComponent extends JSComponent[js.Object]
 
 object MuiControlPointDuplicateIcon {

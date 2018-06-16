@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Toolbar",JSImport.Default)
+ @JSImport("@material-ui/core/Toolbar",JSImport.Default)
 object MuiToolbarComponent extends JSComponent[js.Object] {
 
  }

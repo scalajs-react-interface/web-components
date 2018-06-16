@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LeakAdd",JSImport.Default)
+@JSImport("@material-ui/icons/LeakAdd",JSImport.Default)
 object MuiLeakAddIconComponent extends JSComponent[js.Object]
 
 object MuiLeakAddIcon {

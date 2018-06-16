@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RemoveCircle",JSImport.Default)
+@JSImport("@material-ui/icons/RemoveCircle",JSImport.Default)
 object MuiRemoveCircleIconComponent extends JSComponent[js.Object]
 
 object MuiRemoveCircleIcon {

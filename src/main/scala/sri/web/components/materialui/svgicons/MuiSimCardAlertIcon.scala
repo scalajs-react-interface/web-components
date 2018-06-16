@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SimCardAlert",JSImport.Default)
+@JSImport("@material-ui/icons/SimCardAlert",JSImport.Default)
 object MuiSimCardAlertIconComponent extends JSComponent[js.Object]
 
 object MuiSimCardAlertIcon {

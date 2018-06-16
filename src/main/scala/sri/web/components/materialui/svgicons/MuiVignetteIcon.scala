@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Vignette",JSImport.Default)
+@JSImport("@material-ui/icons/Vignette",JSImport.Default)
 object MuiVignetteIconComponent extends JSComponent[js.Object]
 
 object MuiVignetteIcon {

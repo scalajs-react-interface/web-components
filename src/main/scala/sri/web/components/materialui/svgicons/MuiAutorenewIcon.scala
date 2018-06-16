@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Autorenew",JSImport.Default)
+@JSImport("@material-ui/icons/Autorenew",JSImport.Default)
 object MuiAutorenewIconComponent extends JSComponent[js.Object]
 
 object MuiAutorenewIcon {

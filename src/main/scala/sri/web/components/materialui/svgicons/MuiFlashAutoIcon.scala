@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FlashAuto",JSImport.Default)
+@JSImport("@material-ui/icons/FlashAuto",JSImport.Default)
 object MuiFlashAutoIconComponent extends JSComponent[js.Object]
 
 object MuiFlashAutoIcon {

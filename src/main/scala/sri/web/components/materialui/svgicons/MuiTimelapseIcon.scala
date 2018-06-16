@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Timelapse",JSImport.Default)
+@JSImport("@material-ui/icons/Timelapse",JSImport.Default)
 object MuiTimelapseIconComponent extends JSComponent[js.Object]
 
 object MuiTimelapseIcon {

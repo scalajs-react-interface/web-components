@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Dns",JSImport.Default)
+@JSImport("@material-ui/icons/Dns",JSImport.Default)
 object MuiDnsIconComponent extends JSComponent[js.Object]
 
 object MuiDnsIcon {

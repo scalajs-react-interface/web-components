@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Bookmark",JSImport.Default)
+@JSImport("@material-ui/icons/Bookmark",JSImport.Default)
 object MuiBookmarkIconComponent extends JSComponent[js.Object]
 
 object MuiBookmarkIcon {

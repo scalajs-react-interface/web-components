@@ -1,11 +1,11 @@
 name := "web-components"
 
-version := "2018.2.0-SNAPSHOT"
+version := "2018.6.0-SNAPSHOT"
 
 enablePlugins(ScalaJSPlugin)
 
 
-val scala212 = "2.12.4"
+val scala212 = "2.12.6"
 
 scalaVersion := scala212
 

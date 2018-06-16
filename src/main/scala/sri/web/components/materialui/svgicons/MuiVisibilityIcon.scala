@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Visibility",JSImport.Default)
+@JSImport("@material-ui/icons/Visibility",JSImport.Default)
 object MuiVisibilityIconComponent extends JSComponent[js.Object]
 
 object MuiVisibilityIcon {

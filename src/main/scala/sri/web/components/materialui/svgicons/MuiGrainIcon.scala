@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Grain",JSImport.Default)
+@JSImport("@material-ui/icons/Grain",JSImport.Default)
 object MuiGrainIconComponent extends JSComponent[js.Object]
 
 object MuiGrainIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/VerifiedUser",JSImport.Default)
+@JSImport("@material-ui/icons/VerifiedUser",JSImport.Default)
 object MuiVerifiedUserIconComponent extends JSComponent[js.Object]
 
 object MuiVerifiedUserIcon {

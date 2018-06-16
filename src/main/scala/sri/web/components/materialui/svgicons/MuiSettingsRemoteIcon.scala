@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SettingsRemote",JSImport.Default)
+@JSImport("@material-ui/icons/SettingsRemote",JSImport.Default)
 object MuiSettingsRemoteIconComponent extends JSComponent[js.Object]
 
 object MuiSettingsRemoteIcon {

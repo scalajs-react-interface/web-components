@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Flare",JSImport.Default)
+@JSImport("@material-ui/icons/Flare",JSImport.Default)
 object MuiFlareIconComponent extends JSComponent[js.Object]
 
 object MuiFlareIcon {

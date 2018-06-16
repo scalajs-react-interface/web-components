@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Drawer",JSImport.Default)
+ @JSImport("@material-ui/core/Drawer",JSImport.Default)
 object MuiDrawerComponent extends JSComponent[js.Object] {
 
  }

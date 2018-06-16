@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/BatteryChargingFull",JSImport.Default)
+@JSImport("@material-ui/icons/BatteryChargingFull",JSImport.Default)
 object MuiBatteryChargingFullIconComponent extends JSComponent[js.Object]
 
 object MuiBatteryChargingFullIcon {

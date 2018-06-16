@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Nfc",JSImport.Default)
+@JSImport("@material-ui/icons/Nfc",JSImport.Default)
 object MuiNfcIconComponent extends JSComponent[js.Object]
 
 object MuiNfcIcon {

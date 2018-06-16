@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ZoomOut",JSImport.Default)
+@JSImport("@material-ui/icons/ZoomOut",JSImport.Default)
 object MuiZoomOutIconComponent extends JSComponent[js.Object]
 
 object MuiZoomOutIcon {

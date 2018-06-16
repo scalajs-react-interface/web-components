@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LocalPrintshop",JSImport.Default)
+@JSImport("@material-ui/icons/LocalPrintshop",JSImport.Default)
 object MuiLocalPrintshopIconComponent extends JSComponent[js.Object]
 
 object MuiLocalPrintshopIcon {

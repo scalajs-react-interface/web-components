@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Stepper","StepContent")
+ @JSImport("@material-ui/core/StepContent",JSImport.Default)
 object MuiStepContentComponent extends JSComponent[js.Object] {
 
  }
@@ -36,7 +36,8 @@ object MuiStepContentComponent extends JSComponent[js.Object] {
     def apply(id : OptionalParam[String] = OptDefault,
 className : OptionalParam[String] = OptDefault,
 transitionDuration : OptionalParam[String | Int | Double | js.Object] = OptDefault,
-transition : OptionalParam[js.Function] = OptDefault,
+TransitionProps : OptionalParam[js.Object] = OptDefault,
+TransitionComponent : OptionalParam[js.Function] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,

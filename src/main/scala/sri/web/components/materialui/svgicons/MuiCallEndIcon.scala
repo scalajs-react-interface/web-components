@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/CallEnd",JSImport.Default)
+@JSImport("@material-ui/icons/CallEnd",JSImport.Default)
 object MuiCallEndIconComponent extends JSComponent[js.Object]
 
 object MuiCallEndIcon {

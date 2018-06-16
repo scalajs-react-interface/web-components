@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/GpsNotFixed",JSImport.Default)
+@JSImport("@material-ui/icons/GpsNotFixed",JSImport.Default)
 object MuiGpsNotFixedIconComponent extends JSComponent[js.Object]
 
 object MuiGpsNotFixedIcon {

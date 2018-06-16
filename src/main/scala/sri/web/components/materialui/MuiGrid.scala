@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Grid",JSImport.Default)
+ @JSImport("@material-ui/core/Grid",JSImport.Default)
 object MuiGridComponent extends JSComponent[js.Object] {
 
  }
@@ -125,19 +125,6 @@ classes : OptionalParam[js.Object] = OptDefault,
        
 
  @js.native
- trait MuiGridSpacing extends js.Object
-
- object MuiGridSpacing {
-   @inline def _0 = 0.asInstanceOf[MuiGridSpacing] 
-@inline def _8 = 8.asInstanceOf[MuiGridSpacing] 
-@inline def _16 = 16.asInstanceOf[MuiGridSpacing] 
-@inline def _24 = 24.asInstanceOf[MuiGridSpacing] 
-@inline def _40 = 40.asInstanceOf[MuiGridSpacing] 
- }
-
-       
-
- @js.native
  trait MuiGridDirection extends js.Object
 
  object MuiGridDirection {
@@ -145,6 +132,20 @@ classes : OptionalParam[js.Object] = OptDefault,
 @inline def ROW_REVERSE = "row-reverse".asInstanceOf[MuiGridDirection] 
 @inline def COLUMN = "column".asInstanceOf[MuiGridDirection] 
 @inline def COLUMN_REVERSE = "column-reverse".asInstanceOf[MuiGridDirection] 
+ }
+
+       
+
+ @js.native
+ trait MuiGridSpacing extends js.Object
+
+ object MuiGridSpacing {
+   @inline def _0 = 0.asInstanceOf[MuiGridSpacing] 
+@inline def _8 = 8.asInstanceOf[MuiGridSpacing] 
+@inline def _16 = 16.asInstanceOf[MuiGridSpacing] 
+@inline def _24 = 24.asInstanceOf[MuiGridSpacing] 
+@inline def _32 = 32.asInstanceOf[MuiGridSpacing] 
+@inline def _40 = 40.asInstanceOf[MuiGridSpacing] 
  }
 
        

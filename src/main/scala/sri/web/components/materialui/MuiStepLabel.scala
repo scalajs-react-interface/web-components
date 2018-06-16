@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Stepper","StepLabel")
+ @JSImport("@material-ui/core/StepLabel",JSImport.Default)
 object MuiStepLabelComponent extends JSComponent[js.Object] {
 
  }
@@ -40,6 +40,8 @@ disabled : OptionalParam[Boolean] = OptDefault,
 optional : OptionalParam[ReactNode] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
+error : OptionalParam[Boolean] = OptDefault,
+StepIconProps : OptionalParam[js.Object] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,

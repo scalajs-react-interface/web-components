@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RingVolume",JSImport.Default)
+@JSImport("@material-ui/icons/RingVolume",JSImport.Default)
 object MuiRingVolumeIconComponent extends JSComponent[js.Object]
 
 object MuiRingVolumeIcon {

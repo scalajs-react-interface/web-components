@@ -6,7 +6,7 @@ import scala.scalajs.js
 object MuiGenerator extends MuiCommon with Common {
 
   case class ComponentNameAndModule(name: String, module: String)
-  val MATERIAL_UI_SOURCE_PATH = "material-ui/src"
+  val MATERIAL_UI_SOURCE_PATH = "material-ui/packages/material-ui/src"
 
   val SVG_ICONS_PATH = "material-ui/packages/material-ui-icons/src"
 
@@ -46,15 +46,18 @@ object MuiGenerator extends MuiCommon with Common {
       })
 
     val excludedComponents =
-      Set("ClickAwayListener",
-          "LabelSwitch",
-          "ModalManager",
-          "withMobileDialog",
-          "createMuiTheme",
-          "withStyles",
-          "jssPreset",
-          "withWidth",
-          "withTheme")
+      Set(
+        "ClickAwayListener",
+        "LabelSwitch",
+        "ModalManager",
+        "withMobileDialog",
+        "createMuiTheme",
+        "withStyles",
+        "createGenerateClassName",
+        "jssPreset",
+        "withWidth",
+        "withTheme"
+      )
 
     components
       .filterNot(ci => excludedComponents.contains(ci.name))
@@ -94,7 +97,7 @@ object MuiGenerator extends MuiCommon with Common {
           }
         val componentInfo = ComponentInfo(
           name = ci.name,
-          import1 = s"material-ui/${ci.module}",
+          import1 = s"@material-ui/core/${ci.module}",
           import2 = if (ci.module == ci.name) "JSImport.Default" else ci.name,
           hasChildren = !voidElement,
           props = defaultProps ++ jsProps.toSet
@@ -107,7 +110,7 @@ object MuiGenerator extends MuiCommon with Common {
            |${defaultImports}
              |
            |
-           |${getComponentFile(componentInfo)}
+           |${getComponentFile(componentInfo, "Mui")}
              |
          """.stripMargin
         Fs.writeFileSync(
@@ -140,7 +143,7 @@ object MuiGenerator extends MuiCommon with Common {
           |$defaultImports
                          |
           |@js.native
-                         |@JSImport("material-ui-icons/${module}",JSImport.Default)
+                         |@JSImport("@material-ui/icons/${module}",JSImport.Default)
                          |object ${addPrefix(name, MUI_PREFIX)}IconComponent extends JSComponent[js.Object]
                          |
           |object ${addPrefix(name, MUI_PREFIX)}Icon {

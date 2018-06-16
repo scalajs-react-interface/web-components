@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Dialog","DialogContent")
+ @JSImport("@material-ui/core/DialogContent",JSImport.Default)
 object MuiDialogContentComponent extends JSComponent[js.Object] {
 
  }

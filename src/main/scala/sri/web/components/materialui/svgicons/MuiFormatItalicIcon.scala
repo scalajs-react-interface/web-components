@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FormatItalic",JSImport.Default)
+@JSImport("@material-ui/icons/FormatItalic",JSImport.Default)
 object MuiFormatItalicIconComponent extends JSComponent[js.Object]
 
 object MuiFormatItalicIcon {

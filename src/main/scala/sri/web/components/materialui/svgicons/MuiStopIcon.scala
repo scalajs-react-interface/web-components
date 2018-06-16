@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Stop",JSImport.Default)
+@JSImport("@material-ui/icons/Stop",JSImport.Default)
 object MuiStopIconComponent extends JSComponent[js.Object]
 
 object MuiStopIcon {

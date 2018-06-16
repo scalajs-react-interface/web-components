@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Radio",JSImport.Default)
+@JSImport("@material-ui/icons/Radio",JSImport.Default)
 object MuiRadioIconComponent extends JSComponent[js.Object]
 
 object MuiRadioIcon {

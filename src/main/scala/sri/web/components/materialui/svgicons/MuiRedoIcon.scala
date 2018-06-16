@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Redo",JSImport.Default)
+@JSImport("@material-ui/icons/Redo",JSImport.Default)
 object MuiRedoIconComponent extends JSComponent[js.Object]
 
 object MuiRedoIcon {

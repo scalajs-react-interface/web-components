@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/DragHandle",JSImport.Default)
+@JSImport("@material-ui/icons/DragHandle",JSImport.Default)
 object MuiDragHandleIconComponent extends JSComponent[js.Object]
 
 object MuiDragHandleIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Announcement",JSImport.Default)
+@JSImport("@material-ui/icons/Announcement",JSImport.Default)
 object MuiAnnouncementIconComponent extends JSComponent[js.Object]
 
 object MuiAnnouncementIcon {

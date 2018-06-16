@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/AvTimer",JSImport.Default)
+@JSImport("@material-ui/icons/AvTimer",JSImport.Default)
 object MuiAvTimerIconComponent extends JSComponent[js.Object]
 
 object MuiAvTimerIcon {

@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Progress","CircularProgress")
+ @JSImport("@material-ui/core/CircularProgress",JSImport.Default)
 object MuiCircularProgressComponent extends JSComponent[js.Object] {
 
  }
@@ -34,9 +34,7 @@ object MuiCircularProgressComponent extends JSComponent[js.Object] {
 
     @inline
     def apply(id : OptionalParam[String] = OptDefault,
-min : OptionalParam[Double | Int] = OptDefault,
 className : OptionalParam[String] = OptDefault,
-max : OptionalParam[Double | Int] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 thickness : OptionalParam[Double | Int] = OptDefault,
@@ -63,22 +61,23 @@ classes : OptionalParam[js.Object] = OptDefault,
 
          
  @js.native
- trait MuiCircularProgressVariant extends js.Object
-
- object MuiCircularProgressVariant {
-   @inline def DETERMINATE = "determinate".asInstanceOf[MuiCircularProgressVariant] 
-@inline def INDETERMINATE = "indeterminate".asInstanceOf[MuiCircularProgressVariant] 
- }
-
-       
-
- @js.native
  trait MuiCircularProgressColor extends js.Object
 
  object MuiCircularProgressColor {
    @inline def PRIMARY = "primary".asInstanceOf[MuiCircularProgressColor] 
 @inline def SECONDARY = "secondary".asInstanceOf[MuiCircularProgressColor] 
 @inline def INHERIT = "inherit".asInstanceOf[MuiCircularProgressColor] 
+ }
+
+       
+
+ @js.native
+ trait MuiCircularProgressVariant extends js.Object
+
+ object MuiCircularProgressVariant {
+   @inline def DETERMINATE = "determinate".asInstanceOf[MuiCircularProgressVariant] 
+@inline def INDETERMINATE = "indeterminate".asInstanceOf[MuiCircularProgressVariant] 
+@inline def STATIC = "static".asInstanceOf[MuiCircularProgressVariant] 
  }
 
        

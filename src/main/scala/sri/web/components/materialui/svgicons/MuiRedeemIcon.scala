@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Redeem",JSImport.Default)
+@JSImport("@material-ui/icons/Redeem",JSImport.Default)
 object MuiRedeemIconComponent extends JSComponent[js.Object]
 
 object MuiRedeemIcon {

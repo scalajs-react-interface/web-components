@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Weekend",JSImport.Default)
+@JSImport("@material-ui/icons/Weekend",JSImport.Default)
 object MuiWeekendIconComponent extends JSComponent[js.Object]
 
 object MuiWeekendIcon {

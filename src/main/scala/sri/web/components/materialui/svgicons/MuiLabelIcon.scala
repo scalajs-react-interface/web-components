@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Label",JSImport.Default)
+@JSImport("@material-ui/icons/Label",JSImport.Default)
 object MuiLabelIconComponent extends JSComponent[js.Object]
 
 object MuiLabelIcon {

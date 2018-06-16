@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/BorderClear",JSImport.Default)
+@JSImport("@material-ui/icons/BorderClear",JSImport.Default)
 object MuiBorderClearIconComponent extends JSComponent[js.Object]
 
 object MuiBorderClearIcon {

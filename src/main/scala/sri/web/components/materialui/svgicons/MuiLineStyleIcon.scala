@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LineStyle",JSImport.Default)
+@JSImport("@material-ui/icons/LineStyle",JSImport.Default)
 object MuiLineStyleIconComponent extends JSComponent[js.Object]
 
 object MuiLineStyleIcon {

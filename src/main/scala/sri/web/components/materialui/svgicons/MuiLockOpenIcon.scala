@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LockOpen",JSImport.Default)
+@JSImport("@material-ui/icons/LockOpen",JSImport.Default)
 object MuiLockOpenIconComponent extends JSComponent[js.Object]
 
 object MuiLockOpenIcon {

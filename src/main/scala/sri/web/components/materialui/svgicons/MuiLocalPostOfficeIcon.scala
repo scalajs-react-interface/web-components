@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LocalPostOffice",JSImport.Default)
+@JSImport("@material-ui/icons/LocalPostOffice",JSImport.Default)
 object MuiLocalPostOfficeIconComponent extends JSComponent[js.Object]
 
 object MuiLocalPostOfficeIcon {

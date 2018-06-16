@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/NoEncryption",JSImport.Default)
+@JSImport("@material-ui/icons/NoEncryption",JSImport.Default)
 object MuiNoEncryptionIconComponent extends JSComponent[js.Object]
 
 object MuiNoEncryptionIcon {

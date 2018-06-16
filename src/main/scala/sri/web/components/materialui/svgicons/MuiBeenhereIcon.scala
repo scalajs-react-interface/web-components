@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Beenhere",JSImport.Default)
+@JSImport("@material-ui/icons/Beenhere",JSImport.Default)
 object MuiBeenhereIconComponent extends JSComponent[js.Object]
 
 object MuiBeenhereIcon {

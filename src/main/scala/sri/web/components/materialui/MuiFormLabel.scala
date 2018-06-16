@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Form","FormLabel")
+ @JSImport("@material-ui/core/FormLabel",JSImport.Default)
 object MuiFormLabelComponent extends JSComponent[js.Object] {
 
  }

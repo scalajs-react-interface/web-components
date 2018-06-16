@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LightbulbOutline",JSImport.Default)
+@JSImport("@material-ui/icons/LightbulbOutline",JSImport.Default)
 object MuiLightbulbOutlineIconComponent extends JSComponent[js.Object]
 
 object MuiLightbulbOutlineIcon {

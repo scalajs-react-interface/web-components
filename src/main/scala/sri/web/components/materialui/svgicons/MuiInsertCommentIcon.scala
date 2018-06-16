@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/InsertComment",JSImport.Default)
+@JSImport("@material-ui/icons/InsertComment",JSImport.Default)
 object MuiInsertCommentIconComponent extends JSComponent[js.Object]
 
 object MuiInsertCommentIcon {

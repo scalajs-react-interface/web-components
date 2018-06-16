@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SwitchVideo",JSImport.Default)
+@JSImport("@material-ui/icons/SwitchVideo",JSImport.Default)
 object MuiSwitchVideoIconComponent extends JSComponent[js.Object]
 
 object MuiSwitchVideoIcon {

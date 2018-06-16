@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Opacity",JSImport.Default)
+@JSImport("@material-ui/icons/Opacity",JSImport.Default)
 object MuiOpacityIconComponent extends JSComponent[js.Object]
 
 object MuiOpacityIcon {

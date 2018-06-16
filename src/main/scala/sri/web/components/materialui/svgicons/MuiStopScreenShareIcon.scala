@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/StopScreenShare",JSImport.Default)
+@JSImport("@material-ui/icons/StopScreenShare",JSImport.Default)
 object MuiStopScreenShareIconComponent extends JSComponent[js.Object]
 
 object MuiStopScreenShareIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/DeleteForever",JSImport.Default)
+@JSImport("@material-ui/icons/DeleteForever",JSImport.Default)
 object MuiDeleteForeverIconComponent extends JSComponent[js.Object]
 
 object MuiDeleteForeverIcon {

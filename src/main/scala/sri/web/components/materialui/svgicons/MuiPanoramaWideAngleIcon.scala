@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PanoramaWideAngle",JSImport.Default)
+@JSImport("@material-ui/icons/PanoramaWideAngle",JSImport.Default)
 object MuiPanoramaWideAngleIconComponent extends JSComponent[js.Object]
 
 object MuiPanoramaWideAngleIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Timeline",JSImport.Default)
+@JSImport("@material-ui/icons/Timeline",JSImport.Default)
 object MuiTimelineIconComponent extends JSComponent[js.Object]
 
 object MuiTimelineIcon {

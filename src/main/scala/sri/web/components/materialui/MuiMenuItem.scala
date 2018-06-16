@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Menu","MenuItem")
+ @JSImport("@material-ui/core/MenuItem",JSImport.Default)
 object MuiMenuItemComponent extends JSComponent[js.Object] {
 
  }

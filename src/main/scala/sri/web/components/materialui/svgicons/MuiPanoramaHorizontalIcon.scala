@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PanoramaHorizontal",JSImport.Default)
+@JSImport("@material-ui/icons/PanoramaHorizontal",JSImport.Default)
 object MuiPanoramaHorizontalIconComponent extends JSComponent[js.Object]
 
 object MuiPanoramaHorizontalIcon {

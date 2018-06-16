@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/WifiLock",JSImport.Default)
+@JSImport("@material-ui/icons/WifiLock",JSImport.Default)
 object MuiWifiLockIconComponent extends JSComponent[js.Object]
 
 object MuiWifiLockIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/BlurCircular",JSImport.Default)
+@JSImport("@material-ui/icons/BlurCircular",JSImport.Default)
 object MuiBlurCircularIconComponent extends JSComponent[js.Object]
 
 object MuiBlurCircularIcon {

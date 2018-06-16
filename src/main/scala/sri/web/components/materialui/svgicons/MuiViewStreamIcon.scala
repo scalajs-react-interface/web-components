@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ViewStream",JSImport.Default)
+@JSImport("@material-ui/icons/ViewStream",JSImport.Default)
 object MuiViewStreamIconComponent extends JSComponent[js.Object]
 
 object MuiViewStreamIcon {

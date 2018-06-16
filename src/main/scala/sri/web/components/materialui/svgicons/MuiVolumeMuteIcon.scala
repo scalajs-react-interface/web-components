@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/VolumeMute",JSImport.Default)
+@JSImport("@material-ui/icons/VolumeMute",JSImport.Default)
 object MuiVolumeMuteIconComponent extends JSComponent[js.Object]
 
 object MuiVolumeMuteIcon {

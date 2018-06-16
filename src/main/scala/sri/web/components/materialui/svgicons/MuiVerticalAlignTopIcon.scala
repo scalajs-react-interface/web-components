@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/VerticalAlignTop",JSImport.Default)
+@JSImport("@material-ui/icons/VerticalAlignTop",JSImport.Default)
 object MuiVerticalAlignTopIconComponent extends JSComponent[js.Object]
 
 object MuiVerticalAlignTopIcon {

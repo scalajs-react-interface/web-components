@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/CloudQueue",JSImport.Default)
+@JSImport("@material-ui/icons/CloudQueue",JSImport.Default)
 object MuiCloudQueueIconComponent extends JSComponent[js.Object]
 
 object MuiCloudQueueIcon {

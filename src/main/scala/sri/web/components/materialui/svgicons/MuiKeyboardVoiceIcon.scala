@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/KeyboardVoice",JSImport.Default)
+@JSImport("@material-ui/icons/KeyboardVoice",JSImport.Default)
 object MuiKeyboardVoiceIconComponent extends JSComponent[js.Object]
 
 object MuiKeyboardVoiceIcon {

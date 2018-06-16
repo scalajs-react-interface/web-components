@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/List","ListItemText")
+ @JSImport("@material-ui/core/ListItemText",JSImport.Default)
 object MuiListItemTextComponent extends JSComponent[js.Object] {
 
  }
@@ -44,7 +44,7 @@ primary : OptionalParam[ReactNode] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,
-      @exclude ref: js.Function1[MuiListItemTextComponent.type, Unit] = null): ReactElement { type Instance = MuiListItemTextComponent.type}  = {
+      @exclude ref: js.Function1[MuiListItemTextComponent.type, Unit] = null)(children: ReactNode*): ReactElement { type Instance = MuiListItemTextComponent.type}  = {
       import DangerousUnionToJSAnyImplicit._
       val props = FunctionObjectMacro()
       extraProps.foreach(v => { MergeJSObjects(props, v) })
@@ -52,11 +52,25 @@ classes : OptionalParam[js.Object] = OptDefault,
       MuiListItemTextComponent,
       props,
       key,
-      ref)
+      ref,children.toJSArray)
     }
  }
 
  
+
+ object MuiListItemTextC {
+
+   @inline
+   def apply(children:ReactNode*) = {
+     CreateElementJS[MuiListItemTextComponent.type](
+      MuiListItemTextComponent,
+      json(),
+      children = children.toJSArray)
+   }
+
+ }
+
+          
 
          
 

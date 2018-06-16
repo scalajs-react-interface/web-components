@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/styles","MuiThemeProvider")
+ @JSImport("@material-ui/core/styles","MuiThemeProvider")
 object MuiThemeProviderComponent extends JSComponent[js.Object] {
 
  }

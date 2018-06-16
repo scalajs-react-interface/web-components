@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Dialog","DialogActions")
+ @JSImport("@material-ui/core/DialogActions",JSImport.Default)
 object MuiDialogActionsComponent extends JSComponent[js.Object] {
 
  }
@@ -37,6 +37,7 @@ object MuiDialogActionsComponent extends JSComponent[js.Object] {
 className : OptionalParam[String] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
+disableActionSpacing : OptionalParam[Boolean] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,

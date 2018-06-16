@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LocalFlorist",JSImport.Default)
+@JSImport("@material-ui/icons/LocalFlorist",JSImport.Default)
 object MuiLocalFloristIconComponent extends JSComponent[js.Object]
 
 object MuiLocalFloristIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/BluetoothSearching",JSImport.Default)
+@JSImport("@material-ui/icons/BluetoothSearching",JSImport.Default)
 object MuiBluetoothSearchingIconComponent extends JSComponent[js.Object]
 
 object MuiBluetoothSearchingIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/WbCloudy",JSImport.Default)
+@JSImport("@material-ui/icons/WbCloudy",JSImport.Default)
 object MuiWbCloudyIconComponent extends JSComponent[js.Object]
 
 object MuiWbCloudyIcon {

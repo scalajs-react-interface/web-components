@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/CropRotate",JSImport.Default)
+@JSImport("@material-ui/icons/CropRotate",JSImport.Default)
 object MuiCropRotateIconComponent extends JSComponent[js.Object]
 
 object MuiCropRotateIcon {

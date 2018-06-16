@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/BrokenImage",JSImport.Default)
+@JSImport("@material-ui/icons/BrokenImage",JSImport.Default)
 object MuiBrokenImageIconComponent extends JSComponent[js.Object]
 
 object MuiBrokenImageIcon {

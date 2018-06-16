@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Table","TableRow")
+ @JSImport("@material-ui/core/TableRow",JSImport.Default)
 object MuiTableRowComponent extends JSComponent[js.Object] {
 
  }

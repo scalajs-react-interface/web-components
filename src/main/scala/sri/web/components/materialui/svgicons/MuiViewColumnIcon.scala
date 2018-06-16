@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ViewColumn",JSImport.Default)
+@JSImport("@material-ui/icons/ViewColumn",JSImport.Default)
 object MuiViewColumnIconComponent extends JSComponent[js.Object]
 
 object MuiViewColumnIcon {

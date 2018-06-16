@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RoundedCorner",JSImport.Default)
+@JSImport("@material-ui/icons/RoundedCorner",JSImport.Default)
 object MuiRoundedCornerIconComponent extends JSComponent[js.Object]
 
 object MuiRoundedCornerIcon {

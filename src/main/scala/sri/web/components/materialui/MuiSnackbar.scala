@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Snackbar",JSImport.Default)
+ @JSImport("@material-ui/core/Snackbar",JSImport.Default)
 object MuiSnackbarComponent extends JSComponent[js.Object] {
 
  }
@@ -35,25 +35,27 @@ object MuiSnackbarComponent extends JSComponent[js.Object] {
     @inline
     def apply(id : OptionalParam[String] = OptDefault,
 transitionDuration : OptionalParam[Double | Int | js.Object] = OptDefault,
+disableWindowBlurListener : OptionalParam[Boolean] = OptDefault,
 className : OptionalParam[String] = OptDefault,
+TransitionProps : OptionalParam[js.Object] = OptDefault,
 autoHideDuration : OptionalParam[Double | Int] = OptDefault,
 onRequestClose : OptionalParam[(ReactEventH,String) => _] = OptDefault,
+TransitionComponent : OptionalParam[String | js.Function] = OptDefault,
 anchorOrigin : OptionalParam[js.Object] = OptDefault,
 open : OptionalParam[Boolean] = OptDefault,
-SnackbarContentProps : OptionalParam[js.Object] = OptDefault,
 onEnter : OptionalParam[js.Function] = OptDefault,
 action : OptionalParam[ReactNode] = OptDefault,
 onExited : OptionalParam[js.Function] = OptDefault,
 resumeHideDuration : OptionalParam[Double | Int] = OptDefault,
 message : OptionalParam[ReactNode] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
-transition : OptionalParam[String | js.Function] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 onExiting : OptionalParam[js.Function] = OptDefault,
 onClose : OptionalParam[js.Function] = OptDefault,
 onExit : OptionalParam[js.Function] = OptDefault,
 onEntered : OptionalParam[js.Function] = OptDefault,
 onEntering : OptionalParam[js.Function] = OptDefault,
+ContentProps : OptionalParam[js.Object] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,

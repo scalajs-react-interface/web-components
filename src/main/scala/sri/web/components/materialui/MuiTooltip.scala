@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Tooltip",JSImport.Default)
+ @JSImport("@material-ui/core/Tooltip",JSImport.Default)
 object MuiTooltipComponent extends JSComponent[js.Object] {
 
  }
@@ -33,11 +33,13 @@ object MuiTooltipComponent extends JSComponent[js.Object] {
  object MuiTooltip {
 
     @inline
-    def apply(id : OptionalParam[String] = OptDefault,
+    def apply(disableFocusListener : OptionalParam[Boolean] = OptDefault,
+id : OptionalParam[String] = OptDefault,
 placement : OptionalParam[MuiTooltipPlacement] = OptDefault,
 className : OptionalParam[String] = OptDefault,
-disableTriggerFocus : OptionalParam[Boolean] = OptDefault,
+disableTouchListener : OptionalParam[Boolean] = OptDefault,
 open : OptionalParam[Boolean] = OptDefault,
+enterTouchDelay : OptionalParam[Double | Int] = OptDefault,
 title : ReactNode,
 enterDelay : OptionalParam[Double | Int] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
@@ -45,9 +47,9 @@ style : OptionalParam[js.Any] = OptDefault,
 onOpen : OptionalParam[js.Function] = OptDefault,
 onClose : OptionalParam[js.Function] = OptDefault,
 leaveDelay : OptionalParam[Double | Int] = OptDefault,
-disableTriggerHover : OptionalParam[Boolean] = OptDefault,
+leaveTouchDelay : OptionalParam[Double | Int] = OptDefault,
+disableHoverListener : OptionalParam[Boolean] = OptDefault,
 PopperProps : OptionalParam[js.Object] = OptDefault,
-disableTriggerTouch : OptionalParam[Boolean] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
 @exclude key: String | Int = null,

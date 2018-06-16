@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LocalHospital",JSImport.Default)
+@JSImport("@material-ui/icons/LocalHospital",JSImport.Default)
 object MuiLocalHospitalIconComponent extends JSComponent[js.Object]
 
 object MuiLocalHospitalIcon {

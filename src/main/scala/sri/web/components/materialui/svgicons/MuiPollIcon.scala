@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Poll",JSImport.Default)
+@JSImport("@material-ui/icons/Poll",JSImport.Default)
 object MuiPollIconComponent extends JSComponent[js.Object]
 
 object MuiPollIcon {

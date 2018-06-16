@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Compare",JSImport.Default)
+@JSImport("@material-ui/icons/Compare",JSImport.Default)
 object MuiCompareIconComponent extends JSComponent[js.Object]
 
 object MuiCompareIcon {

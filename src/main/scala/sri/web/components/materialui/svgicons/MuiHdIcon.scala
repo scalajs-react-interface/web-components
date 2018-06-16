@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Hd",JSImport.Default)
+@JSImport("@material-ui/icons/Hd",JSImport.Default)
 object MuiHdIconComponent extends JSComponent[js.Object]
 
 object MuiHdIcon {

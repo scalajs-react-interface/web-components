@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PermCameraMic",JSImport.Default)
+@JSImport("@material-ui/icons/PermCameraMic",JSImport.Default)
 object MuiPermCameraMicIconComponent extends JSComponent[js.Object]
 
 object MuiPermCameraMicIcon {

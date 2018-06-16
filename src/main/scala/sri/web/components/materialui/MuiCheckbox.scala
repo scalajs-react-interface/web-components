@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Checkbox",JSImport.Default)
+ @JSImport("@material-ui/core/Checkbox",JSImport.Default)
 object MuiCheckboxComponent extends JSComponent[js.Object] {
 
  }
@@ -44,10 +44,10 @@ disableRipple : OptionalParam[Boolean] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 inputProps : OptionalParam[js.Object] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
-inputType : OptionalParam[String] = OptDefault,
-name : OptionalParam[String] = OptDefault,
+color : OptionalParam[MuiCheckboxColor] = OptDefault,
 inputRef : OptionalParam[js.Function] = OptDefault,
 checkedIcon : OptionalParam[ReactNode] = OptDefault,
+`type` : OptionalParam[String] = OptDefault,
 indeterminate : OptionalParam[Boolean] = OptDefault,
 indeterminateIcon : OptionalParam[ReactNode] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
@@ -68,6 +68,16 @@ classes : OptionalParam[js.Object] = OptDefault,
  
 
          
+ @js.native
+ trait MuiCheckboxColor extends js.Object
+
+ object MuiCheckboxColor {
+   @inline def PRIMARY = "primary".asInstanceOf[MuiCheckboxColor] 
+@inline def SECONDARY = "secondary".asInstanceOf[MuiCheckboxColor] 
+@inline def DEFAULT = "default".asInstanceOf[MuiCheckboxColor] 
+ }
+
+       
 
 
      

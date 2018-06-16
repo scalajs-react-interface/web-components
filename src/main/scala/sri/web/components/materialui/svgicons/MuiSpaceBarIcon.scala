@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SpaceBar",JSImport.Default)
+@JSImport("@material-ui/icons/SpaceBar",JSImport.Default)
 object MuiSpaceBarIconComponent extends JSComponent[js.Object]
 
 object MuiSpaceBarIcon {

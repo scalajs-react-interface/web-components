@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Title",JSImport.Default)
+@JSImport("@material-ui/icons/Title",JSImport.Default)
 object MuiTitleIconComponent extends JSComponent[js.Object]
 
 object MuiTitleIcon {

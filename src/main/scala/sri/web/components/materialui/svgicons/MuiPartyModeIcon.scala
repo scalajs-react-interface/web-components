@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PartyMode",JSImport.Default)
+@JSImport("@material-ui/icons/PartyMode",JSImport.Default)
 object MuiPartyModeIconComponent extends JSComponent[js.Object]
 
 object MuiPartyModeIcon {

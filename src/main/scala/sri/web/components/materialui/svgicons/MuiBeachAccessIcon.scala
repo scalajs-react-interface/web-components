@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/BeachAccess",JSImport.Default)
+@JSImport("@material-ui/icons/BeachAccess",JSImport.Default)
 object MuiBeachAccessIconComponent extends JSComponent[js.Object]
 
 object MuiBeachAccessIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/BurstMode",JSImport.Default)
+@JSImport("@material-ui/icons/BurstMode",JSImport.Default)
 object MuiBurstModeIconComponent extends JSComponent[js.Object]
 
 object MuiBurstModeIcon {

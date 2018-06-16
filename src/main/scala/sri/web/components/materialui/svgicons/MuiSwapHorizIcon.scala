@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SwapHoriz",JSImport.Default)
+@JSImport("@material-ui/icons/SwapHoriz",JSImport.Default)
 object MuiSwapHorizIconComponent extends JSComponent[js.Object]
 
 object MuiSwapHorizIcon {

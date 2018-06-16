@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FormatColorFill",JSImport.Default)
+@JSImport("@material-ui/icons/FormatColorFill",JSImport.Default)
 object MuiFormatColorFillIconComponent extends JSComponent[js.Object]
 
 object MuiFormatColorFillIcon {

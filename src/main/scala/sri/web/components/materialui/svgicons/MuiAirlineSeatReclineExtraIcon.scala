@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/AirlineSeatReclineExtra",JSImport.Default)
+@JSImport("@material-ui/icons/AirlineSeatReclineExtra",JSImport.Default)
 object MuiAirlineSeatReclineExtraIconComponent extends JSComponent[js.Object]
 
 object MuiAirlineSeatReclineExtraIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/KeyboardArrowUp",JSImport.Default)
+@JSImport("@material-ui/icons/KeyboardArrowUp",JSImport.Default)
 object MuiKeyboardArrowUpIconComponent extends JSComponent[js.Object]
 
 object MuiKeyboardArrowUpIcon {

@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Form","FormGroup")
+ @JSImport("@material-ui/core/FormGroup",JSImport.Default)
 object MuiFormGroupComponent extends JSComponent[js.Object] {
 
  }

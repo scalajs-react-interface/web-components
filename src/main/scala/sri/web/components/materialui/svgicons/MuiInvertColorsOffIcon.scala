@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/InvertColorsOff",JSImport.Default)
+@JSImport("@material-ui/icons/InvertColorsOff",JSImport.Default)
 object MuiInvertColorsOffIconComponent extends JSComponent[js.Object]
 
 object MuiInvertColorsOffIcon {

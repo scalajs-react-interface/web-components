@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Snackbar","SnackbarContent")
+ @JSImport("@material-ui/core/SnackbarContent",JSImport.Default)
 object MuiSnackbarContentComponent extends JSComponent[js.Object] {
 
  }

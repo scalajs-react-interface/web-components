@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/WbAuto",JSImport.Default)
+@JSImport("@material-ui/icons/WbAuto",JSImport.Default)
 object MuiWbAutoIconComponent extends JSComponent[js.Object]
 
 object MuiWbAutoIcon {

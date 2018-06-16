@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/AccessTime",JSImport.Default)
+@JSImport("@material-ui/icons/AccessTime",JSImport.Default)
 object MuiAccessTimeIconComponent extends JSComponent[js.Object]
 
 object MuiAccessTimeIcon {

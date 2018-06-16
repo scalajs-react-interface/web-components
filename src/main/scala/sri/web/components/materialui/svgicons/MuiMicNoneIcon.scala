@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/MicNone",JSImport.Default)
+@JSImport("@material-ui/icons/MicNone",JSImport.Default)
 object MuiMicNoneIconComponent extends JSComponent[js.Object]
 
 object MuiMicNoneIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Lens",JSImport.Default)
+@JSImport("@material-ui/icons/Lens",JSImport.Default)
 object MuiLensIconComponent extends JSComponent[js.Object]
 
 object MuiLensIcon {

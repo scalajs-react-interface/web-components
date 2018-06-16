@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ViewCarousel",JSImport.Default)
+@JSImport("@material-ui/icons/ViewCarousel",JSImport.Default)
 object MuiViewCarouselIconComponent extends JSComponent[js.Object]
 
 object MuiViewCarouselIcon {

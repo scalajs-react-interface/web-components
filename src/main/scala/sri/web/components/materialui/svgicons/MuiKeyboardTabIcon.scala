@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/KeyboardTab",JSImport.Default)
+@JSImport("@material-ui/icons/KeyboardTab",JSImport.Default)
 object MuiKeyboardTabIconComponent extends JSComponent[js.Object]
 
 object MuiKeyboardTabIcon {

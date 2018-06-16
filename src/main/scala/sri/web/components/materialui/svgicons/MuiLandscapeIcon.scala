@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Landscape",JSImport.Default)
+@JSImport("@material-ui/icons/Landscape",JSImport.Default)
 object MuiLandscapeIconComponent extends JSComponent[js.Object]
 
 object MuiLandscapeIcon {

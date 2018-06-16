@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/CastConnected",JSImport.Default)
+@JSImport("@material-ui/icons/CastConnected",JSImport.Default)
 object MuiCastConnectedIconComponent extends JSComponent[js.Object]
 
 object MuiCastConnectedIcon {

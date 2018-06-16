@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/CropSquare",JSImport.Default)
+@JSImport("@material-ui/icons/CropSquare",JSImport.Default)
 object MuiCropSquareIconComponent extends JSComponent[js.Object]
 
 object MuiCropSquareIcon {

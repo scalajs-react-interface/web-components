@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PauseCircleOutline",JSImport.Default)
+@JSImport("@material-ui/icons/PauseCircleOutline",JSImport.Default)
 object MuiPauseCircleOutlineIconComponent extends JSComponent[js.Object]
 
 object MuiPauseCircleOutlineIcon {

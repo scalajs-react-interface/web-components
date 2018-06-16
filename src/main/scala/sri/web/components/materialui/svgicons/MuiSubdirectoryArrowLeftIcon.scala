@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SubdirectoryArrowLeft",JSImport.Default)
+@JSImport("@material-ui/icons/SubdirectoryArrowLeft",JSImport.Default)
 object MuiSubdirectoryArrowLeftIconComponent extends JSComponent[js.Object]
 
 object MuiSubdirectoryArrowLeftIcon {

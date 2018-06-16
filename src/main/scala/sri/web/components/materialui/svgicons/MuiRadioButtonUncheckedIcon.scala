@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RadioButtonUnchecked",JSImport.Default)
+@JSImport("@material-ui/icons/RadioButtonUnchecked",JSImport.Default)
 object MuiRadioButtonUncheckedIconComponent extends JSComponent[js.Object]
 
 object MuiRadioButtonUncheckedIcon {

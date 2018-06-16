@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Cloud",JSImport.Default)
+@JSImport("@material-ui/icons/Cloud",JSImport.Default)
 object MuiCloudIconComponent extends JSComponent[js.Object]
 
 object MuiCloudIcon {

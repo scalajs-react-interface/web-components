@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/VisibilityOff",JSImport.Default)
+@JSImport("@material-ui/icons/VisibilityOff",JSImport.Default)
 object MuiVisibilityOffIconComponent extends JSComponent[js.Object]
 
 object MuiVisibilityOffIcon {

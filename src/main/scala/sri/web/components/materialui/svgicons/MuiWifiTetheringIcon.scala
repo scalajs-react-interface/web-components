@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/WifiTethering",JSImport.Default)
+@JSImport("@material-ui/icons/WifiTethering",JSImport.Default)
 object MuiWifiTetheringIconComponent extends JSComponent[js.Object]
 
 object MuiWifiTetheringIcon {

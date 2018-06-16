@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Whatshot",JSImport.Default)
+@JSImport("@material-ui/icons/Whatshot",JSImport.Default)
 object MuiWhatshotIconComponent extends JSComponent[js.Object]
 
 object MuiWhatshotIcon {

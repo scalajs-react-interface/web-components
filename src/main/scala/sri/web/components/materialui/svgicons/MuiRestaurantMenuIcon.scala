@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RestaurantMenu",JSImport.Default)
+@JSImport("@material-ui/icons/RestaurantMenu",JSImport.Default)
 object MuiRestaurantMenuIconComponent extends JSComponent[js.Object]
 
 object MuiRestaurantMenuIcon {

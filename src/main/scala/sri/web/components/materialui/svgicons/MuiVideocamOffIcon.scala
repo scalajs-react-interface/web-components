@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/VideocamOff",JSImport.Default)
+@JSImport("@material-ui/icons/VideocamOff",JSImport.Default)
 object MuiVideocamOffIconComponent extends JSComponent[js.Object]
 
 object MuiVideocamOffIcon {

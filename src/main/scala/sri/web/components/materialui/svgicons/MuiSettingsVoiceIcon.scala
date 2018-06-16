@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/SettingsVoice",JSImport.Default)
+@JSImport("@material-ui/icons/SettingsVoice",JSImport.Default)
 object MuiSettingsVoiceIconComponent extends JSComponent[js.Object]
 
 object MuiSettingsVoiceIcon {

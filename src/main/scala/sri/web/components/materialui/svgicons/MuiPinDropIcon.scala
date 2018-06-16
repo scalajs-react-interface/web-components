@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/PinDrop",JSImport.Default)
+@JSImport("@material-ui/icons/PinDrop",JSImport.Default)
 object MuiPinDropIconComponent extends JSComponent[js.Object]
 
 object MuiPinDropIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/InsertEmoticon",JSImport.Default)
+@JSImport("@material-ui/icons/InsertEmoticon",JSImport.Default)
 object MuiInsertEmoticonIconComponent extends JSComponent[js.Object]
 
 object MuiInsertEmoticonIcon {

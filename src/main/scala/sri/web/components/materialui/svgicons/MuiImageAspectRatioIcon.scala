@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ImageAspectRatio",JSImport.Default)
+@JSImport("@material-ui/icons/ImageAspectRatio",JSImport.Default)
 object MuiImageAspectRatioIconComponent extends JSComponent[js.Object]
 
 object MuiImageAspectRatioIcon {

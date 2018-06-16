@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/FormatAlignRight",JSImport.Default)
+@JSImport("@material-ui/icons/FormatAlignRight",JSImport.Default)
 object MuiFormatAlignRightIconComponent extends JSComponent[js.Object]
 
 object MuiFormatAlignRightIcon {

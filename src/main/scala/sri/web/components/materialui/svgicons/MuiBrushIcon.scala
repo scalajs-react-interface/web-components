@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Brush",JSImport.Default)
+@JSImport("@material-ui/icons/Brush",JSImport.Default)
 object MuiBrushIconComponent extends JSComponent[js.Object]
 
 object MuiBrushIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RssFeed",JSImport.Default)
+@JSImport("@material-ui/icons/RssFeed",JSImport.Default)
 object MuiRssFeedIconComponent extends JSComponent[js.Object]
 
 object MuiRssFeedIcon {

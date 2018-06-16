@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ErrorOutline",JSImport.Default)
+@JSImport("@material-ui/icons/ErrorOutline",JSImport.Default)
 object MuiErrorOutlineIconComponent extends JSComponent[js.Object]
 
 object MuiErrorOutlineIcon {

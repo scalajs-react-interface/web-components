@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/LocalLaundryService",JSImport.Default)
+@JSImport("@material-ui/icons/LocalLaundryService",JSImport.Default)
 object MuiLocalLaundryServiceIconComponent extends JSComponent[js.Object]
 
 object MuiLocalLaundryServiceIcon {

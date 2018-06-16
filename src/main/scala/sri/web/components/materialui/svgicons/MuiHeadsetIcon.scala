@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Headset",JSImport.Default)
+@JSImport("@material-ui/icons/Headset",JSImport.Default)
 object MuiHeadsetIconComponent extends JSComponent[js.Object]
 
 object MuiHeadsetIcon {

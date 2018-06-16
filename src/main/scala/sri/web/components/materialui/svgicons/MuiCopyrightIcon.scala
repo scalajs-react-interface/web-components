@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Copyright",JSImport.Default)
+@JSImport("@material-ui/icons/Copyright",JSImport.Default)
 object MuiCopyrightIconComponent extends JSComponent[js.Object]
 
 object MuiCopyrightIcon {

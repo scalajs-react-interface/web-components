@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/HourglassFull",JSImport.Default)
+@JSImport("@material-ui/icons/HourglassFull",JSImport.Default)
 object MuiHourglassFullIconComponent extends JSComponent[js.Object]
 
 object MuiHourglassFullIcon {

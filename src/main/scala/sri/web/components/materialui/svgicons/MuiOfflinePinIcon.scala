@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/OfflinePin",JSImport.Default)
+@JSImport("@material-ui/icons/OfflinePin",JSImport.Default)
 object MuiOfflinePinIconComponent extends JSComponent[js.Object]
 
 object MuiOfflinePinIcon {

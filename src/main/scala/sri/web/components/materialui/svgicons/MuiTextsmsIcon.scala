@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Textsms",JSImport.Default)
+@JSImport("@material-ui/icons/Textsms",JSImport.Default)
 object MuiTextsmsIconComponent extends JSComponent[js.Object]
 
 object MuiTextsmsIcon {

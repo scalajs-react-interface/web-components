@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Brightness6",JSImport.Default)
+@JSImport("@material-ui/icons/Brightness6",JSImport.Default)
 object MuiBrightness6IconComponent extends JSComponent[js.Object]
 
 object MuiBrightness6Icon {

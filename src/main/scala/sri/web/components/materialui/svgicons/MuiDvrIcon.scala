@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Dvr",JSImport.Default)
+@JSImport("@material-ui/icons/Dvr",JSImport.Default)
 object MuiDvrIconComponent extends JSComponent[js.Object]
 
 object MuiDvrIcon {

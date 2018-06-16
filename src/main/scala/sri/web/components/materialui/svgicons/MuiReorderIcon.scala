@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Reorder",JSImport.Default)
+@JSImport("@material-ui/icons/Reorder",JSImport.Default)
 object MuiReorderIconComponent extends JSComponent[js.Object]
 
 object MuiReorderIcon {

@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Icon",JSImport.Default)
+ @JSImport("@material-ui/core/Icon",JSImport.Default)
 object MuiIconComponent extends JSComponent[js.Object] {
 
  }
@@ -37,7 +37,6 @@ object MuiIconComponent extends JSComponent[js.Object] {
 className : OptionalParam[String] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
-fontSize : OptionalParam[Boolean] = OptDefault,
 color : OptionalParam[MuiIconColor] = OptDefault,
 classes : OptionalParam[js.Object] = OptDefault,
           @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
@@ -76,11 +75,11 @@ classes : OptionalParam[js.Object] = OptDefault,
 
  object MuiIconColor {
    @inline def INHERIT = "inherit".asInstanceOf[MuiIconColor] 
+@inline def PRIMARY = "primary".asInstanceOf[MuiIconColor] 
 @inline def SECONDARY = "secondary".asInstanceOf[MuiIconColor] 
 @inline def ACTION = "action".asInstanceOf[MuiIconColor] 
-@inline def DISABLED = "disabled".asInstanceOf[MuiIconColor] 
 @inline def ERROR = "error".asInstanceOf[MuiIconColor] 
-@inline def PRIMARY = "primary".asInstanceOf[MuiIconColor] 
+@inline def DISABLED = "disabled".asInstanceOf[MuiIconColor] 
  }
 
        

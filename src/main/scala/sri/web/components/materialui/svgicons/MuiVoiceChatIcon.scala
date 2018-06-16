@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/VoiceChat",JSImport.Default)
+@JSImport("@material-ui/icons/VoiceChat",JSImport.Default)
 object MuiVoiceChatIconComponent extends JSComponent[js.Object]
 
 object MuiVoiceChatIcon {

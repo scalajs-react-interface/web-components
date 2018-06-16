@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/ScreenRotation",JSImport.Default)
+@JSImport("@material-ui/icons/ScreenRotation",JSImport.Default)
 object MuiScreenRotationIconComponent extends JSComponent[js.Object]
 
 object MuiScreenRotationIcon {

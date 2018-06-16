@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/DesktopMac",JSImport.Default)
+@JSImport("@material-ui/icons/DesktopMac",JSImport.Default)
 object MuiDesktopMacIconComponent extends JSComponent[js.Object]
 
 object MuiDesktopMacIcon {

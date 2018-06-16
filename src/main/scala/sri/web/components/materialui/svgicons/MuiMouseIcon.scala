@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Mouse",JSImport.Default)
+@JSImport("@material-ui/icons/Mouse",JSImport.Default)
 object MuiMouseIconComponent extends JSComponent[js.Object]
 
 object MuiMouseIcon {

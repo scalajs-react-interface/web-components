@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Unarchive",JSImport.Default)
+@JSImport("@material-ui/icons/Unarchive",JSImport.Default)
 object MuiUnarchiveIconComponent extends JSComponent[js.Object]
 
 object MuiUnarchiveIcon {

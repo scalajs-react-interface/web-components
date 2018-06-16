@@ -25,7 +25,7 @@ import scala.scalajs.js.|
 
 
  @js.native
- @JSImport("material-ui/Table","TablePagination")
+ @JSImport("@material-ui/core/TablePagination",JSImport.Default)
 object MuiTablePaginationComponent extends JSComponent[js.Object] {
 
  }
@@ -40,12 +40,13 @@ className : OptionalParam[String] = OptDefault,
 onChangeRowsPerPage : OptionalParam[js.Function] = OptDefault,
 component : OptionalParam[String | js.Function] = OptDefault,
 onClick : OptionalParam[ReactEventH => _] = OptDefault,
+SelectProps : OptionalParam[js.Object] = OptDefault,
 style : OptionalParam[js.Any] = OptDefault,
 nextIconButtonProps : OptionalParam[js.Object] = OptDefault,
 count : Double | Int,
 rowsPerPageOptions : OptionalParam[js.Array[Int]] = OptDefault,
+ActionsComponent : OptionalParam[String | js.Function] = OptDefault,
 page : Double | Int,
-Actions : OptionalParam[String | js.Function] = OptDefault,
 labelRowsPerPage : OptionalParam[ReactNode] = OptDefault,
 labelDisplayedRows : OptionalParam[js.Function] = OptDefault,
 backIconButtonProps : OptionalParam[js.Object] = OptDefault,

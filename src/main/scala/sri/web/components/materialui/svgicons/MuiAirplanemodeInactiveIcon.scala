@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/AirplanemodeInactive",JSImport.Default)
+@JSImport("@material-ui/icons/AirplanemodeInactive",JSImport.Default)
 object MuiAirplanemodeInactiveIconComponent extends JSComponent[js.Object]
 
 object MuiAirplanemodeInactiveIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/RoomService",JSImport.Default)
+@JSImport("@material-ui/icons/RoomService",JSImport.Default)
 object MuiRoomServiceIconComponent extends JSComponent[js.Object]
 
 object MuiRoomServiceIcon {

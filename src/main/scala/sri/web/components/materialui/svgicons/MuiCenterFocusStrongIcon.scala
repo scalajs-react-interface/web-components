@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/CenterFocusStrong",JSImport.Default)
+@JSImport("@material-ui/icons/CenterFocusStrong",JSImport.Default)
 object MuiCenterFocusStrongIconComponent extends JSComponent[js.Object]
 
 object MuiCenterFocusStrongIcon {

@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/Cancel",JSImport.Default)
+@JSImport("@material-ui/icons/Cancel",JSImport.Default)
 object MuiCancelIconComponent extends JSComponent[js.Object]
 
 object MuiCancelIcon {

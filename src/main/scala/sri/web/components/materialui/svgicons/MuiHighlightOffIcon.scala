@@ -23,7 +23,7 @@ import scala.scalajs.js.|
      
 
 @js.native
-@JSImport("material-ui-icons/HighlightOff",JSImport.Default)
+@JSImport("@material-ui/icons/HighlightOff",JSImport.Default)
 object MuiHighlightOffIconComponent extends JSComponent[js.Object]
 
 object MuiHighlightOffIcon {
