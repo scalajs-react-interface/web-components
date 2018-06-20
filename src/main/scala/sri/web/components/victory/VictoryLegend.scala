@@ -39,9 +39,9 @@ object VictoryLegend {
             val fill: js.UndefOr[String]; val `type`: js.UndefOr[String]
           }]
         }]] = OptDefault,
-      colorScale: OptionalParam[js.Any] = OptDefault,
+      colorScale: OptionalParam[ColorScaleProp] = OptDefault,
       containerComponent: OptionalParam[ReactElement] = OptDefault,
-      animate: OptionalParam[js.Any] = OptDefault,
+      animate: OptionalParam[AnimateProp | Boolean] = OptDefault,
       style: OptionalParam[VictoryStyle] = OptDefault,
       labelComponent: OptionalParam[ReactElement] = OptDefault,
       domain: OptionalParam[js.Any] = OptDefault,

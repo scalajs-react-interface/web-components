@@ -23,24 +23,26 @@ object VictoryChartComponent extends JSComponent[js.Object] {}
 object VictoryChart {
 
   @inline
-  def apply(theme: OptionalParam[VictoryThemeDefinition] = OptDefault,
-            eventKey: OptionalParam[StringOrNumberOrCallback] = OptDefault,
-            style: OptionalParam[js.Any] = OptDefault,
-            standalone: OptionalParam[Boolean] = OptDefault,
-            groupComponent: OptionalParam[ReactElement] = OptDefault,
-            padding: OptionalParam[js.Any] = OptDefault,
-            containerComponent: OptionalParam[ReactElement] = OptDefault,
-            animate: OptionalParam[js.Any] = OptDefault,
-            domain: OptionalParam[js.Any] = OptDefault,
-            domainPadding: OptionalParam[js.Any] = OptDefault,
-            width: OptionalParam[Double | Int] = OptDefault,
-            name: OptionalParam[String] = OptDefault,
-            height: OptionalParam[Double | Int] = OptDefault,
-            scale: OptionalParam[js.Any] = OptDefault,
-            events: OptionalParam[js.Any] = OptDefault,
-            @exclude extraProps: OptionalParam[js.Object] = OptDefault,
-            @exclude key: String | Int = null,
-            @exclude ref: js.Function1[VictoryChartComponent.type, Unit] = null)
+  def apply(
+      theme: OptionalParam[VictoryThemeDefinition] = OptDefault,
+      eventKey: OptionalParam[StringOrNumberOrCallback] = OptDefault,
+      style: OptionalParam[js.Any] = OptDefault,
+      standalone: OptionalParam[Boolean] = OptDefault,
+      groupComponent: OptionalParam[ReactElement] = OptDefault,
+      padding: OptionalParam[js.Any] = OptDefault,
+      containerComponent: OptionalParam[ReactElement] = OptDefault,
+      animate: OptionalParam[AnimateProp | Boolean] = OptDefault,
+      domain: OptionalParam[js.Any] = OptDefault,
+      domainPadding: OptionalParam[DomainPaddingPropType] = OptDefault,
+      width: OptionalParam[Double | Int] = OptDefault,
+      name: OptionalParam[String] = OptDefault,
+      height: OptionalParam[Double | Int] = OptDefault,
+      scale: OptionalParam[js.Any] = OptDefault,
+      events: OptionalParam[js.Any] = OptDefault,
+      @exclude extraProps: OptionalParam[js.Object] = OptDefault,
+      @exclude key: String | Int = null,
+      @exclude ref: js.Function1[VictoryChartComponent.type, Unit] = null)(
+      children: ReactNode*)
     : ReactElement { type Instance = VictoryChartComponent.type } = {
     import DangerousUnionToJSAnyImplicit._
     val props = FunctionObjectMacro()
@@ -48,6 +50,7 @@ object VictoryChart {
     CreateElementJS[VictoryChartComponent.type](VictoryChartComponent,
                                                 props,
                                                 key,
-                                                ref)
+                                                ref,
+                                                children = children.toJSArray)
   }
 }

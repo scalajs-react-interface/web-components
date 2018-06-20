@@ -49,24 +49,24 @@ object AnimationEasing {
 
 }
 
-sealed trait TextAnchorType extends js.Object
+sealed trait TextAnchor extends js.Object
 
-object TextAnchorType {
+object TextAnchor {
 
-  @inline def START = "start".asInstanceOf[TextAnchorType]
-  @inline def MIDDLE = "middle".asInstanceOf[TextAnchorType]
-  @inline def END = "end".asInstanceOf[TextAnchorType]
-  @inline def INHERIT = "inherit".asInstanceOf[TextAnchorType]
+  @inline def START = "start".asInstanceOf[TextAnchor]
+  @inline def MIDDLE = "middle".asInstanceOf[TextAnchor]
+  @inline def END = "end".asInstanceOf[TextAnchor]
+  @inline def INHERIT = "inherit".asInstanceOf[TextAnchor]
 
 }
 
-sealed trait VerticalAnchorType extends js.Object
+sealed trait VerticalAnchor extends js.Object
 
-object VerticalAnchorType {
+object VerticalAnchor {
 
-  @inline def START = "start".asInstanceOf[VerticalAnchorType]
-  @inline def MIDDLE = "middle".asInstanceOf[VerticalAnchorType]
-  @inline def END = "end".asInstanceOf[VerticalAnchorType]
+  @inline def START = "start".asInstanceOf[VerticalAnchor]
+  @inline def MIDDLE = "middle".asInstanceOf[VerticalAnchor]
+  @inline def END = "end".asInstanceOf[VerticalAnchor]
 
 }
 

@@ -23,19 +23,19 @@ object VictoryLabelComponent extends JSComponent[js.Object] {}
 object VictoryLabel {
 
   @inline
-  def apply(
+  def apply[D <: js.Object](
       transform: OptionalParam[js.Any] = OptDefault,
-      angle: OptionalParam[js.Any] = OptDefault,
-      style: OptionalParam[js.Any] = OptDefault,
+      angle: OptionalParam[String | Double | Int] = OptDefault,
+      style: OptionalParam[js.Object | js.Array[_]] = OptDefault,
       text: OptionalParam[StringOrNumberOrCallback] = OptDefault,
       events: OptionalParam[js.Any] = OptDefault,
       x: OptionalParam[Double | Int] = OptDefault,
       lineHeight: OptionalParam[StringOrNumberOrCallback] = OptDefault,
-      data: OptionalParam[js.Any] = OptDefault,
-      textAnchor: OptionalParam[js.Any] = OptDefault,
-      datum: OptionalParam[js.Object {}] = OptDefault,
+      data: OptionalParam[js.Array[D]] = OptDefault,
+      textAnchor: OptionalParam[TextAnchor] = OptDefault,
+      datum: OptionalParam[D] = OptDefault,
       dx: OptionalParam[StringOrNumberOrCallback] = OptDefault,
-      verticalAnchor: OptionalParam[js.Any] = OptDefault,
+      verticalAnchor: OptionalParam[VerticalAnchor] = OptDefault,
       dy: OptionalParam[StringOrNumberOrCallback] = OptDefault,
       y: OptionalParam[Double | Int] = OptDefault,
       capHeight: OptionalParam[StringOrNumberOrCallback] = OptDefault,

@@ -23,37 +23,40 @@ object VictoryAxisComponent extends JSComponent[js.Object] {}
 object VictoryAxis {
 
   @inline
-  def apply(style: OptionalParam[VictoryStyle] = OptDefault,
-            tickLabelComponent: OptionalParam[js.Any] = OptDefault,
-            theme: OptionalParam[VictoryThemeDefinition] = OptDefault,
-            crossAxis: OptionalParam[Boolean] = OptDefault,
-            tickCount: OptionalParam[Double | Int] = OptDefault,
-            axisLabelComponent: OptionalParam[js.Any] = OptDefault,
-            gridComponent: OptionalParam[js.Any] = OptDefault,
-            axisComponent: OptionalParam[js.Any] = OptDefault,
-            standalone: OptionalParam[Boolean] = OptDefault,
-            groupComponent: OptionalParam[js.Any] = OptDefault,
-            padding: OptionalParam[js.Any] = OptDefault,
-            orientation: OptionalParam[js.Any] = OptDefault,
-            dependentAxis: OptionalParam[Boolean] = OptDefault,
-            containerComponent: OptionalParam[js.Any] = OptDefault,
-            animate: OptionalParam[js.Any] = OptDefault,
-            invertAxis: OptionalParam[Boolean] = OptDefault,
-            domain: OptionalParam[js.Any] = OptDefault,
-            width: OptionalParam[Double | Int] = OptDefault,
-            offsetY: OptionalParam[Double | Int] = OptDefault,
-            tickComponent: OptionalParam[js.Any] = OptDefault,
-            offsetX: OptionalParam[Double | Int] = OptDefault,
-            name: OptionalParam[String] = OptDefault,
-            height: OptionalParam[Double | Int] = OptDefault,
-            tickValues: OptionalParam[js.Any] = OptDefault,
-            tickFormat: OptionalParam[js.Any] = OptDefault,
-            scale: OptionalParam[js.Any] = OptDefault,
-            label: OptionalParam[js.Any] = OptDefault,
-            events: OptionalParam[js.Any] = OptDefault,
-            @exclude extraProps: OptionalParam[js.Object] = OptDefault,
-            @exclude key: String | Int = null,
-            @exclude ref: js.Function1[VictoryAxisComponent.type, Unit] = null)
+  def apply[T](
+      style: OptionalParam[VictoryStyle] = OptDefault,
+      tickLabelComponent: OptionalParam[js.Any] = OptDefault,
+      theme: OptionalParam[VictoryThemeDefinition] = OptDefault,
+      crossAxis: OptionalParam[Boolean] = OptDefault,
+      tickCount: OptionalParam[Double | Int] = OptDefault,
+      axisLabelComponent: OptionalParam[js.Any] = OptDefault,
+      gridComponent: OptionalParam[js.Any] = OptDefault,
+      axisComponent: OptionalParam[js.Any] = OptDefault,
+      standalone: OptionalParam[Boolean] = OptDefault,
+      groupComponent: OptionalParam[js.Any] = OptDefault,
+      padding: OptionalParam[js.Any] = OptDefault,
+      orientation: OptionalParam[js.Any] = OptDefault,
+      dependentAxis: OptionalParam[Boolean] = OptDefault,
+      containerComponent: OptionalParam[js.Any] = OptDefault,
+      animate: OptionalParam[AnimateProp | Boolean] = OptDefault,
+      invertAxis: OptionalParam[Boolean] = OptDefault,
+      domain: OptionalParam[js.Any] = OptDefault,
+      width: OptionalParam[Double | Int] = OptDefault,
+      offsetY: OptionalParam[Double | Int] = OptDefault,
+      tickComponent: OptionalParam[js.Any] = OptDefault,
+      offsetX: OptionalParam[Double | Int] = OptDefault,
+      name: OptionalParam[String] = OptDefault,
+      height: OptionalParam[Double | Int] = OptDefault,
+      tickValues: OptionalParam[js.Array[T]] = OptDefault,
+      tickFormat: OptionalParam[Function2[T, Int, _]] = OptDefault,
+      @rename("tickFormat") tickFormatArray: OptionalParam[js.Array[_]] =
+        OptDefault,
+      scale: OptionalParam[js.Any] = OptDefault,
+      label: OptionalParam[js.Any] = OptDefault,
+      events: OptionalParam[js.Any] = OptDefault,
+      @exclude extraProps: OptionalParam[js.Object] = OptDefault,
+      @exclude key: String | Int = null,
+      @exclude ref: js.Function1[VictoryAxisComponent.type, Unit] = null)
     : ReactElement { type Instance = VictoryAxisComponent.type } = {
     import DangerousUnionToJSAnyImplicit._
     val props = FunctionObjectMacro()
@@ -63,4 +66,5 @@ object VictoryAxis {
                                                key,
                                                ref)
   }
+
 }

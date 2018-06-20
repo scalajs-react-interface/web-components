@@ -2,6 +2,7 @@ package sri.web.components.victory
 
 import scalajsplus.{OptDefault, OptionalParam}
 import scalajsplus.macros.FunctionObjectMacro
+import sri.web.components.victory.VictoryTypes.AnimationStyle
 
 import scala.scalajs.js
 import scala.scalajs.js.{Array => A}
@@ -18,6 +19,29 @@ object VictoryTypes {
 
   type CategoryPropType = js.Array[String] | VictoryCategory
 
+  type DataGetterPropType =
+    String | Int | Double | js.Array[String] | js.Function
+
+  type DomainPaddingPropType =
+    Int | Double | A[Int] | js.Tuple2[Int, Int] | js.Tuple2[Double, Double] | DomainPaddingObject
+
+  type ColorScaleProp = ColorScale | js.Array[String]
+
+}
+
+trait DomainPaddingObject extends js.Object
+
+object DomainPaddingObject {
+
+  @inline def apply(
+      x: OptionalParam[js.Tuple2[Int, Int] | js.Tuple2[Double, Double]] =
+        OptDefault,
+      y: OptionalParam[js.Tuple2[Int, Int] | js.Tuple2[Double, Double]] =
+        OptDefault): DomainPaddingObject = {
+    import scalajsplus.DangerousUnionToJSAnyImplicit._
+    val p = FunctionObjectMacro()
+    p.asInstanceOf[DomainPaddingObject]
+  }
 }
 
 sealed trait VictoryCategory extends js.Object
@@ -142,5 +166,77 @@ object VictoryThemeAxis {
                     tickLabels: String): VictoryThemeAxis = {
     val p = FunctionObjectMacro()
     p.asInstanceOf[VictoryThemeAxis]
+  }
+}
+
+trait ColorScale extends js.Object
+
+object ColorScale {
+
+  @inline def WARM = "warm".asInstanceOf[ColorScale]
+  @inline def GRAYSCALE = "grayscale".asInstanceOf[ColorScale]
+  @inline def QUALITATIVE = "qualitative".asInstanceOf[ColorScale]
+  @inline def HEATMAP = "heatmap".asInstanceOf[ColorScale]
+  @inline def COOL = "cool".asInstanceOf[ColorScale]
+  @inline def RED = "red".asInstanceOf[ColorScale]
+  @inline def GREEN = "green".asInstanceOf[ColorScale]
+  @inline def BLUE = "blue".asInstanceOf[ColorScale]
+}
+
+trait AnimateProp extends js.Object
+
+object AnimateProp {
+
+  @inline def apply(duration: OptionalParam[Double | Int] = OptDefault,
+                    onEnd: OptionalParam[() => _] = OptDefault,
+                    onExit: OptionalParam[AnimateOnExit] = OptDefault,
+                    easing: OptionalParam[AnimationEasing] = OptDefault,
+                    onEnter: OptionalParam[AnimateOnEnter] = OptDefault,
+                    onLoad: OptionalParam[AnimateOnLoad] = OptDefault,
+  ): AnimateProp = {
+    import scalajsplus.DangerousUnionToJSAnyImplicit._
+    val p = FunctionObjectMacro()
+    p.asInstanceOf[AnimateProp]
+  }
+}
+
+trait AnimateOnExit extends js.Object
+
+object AnimateOnExit {
+
+  @inline def apply[D](duration: OptionalParam[Double | Int] = OptDefault,
+                       before: OptionalParam[D => AnimationStyle] = OptDefault)
+    : AnimateOnExit = {
+    import scalajsplus.DangerousUnionToJSAnyImplicit._
+    val p = FunctionObjectMacro()
+    p.asInstanceOf[AnimateOnExit]
+  }
+}
+
+trait AnimateOnEnter extends js.Object
+
+object AnimateOnEnter {
+
+  @inline def apply[D](duration: OptionalParam[Double | Int] = OptDefault,
+                       before: OptionalParam[D => AnimationStyle] = OptDefault,
+                       after: OptionalParam[D => AnimationStyle] = OptDefault)
+    : AnimateOnEnter = {
+    import scalajsplus.DangerousUnionToJSAnyImplicit._
+    val p = FunctionObjectMacro()
+    p.asInstanceOf[AnimateOnEnter]
+  }
+}
+
+trait AnimateOnLoad extends js.Object
+
+object AnimateOnLoad {
+
+  @inline def apply[D](
+      duration: OptionalParam[Double | Int] = OptDefault,
+      before: OptionalParam[D => AnimationStyle] = OptDefault,
+      after: OptionalParam[D => AnimationStyle] = OptDefault): AnimateOnLoad = {
+    import scalajsplus.DangerousUnionToJSAnyImplicit._
+    val p = FunctionObjectMacro()
+    p.asInstanceOf[AnimateOnLoad]
   }
 }

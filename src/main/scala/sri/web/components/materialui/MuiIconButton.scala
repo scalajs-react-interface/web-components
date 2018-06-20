@@ -1,13 +1,7 @@
-
 package sri.web.components.materialui;
 
-
 import sri.core._
-import scalajsplus.macros.{
-  FunctionObjectMacro,
-  exclude,
-  rename
-}
+import scalajsplus.macros.{FunctionObjectMacro, exclude, rename}
 import scalajsplus._
 import sri.universal._
 import scala.scalajs.js.annotation.JSImport
@@ -19,73 +13,58 @@ import scala.scalajs.js
 import scala.scalajs.js.Dynamic.{literal => json}
 import scala.scalajs.js.JSConverters.genTravConvertible2JSRichGenTrav
 import scala.scalajs.js.|
-     
+@js.native
+@JSImport("@material-ui/core/IconButton", JSImport.Default)
+object MuiIconButtonComponent extends JSComponent[js.Object] {}
 
+object MuiIconButton {
 
+  @inline
+  def apply(
+      id: OptionalParam[String] = OptDefault,
+      className: OptionalParam[String] = OptDefault,
+      disabled: OptionalParam[Boolean] = OptDefault,
+      @rename("aria-owns") aria_owns: OptionalParam[String] = OptDefault,
+      @rename("aria-haspopup") aria_haspopup: OptionalParam[Boolean] =
+        OptDefault,
+      disableRipple: OptionalParam[Boolean] = OptDefault,
+      onClick: OptionalParam[ReactEventH => _] = OptDefault,
+      style: OptionalParam[js.Any] = OptDefault,
+      color: OptionalParam[MuiIconButtonColor] = OptDefault,
+      buttonRef: OptionalParam[MuiButtonComponent.type => _] = OptDefault,
+      classes: OptionalParam[js.Object] = OptDefault,
+      @exclude extraProps: OptionalParam[DOMProps] = OptDefault,
+      @exclude key: String | Int = null,
+      @exclude ref: js.Function1[MuiIconButtonComponent.type, Unit] = null)(
+      children: ReactNode*)
+    : ReactElement { type Instance = MuiIconButtonComponent.type } = {
+    import DangerousUnionToJSAnyImplicit._
+    val props = FunctionObjectMacro()
+    extraProps.foreach(v => { MergeJSObjects(props, v) })
+    CreateElementJS[MuiIconButtonComponent.type](MuiIconButtonComponent,
+                                                 props,
+                                                 key,
+                                                 ref,
+                                                 children.toJSArray)
+  }
+}
 
+object MuiIconButtonC {
 
- @js.native
- @JSImport("@material-ui/core/IconButton",JSImport.Default)
-object MuiIconButtonComponent extends JSComponent[js.Object] {
+  @inline
+  def apply(children: ReactNode*) = {
+    CreateElementJS[MuiIconButtonComponent.type](MuiIconButtonComponent,
+                                                 json(),
+                                                 children = children.toJSArray)
+  }
 
- }
+}
+@js.native
+trait MuiIconButtonColor extends js.Object
 
- object MuiIconButton {
-
-    @inline
-    def apply(id : OptionalParam[String] = OptDefault,
-className : OptionalParam[String] = OptDefault,
-disabled : OptionalParam[Boolean] = OptDefault,
-disableRipple : OptionalParam[Boolean] = OptDefault,
-onClick : OptionalParam[ReactEventH => _] = OptDefault,
-style : OptionalParam[js.Any] = OptDefault,
-color : OptionalParam[MuiIconButtonColor] = OptDefault,
-buttonRef : OptionalParam[MuiButtonComponent.type => _] = OptDefault,
-classes : OptionalParam[js.Object] = OptDefault,
-          @exclude extraProps : OptionalParam[DOMProps] = OptDefault,
-@exclude key: String | Int = null,
-      @exclude ref: js.Function1[MuiIconButtonComponent.type, Unit] = null)(children: ReactNode*): ReactElement { type Instance = MuiIconButtonComponent.type}  = {
-      import DangerousUnionToJSAnyImplicit._
-      val props = FunctionObjectMacro()
-      extraProps.foreach(v => { MergeJSObjects(props, v) })
-    CreateElementJS[MuiIconButtonComponent.type](
-      MuiIconButtonComponent,
-      props,
-      key,
-      ref,children.toJSArray)
-    }
- }
-
- 
-
- object MuiIconButtonC {
-
-   @inline
-   def apply(children:ReactNode*) = {
-     CreateElementJS[MuiIconButtonComponent.type](
-      MuiIconButtonComponent,
-      json(),
-      children = children.toJSArray)
-   }
-
- }
-
-          
-
-         
- @js.native
- trait MuiIconButtonColor extends js.Object
-
- object MuiIconButtonColor {
-   @inline def DEFAULT = "default".asInstanceOf[MuiIconButtonColor] 
-@inline def INHERIT = "inherit".asInstanceOf[MuiIconButtonColor] 
-@inline def PRIMARY = "primary".asInstanceOf[MuiIconButtonColor] 
-@inline def SECONDARY = "secondary".asInstanceOf[MuiIconButtonColor] 
- }
-
-       
-
-
-     
-
-         
+object MuiIconButtonColor {
+  @inline def DEFAULT = "default".asInstanceOf[MuiIconButtonColor]
+  @inline def INHERIT = "inherit".asInstanceOf[MuiIconButtonColor]
+  @inline def PRIMARY = "primary".asInstanceOf[MuiIconButtonColor]
+  @inline def SECONDARY = "secondary".asInstanceOf[MuiIconButtonColor]
+}

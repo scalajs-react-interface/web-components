@@ -47,11 +47,11 @@ object VictoryAnimation {
 object VictoryAnimationC {
 
   @inline
-  def apply(children: ReactNode*) = {
-    CreateElementJS[VictoryAnimationComponent.type](VictoryAnimationComponent,
-                                                    json(),
-                                                    children =
-                                                      children.toJSArray)
+  def apply(children: js.Function1[AnimationStyle, ReactElement]) = {
+    CreateElementJS[VictoryAnimationComponent.type](
+      VictoryAnimationComponent,
+      json(),
+      children = js.Array(children.asInstanceOf[ReactNode]))
   }
 
 }
