@@ -12,6 +12,6 @@
   "dependencies": {
     "circular-json": "^0.5.4",
     "react-docgen": "^3.0.0-beta9",
-    "typescript": "^2.8.3"
+    "typescript": "^2.9.2"
   }
 }

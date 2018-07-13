@@ -143,12 +143,19 @@ object TypeScriptConverter {
 
   }
 
-  def getAllPropertiesFromInterface(interfaceName: String,
-                                    md: ModuleDeclaration): List[ScalaField] = {
+  def getAllPropertiesFromInterface(
+      interfaceName: String,
+      md: ModuleDeclaration,
+      includeSuperProps: Boolean = true): List[ScalaField] = {
+    println(s"getting interface for name : $interfaceName")
     val id = getInterfaceDeclarationFromModule(md, interfaceName).get
+    println(s"got interface : $id")
     val ext = getExtendedInterfaces(id)
-    getPropertiesFromInterface(id) ++ ext.flatMap(n =>
-      getAllPropertiesFromInterface(n, md))
+    println(s"")
+    if (includeSuperProps)
+      getPropertiesFromInterface(id) ++ ext.flatMap(n =>
+        getAllPropertiesFromInterface(n, md))
+    else getPropertiesFromInterface(id)
 
   }
 

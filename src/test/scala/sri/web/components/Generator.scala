@@ -1,6 +1,7 @@
 package sri.web.components
 
 import org.scalajs.dom
+import sri.web.components.bizcgarts.BizChartsGenerator
 import sri.web.components.materialui.MuiGenerator
 import sri.web.components.victory.VictoryGenerator
 
@@ -13,7 +14,8 @@ object Generator {
     println(s"Running in test")
 //    MuiGenerator.run()
 
-    VictoryGenerator.run()
+//    VictoryGenerator.run()
+    BizChartsGenerator.run()
 //    val content = Fs.readFileSync("./victory-animation.js", "utf-8")
 //    val ast = ReactDocGenJS.parse(content)
 //    println(JSON.stringify(ast))
