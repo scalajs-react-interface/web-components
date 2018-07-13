@@ -1,7 +1,6 @@
 package sri.web.components
 
 import org.scalajs.dom
-import sri.web.components.bizcgarts.BizChartsGenerator
 import sri.web.components.materialui.MuiGenerator
 import sri.web.components.victory.VictoryGenerator
 
