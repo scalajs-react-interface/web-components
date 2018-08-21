@@ -1,6 +1,6 @@
 name := "web-components"
 
-version := "2018.6.0-SNAPSHOT"
+//version := "2018.6.0-SNAPSHOT"
 
 enablePlugins(ScalaJSPlugin)
 
