@@ -64,6 +64,7 @@ object GeomType {
   @inline def POINT = "point".asInstanceOf[GeomType]
   @inline def PATH = "path".asInstanceOf[GeomType]
   @inline def LINE = "line".asInstanceOf[GeomType]
+  @inline def LINESTACK = "lineStack".asInstanceOf[GeomType]
   @inline def AREA = "area".asInstanceOf[GeomType]
   @inline def INTERVAL = "interval".asInstanceOf[GeomType]
   @inline def POLYGON = "polygon".asInstanceOf[GeomType]

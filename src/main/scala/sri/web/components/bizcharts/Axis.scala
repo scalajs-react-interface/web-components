@@ -45,10 +45,10 @@ trait AxisLabel extends js.Object
 
 object AxisLabel {
 
-  @inline def apply(
+  @inline def apply[FT, FI](
       offset: OptionalParam[Int | Double] = OptDefault,
       autoRotate: OptionalParam[Boolean] = OptDefault,
-      formatter: OptionalParam[(String, js.Object, Int) => String] = OptDefault,
+      formatter: OptionalParam[(String, FI, Int) => String] = OptDefault,
       htmlTemplate: OptionalParam[(String, js.Object, Int) => String] =
         OptDefault,
       textStyle: OptionalParam[js.Any] = OptDefault): AxisLabel = {

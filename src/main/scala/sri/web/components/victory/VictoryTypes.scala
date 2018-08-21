@@ -105,6 +105,10 @@ object VictoryStyle {
       parent: OptionalParam[js.Object] = OptDefault,
       data: OptionalParam[js.Object] = OptDefault,
       labels: OptionalParam[js.Object] = OptDefault,
+      axisLabel: OptionalParam[js.Object] = OptDefault,
+      axis: OptionalParam[js.Object] = OptDefault,
+      grid: OptionalParam[js.Object] = OptDefault,
+      ticks: OptionalParam[js.Object] = OptDefault,
       tickLabels: OptionalParam[js.Object] = OptDefault
   ): VictoryStyle = {
     val p = FunctionObjectMacro()
@@ -239,4 +243,16 @@ object AnimateOnLoad {
     val p = FunctionObjectMacro()
     p.asInstanceOf[AnimateOnLoad]
   }
+}
+
+trait VictoryPadding extends js.Object {
+  def top: js.UndefOr[Int] = js.undefined
+  def bottom: js.UndefOr[Int] = js.undefined
+  def left: js.UndefOr[Int] = js.undefined
+  def right: js.UndefOr[Int] = js.undefined
+}
+
+trait VictoryDomain extends js.Object {
+  def x: js.UndefOr[js.Array[Float]] = js.undefined
+  def y: js.UndefOr[js.Array[Float]] = js.undefined
 }

@@ -16,7 +16,6 @@ import scala.scalajs.js.|
 @js.native
 @JSImport("bizcharts", "Geom")
 object GeomComponent extends JSComponent[js.Object] {}
-
 object Geom {
   @inline
   def apply(
@@ -31,8 +30,11 @@ object Geom {
       position: OptionalParam[String] = OptDefault,
       select: OptionalParam[js.Any] = OptDefault,
       style: OptionalParam[js.Any] = OptDefault,
-      tooltip: OptionalParam[js.Any] = OptDefault,
-      opacity: OptionalParam[js.Any] = OptDefault,
+      tooltip: OptionalParam[
+        Boolean | String | js.Tuple2[String, js.Function]] = OptDefault,
+      opacity: OptionalParam[
+        String | Double | Int | js.Tuple2[String, js.Function1[Any, Double]]] =
+        OptDefault,
       `type`: OptionalParam[GeomType] = OptDefault,
       animate: OptionalParam[js.Any] = OptDefault,
       size: OptionalParam[

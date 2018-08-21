@@ -31,7 +31,7 @@ object VictoryLine {
       theme: OptionalParam[VictoryThemeDefinition] = OptDefault,
       standalone: OptionalParam[Boolean] = OptDefault,
       groupComponent: OptionalParam[ReactElement] = OptDefault,
-      padding: OptionalParam[js.Any] = OptDefault,
+      padding: OptionalParam[Double | Int | VictoryPadding] = OptDefault,
       x: OptionalParam[DataGetterPropType] = OptDefault,
       containerComponent: OptionalParam[ReactElement] = OptDefault,
       animate: OptionalParam[AnimateProp | Boolean] = OptDefault,
