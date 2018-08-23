@@ -32,13 +32,7 @@ object VictoryLegend {
       groupComponent: OptionalParam[ReactElement] = OptDefault,
       padding: OptionalParam[js.Any] = OptDefault,
       orientation: OptionalParam[js.Any] = OptDefault,
-      data: OptionalParam[
-        Array[js.Object {
-          val name: js.UndefOr[String];
-          val symbol: js.UndefOr[js.Object {
-            val fill: js.UndefOr[String]; val `type`: js.UndefOr[String]
-          }]
-        }]] = OptDefault,
+      data: OptionalParam[js.Array[VictoryLegendData]] = OptDefault,
       colorScale: OptionalParam[ColorScaleProp] = OptDefault,
       containerComponent: OptionalParam[ReactElement] = OptDefault,
       animate: OptionalParam[AnimateProp | Boolean] = OptDefault,
@@ -65,5 +59,19 @@ object VictoryLegend {
                                                  props,
                                                  key,
                                                  ref)
+  }
+}
+
+trait VictoryLegendData extends js.Object
+
+object VictoryLegendData {
+
+  @inline def apply(
+      name: OptionalParam[String] = OptDefault,
+      symbol: OptionalParam[js.Object] = OptDefault,
+      labels: OptionalParam[js.Object] = OptDefault
+  ): VictoryLegendData = {
+    val p = FunctionObjectMacro()
+    p.asInstanceOf[VictoryLegendData]
   }
 }

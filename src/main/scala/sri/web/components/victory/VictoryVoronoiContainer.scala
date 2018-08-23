@@ -12,34 +12,14 @@ import scala.scalajs.js.|
 
 @js.native
 @JSImport("victory", "VictoryVoronoiContainer")
-object VictoryVoronoiContainerComponent
-    extends JSComponent[VictoryVoronoiContainerProps]
-
-trait VictoryVoronoiContainerProps extends js.Object {
-  /*
-children: PropTypes.oneOfType([
-      PropTypes.arrayOf(PropTypes.node),
-      PropTypes.node
-    ]),
-    defaultAxes: PropTypes.shape({
-      independent: PropTypes.element,
-      dependent: PropTypes.element
-    }),
-    defaultPolarAxes: PropTypes.shape({
-      independent: PropTypes.element,
-      dependent: PropTypes.element
-    }),
-    endAngle: PropTypes.number,
-    innerRadius: CustomPropTypes.nonNegative,
-    startAngle: PropTypes.number
- */
-}
+object VictoryVoronoiContainerComponent extends JSComponent[js.Object]
 
 object VictoryVoronoiContainer {
   @inline
   def apply(
       width: OP[Int] = NoValue,
-      @exclude extraProps: OP[VictoryVoronoiContainerProps] = NoValue,
+      labels: OP[js.Any] = NoValue,
+      @exclude extraProps: OP[js.Object] = NoValue,
       @exclude key: String | Int = null,
       @exclude ref: js.Function1[VictoryVoronoiContainerComponent.type, Unit] =
         null)(children: ReactNode*)
@@ -51,7 +31,7 @@ object VictoryVoronoiContainer {
       }))
     CreateElementJSNoInline[VictoryVoronoiContainerComponent.type](
       VictoryVoronoiContainerComponent,
-      props.asInstanceOf[VictoryVoronoiContainerProps],
+      props,
       key,
       ref,
       children.toJSArray)

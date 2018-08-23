@@ -23,29 +23,32 @@ object VictoryGroupComponent extends JSComponent[js.Object] {}
 object VictoryGroup {
 
   @inline
-  def apply(categories: OptionalParam[CategoryPropType] = OptDefault,
-            labels: OptionalParam[js.Any] = OptDefault,
-            theme: OptionalParam[VictoryThemeDefinition] = OptDefault,
-            eventKey: OptionalParam[StringOrNumberOrCallback] = OptDefault,
-            standalone: OptionalParam[Boolean] = OptDefault,
-            groupComponent: OptionalParam[ReactElement] = OptDefault,
-            padding: OptionalParam[js.Any] = OptDefault,
-            colorScale: OptionalParam[ColorScaleProp] = OptDefault,
-            containerComponent: OptionalParam[ReactElement] = OptDefault,
-            animate: OptionalParam[AnimateProp | Boolean] = OptDefault,
-            style: OptionalParam[VictoryStyle] = OptDefault,
-            labelComponent: OptionalParam[ReactElement] = OptDefault,
-            domain: OptionalParam[js.Any] = OptDefault,
-            domainPadding: OptionalParam[js.Any] = OptDefault,
-            width: OptionalParam[Double | Int] = OptDefault,
-            name: OptionalParam[String] = OptDefault,
-            height: OptionalParam[Double | Int] = OptDefault,
-            horizontal: OptionalParam[Boolean] = OptDefault,
-            scale: OptionalParam[js.Any] = OptDefault,
-            events: OptionalParam[js.Any] = OptDefault,
-            @exclude extraProps: OptionalParam[js.Object] = OptDefault,
-            @exclude key: String | Int = null,
-            @exclude ref: js.Function1[VictoryGroupComponent.type, Unit] = null)
+  def apply(
+      categories: OptionalParam[CategoryPropType] = OptDefault,
+      labels: OptionalParam[js.Any] = OptDefault,
+      theme: OptionalParam[VictoryThemeDefinition] = OptDefault,
+      eventKey: OptionalParam[StringOrNumberOrCallback] = OptDefault,
+      standalone: OptionalParam[Boolean] = OptDefault,
+      groupComponent: OptionalParam[ReactElement] = OptDefault,
+      padding: OptionalParam[js.Any] = OptDefault,
+      colorScale: OptionalParam[ColorScaleProp] = OptDefault,
+      containerComponent: OptionalParam[ReactElement] = OptDefault,
+      animate: OptionalParam[AnimateProp | Boolean] = OptDefault,
+      style: OptionalParam[VictoryStyle] = OptDefault,
+      labelComponent: OptionalParam[ReactElement] = OptDefault,
+      domain: OptionalParam[js.Any] = OptDefault,
+      data: OptionalParam[js.Any] = OptDefault,
+      domainPadding: OptionalParam[js.Any] = OptDefault,
+      width: OptionalParam[Double | Int] = OptDefault,
+      name: OptionalParam[String] = OptDefault,
+      height: OptionalParam[Double | Int] = OptDefault,
+      horizontal: OptionalParam[Boolean] = OptDefault,
+      scale: OptionalParam[js.Any] = OptDefault,
+      events: OptionalParam[js.Any] = OptDefault,
+      @exclude extraProps: OptionalParam[js.Object] = OptDefault,
+      @exclude key: String | Int = null,
+      @exclude ref: js.Function1[VictoryGroupComponent.type, Unit] = null)(
+      children: ReactNode*)
     : ReactElement { type Instance = VictoryGroupComponent.type } = {
     import DangerousUnionToJSAnyImplicit._
     val props = FunctionObjectMacro()
@@ -53,6 +56,7 @@ object VictoryGroup {
     CreateElementJS[VictoryGroupComponent.type](VictoryGroupComponent,
                                                 props,
                                                 key,
-                                                ref)
+                                                ref,
+                                                children = children.toJSArray)
   }
 }

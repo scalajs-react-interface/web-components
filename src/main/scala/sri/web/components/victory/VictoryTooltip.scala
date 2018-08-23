@@ -13,8 +13,6 @@ import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 import scala.scalajs.js.|
 
-class VictoryTooltip {}
-
 @js.native
 @JSImport("victory", "VictoryTooltip")
 object VictoryTooltipComponent extends JSComponent[js.Object] {
@@ -32,6 +30,7 @@ object VictoryTooltip {
             cornerRadius: OptionalParam[Double | Int] = OptDefault,
             data: OptionalParam[js.Array[_]] = OptDefault,
             datum: OptionalParam[js.Object] = OptDefault,
+            labels: OptionalParam[js.Any] = OptDefault,
             events: OptionalParam[js.Object] = OptDefault,
             flyoutStyle: OptionalParam[js.Object] = OptDefault,
             style: OptionalParam[js.Object] = OptDefault,
