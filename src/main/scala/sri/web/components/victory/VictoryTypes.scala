@@ -255,6 +255,7 @@ object VictoryPadding {
       left: OptionalParam[Double | Int] = OptDefault,
       right: OptionalParam[Double | Int] = OptDefault
   ): VictoryPadding = {
+    import scalajsplus.DangerousUnionToJSAnyImplicit._
     val p = FunctionObjectMacro()
     p.asInstanceOf[VictoryPadding]
   }
@@ -268,6 +269,7 @@ object VictoryDomain {
       x: OptionalParam[js.Array[Int] | js.Array[Float]] = OptDefault,
       y: OptionalParam[js.Array[Int] | js.Array[Float]] = OptDefault
   ): VictoryDomain = {
+    import scalajsplus.DangerousUnionToJSAnyImplicit._
     val p = FunctionObjectMacro()
     p.asInstanceOf[VictoryDomain]
   }

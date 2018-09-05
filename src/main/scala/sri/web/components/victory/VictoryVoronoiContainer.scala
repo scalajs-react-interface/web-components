@@ -34,6 +34,7 @@ object VictoryVoronoiContainer {
       @exclude ref: js.Function1[VictoryVoronoiContainerComponent.type, Unit] =
         null)(children: ReactNode*)
     : ReactElement { type Instance = VictoryVoronoiContainerComponent.type } = {
+    import scalajsplus.DangerousUnionToJSAnyImplicit._
     val props = FunctionObjectMacro()
     Seq(extraProps).foreach(i =>
       i.foreach(v => {
