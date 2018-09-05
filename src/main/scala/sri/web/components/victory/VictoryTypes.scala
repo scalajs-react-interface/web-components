@@ -245,14 +245,30 @@ object AnimateOnLoad {
   }
 }
 
-trait VictoryPadding extends js.Object {
-  def top: js.UndefOr[Int] = js.undefined
-  def bottom: js.UndefOr[Int] = js.undefined
-  def left: js.UndefOr[Int] = js.undefined
-  def right: js.UndefOr[Int] = js.undefined
+trait VictoryPadding extends js.Object
+
+object VictoryPadding {
+
+  @inline def apply(
+      top: OptionalParam[Double | Int] = OptDefault,
+      bottom: OptionalParam[Double | Int] = OptDefault,
+      left: OptionalParam[Double | Int] = OptDefault,
+      right: OptionalParam[Double | Int] = OptDefault
+  ): VictoryPadding = {
+    val p = FunctionObjectMacro()
+    p.asInstanceOf[VictoryPadding]
+  }
 }
 
-trait VictoryDomain extends js.Object {
-  def x: js.UndefOr[js.Array[Float]] = js.undefined
-  def y: js.UndefOr[js.Array[Float]] = js.undefined
+trait VictoryDomain extends js.Object
+
+object VictoryDomain {
+
+  @inline def apply(
+      x: OptionalParam[js.Array[Int] | js.Array[Float]] = OptDefault,
+      y: OptionalParam[js.Array[Int] | js.Array[Float]] = OptDefault
+  ): VictoryDomain = {
+    val p = FunctionObjectMacro()
+    p.asInstanceOf[VictoryDomain]
+  }
 }
