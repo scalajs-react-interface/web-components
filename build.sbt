@@ -1,6 +1,6 @@
 name := "web-components"
 
-//version := "2018.6.0-SNAPSHOT"
+//version := "2018.9.0-SNAPSHOT"
 
 enablePlugins(ScalaJSPlugin)
 
@@ -21,9 +21,9 @@ scalacOptions ++= Seq(
 
 //deps
 
-libraryDependencies ++= Seq("scalajs-react-interface" %%% "core" % "2018.2.2-RC" % Provided,
-  "scalajs-react-interface" %%% "universal" % "2018.2.2-RC" % Provided,
-  "scalajs-react-interface" %%% "vdom" % "2018.2.2-RC" % Provided)
+libraryDependencies ++= Seq("scalajs-react-interface" %%% "core" % "2018.9.22-RC" % Provided,
+  "scalajs-react-interface" %%% "universal" % "2018.9.22-RC" % Provided,
+  "scalajs-react-interface" %%% "vdom" % "2018.9.22-RC" % Provided)
 
 //disable doc gen
 
@@ -47,6 +47,7 @@ publishArtifact in Test := false
 //Test
 
 scalaJSUseMainModuleInitializer in Test := true
+scalaJSUseTestModuleInitializer in Test := false
 
 scalaJSLinkerConfig ~= (_.withModuleKind(ModuleKind.CommonJSModule))
 
