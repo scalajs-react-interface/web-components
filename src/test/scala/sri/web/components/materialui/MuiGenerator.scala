@@ -250,7 +250,7 @@ object MuiGenerator extends MuiCommon with Common {
        |}
                      |
        |@js.native
-                     |@JSImport("material-ui/styles/colors.js",JSImport.Namespace)
+                     |@JSImport("@material-ui/core/styles/colors.js",JSImport.Namespace)
                      |object ${MUI_PREFIX}Colors extends js.Object {
                      |
        | ${colors.mkString("\n")}
@@ -279,13 +279,13 @@ object MuiGenerator extends MuiCommon with Common {
          |trait MuiThemePalette extends js.Object
          |
          |@js.native
-         |@JSImport("material-ui/styles","createMuiTheme")
+         |@JSImport("@material-ui/styles","createMuiTheme")
          |object CreateMuiTheme extends js.Object {
          |   def apply(options: js.Object): MuiTheme = js.native
          |}
          |
          |@js.native
-         |@JSImport("material-ui/styles/createPalette",JSImport.Default)
+         |@JSImport("@material-ui/core/styles/createPalette",JSImport.Default)
          |object CreatePalette extends js.Object {
          |   def apply(options: js.Object): MuiThemePalette = js.native
          |}
@@ -326,7 +326,7 @@ object MuiGenerator extends MuiCommon with Common {
          |
          |
          |@js.native
-         |@JSImport("material-ui/utils/customPropTypes",JSImport.Default)
+         |@JSImport("@material-ui/utils/customPropTypes",JSImport.Default)
          |object MuiCustomPropTypes extends js.Object {
          |
  | val muiRequired: js.Any = js.native

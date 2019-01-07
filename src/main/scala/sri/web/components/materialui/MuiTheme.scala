@@ -28,13 +28,13 @@ trait MuiTheme extends js.Object
 trait MuiThemePalette extends js.Object
 
 @js.native
-@JSImport("material-ui/styles","createMuiTheme")
+@JSImport("@material-ui/core/styles","createMuiTheme")
 object CreateMuiTheme extends js.Object {
    def apply(options: js.Object): MuiTheme = js.native
 }
 
 @js.native
-@JSImport("material-ui/styles/createPalette",JSImport.Default)
+@JSImport("@material-ui/core/styles/createPalette",JSImport.Default)
 object CreatePalette extends js.Object {
    def apply(options: js.Object): MuiThemePalette = js.native
 }
