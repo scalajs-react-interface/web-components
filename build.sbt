@@ -46,8 +46,7 @@ publishArtifact in Test := false
 
 //Test
 
-scalaJSUseMainModuleInitializer in Test := true
-scalaJSUseTestModuleInitializer in Test := false
+scalaJSUseTestModuleInitializer in test := true
 
 scalaJSLinkerConfig ~= (_.withModuleKind(ModuleKind.CommonJSModule))
 
